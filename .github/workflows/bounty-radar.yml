@@ -54,7 +54,7 @@ jobs:
 
           git config user.name "bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add state.json
+          git add -f state.json
 
           if git diff --cached --quiet; then
             echo "state.json did not change. Nothing to commit."
@@ -73,3 +73,4 @@ jobs:
 
           echo "Could not push state.json after 3 attempts."
           exit 1
+
