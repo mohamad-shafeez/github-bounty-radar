@@ -82,7 +82,7 @@ For an issue URL, the radar uses the GitHub issue API directly rather than relyi
 The current default target is:
 
 ```text
-https://github.com/Expensify/App
+https://github.com/xxxxxxxxx/
 ```
 
 with its useful `External`, `Help Wanted`, and `💎 Bounty` signals.
