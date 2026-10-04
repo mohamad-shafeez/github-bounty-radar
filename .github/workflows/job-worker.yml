@@ -48,20 +48,37 @@ jobs:
         run: python worker.py
 
       - name: Commit job memory and artifacts
+        if: always()
         run: |
           git config user.name "bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs.json
+
+          if [ -f jobs.json ]; then
+            git add jobs.json
+          fi
+
           if [ -d job-artifacts ]; then
             git add job-artifacts/
           fi
+
           if git diff --cached --quiet; then
             echo "No worker changes to commit."
             exit 0
           fi
+
           git commit -m "job: process accepted bounty"
-          for attempt in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin "${GITHUB_REF_NAME}"; then
+              echo "Worker changes pushed successfully."
+              exit 0
+            fi
+
+            echo "Push failed; refreshing branch before retry $attempt..."
+            git fetch origin "${GITHUB_REF_NAME}"
+            git merge origin/"${GITHUB_REF_NAME}" -X ours --no-edit || git merge --abort
+            sleep 2
           done
+
+          echo "Could not push worker changes after multiple attempts."
           exit 1

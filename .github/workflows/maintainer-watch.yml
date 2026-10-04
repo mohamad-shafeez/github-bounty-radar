@@ -20,29 +20,53 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - name: Install dependency
         run: python -m pip install --disable-pip-version-check "requests>=2.31,<3"
+
       - name: Watch issue activity
         env:
           GITHUB_TOKEN: ${{ github.token }}
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           NTFY_SERVER: ${{ vars.NTFY_SERVER }}
         run: python maintainer_watch.py
+
       - name: Commit activity memory
+        if: always()
         run: |
           git config user.name "bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs.json
+
+          if [ -f jobs.json ]; then
+            git add jobs.json
+          fi
+
           if [ -d job-artifacts ]; then
             git add job-artifacts/
           fi
-          git diff --cached --quiet && exit 0
+
+          if git diff --cached --quiet; then
+            echo "No activity changes to commit."
+            exit 0
+          fi
+
           git commit -m "job: record maintainer activity"
-          for attempt in 1 2 3; do
-            if git push; then exit 0; fi
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+
+          for attempt in 1 2 3 4 5; do
+            if git push origin "${GITHUB_REF_NAME}"; then
+              echo "Activity memory pushed successfully."
+              exit 0
+            fi
+
+            echo "Push failed; refreshing branch before retry $attempt..."
+            git fetch origin "${GITHUB_REF_NAME}"
+            git merge origin/"${GITHUB_REF_NAME}" -X ours --no-edit || git merge --abort
+            sleep 2
           done
+
+          echo "Could not push activity memory after multiple attempts."
           exit 1
