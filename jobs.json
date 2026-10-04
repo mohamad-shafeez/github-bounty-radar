@@ -88,8 +88,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
+    },
+    "cbe9c070949791ac9e34": {
+      "artifacts": {},
+      "created_at": "2026-10-04T18:40:21Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-04T18:40:21Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-04T18:40:21Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102100,
+      "job_id": "cbe9c070949791ac9e34",
+      "last_seen_at": "2026-10-04T18:40:21Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 60,
+        "title": "[$175] Concierge- Inconsistent message behavior in Concierge when switching from offline to online.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102100"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-04T18:40:21Z"
     }
   },
-  "updated_at": "2026-10-04T17:57:19Z",
+  "updated_at": "2026-10-04T18:40:22Z",
   "version": 2
 }
