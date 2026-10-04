@@ -1,5 +1,50 @@
 {
   "jobs": {
+    "b624887ac7b065f6e76b": {
+      "artifacts": {},
+      "created_at": "2026-10-04T17:57:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-04T17:57:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-04T17:57:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102943,
+      "job_id": "b624887ac7b065f6e76b",
+      "last_seen_at": "2026-10-04T17:57:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] 102699 - Xero - Vendor no longer valid is displayed in Supplier row when archived in Xero",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102943"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-04T17:57:19Z"
+    },
     "b83c9c3981992f3f2d83": {
       "artifacts": {},
       "created_at": "2026-10-04T10:08:04Z",
@@ -45,6 +90,6 @@
       "updated_at": "2026-10-04T10:08:04Z"
     }
   },
-  "updated_at": "2026-10-04T10:08:04Z",
+  "updated_at": "2026-10-04T17:57:19Z",
   "version": 2
 }
