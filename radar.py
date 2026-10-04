@@ -925,6 +925,12 @@ def decide(snapshot, old, config, baseline_silent, now):
     if not kept:
         return decision
 
+    # Only confirmed monetary bounties meeting the minimum are actionable.
+    # Labels such as External/Help Wanted are discovery signals, not proof of payment.
+    if not qualifies(snapshot["bounty"]):
+        decision["skips"].append(f"no confirmed bounty >= {MIN_BOUNTY_AMOUNT}; candidate tracked silently")
+        return decision
+
     kept.sort(key=lambda event: EVENT_ORDER.index(event["type"]))
     headline = kept[0]["type"]
     reference_time = (

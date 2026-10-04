@@ -69,7 +69,10 @@ jobs:
         run: |
           git config user.name "bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add jobs.json job-artifacts/
+          git add jobs.json
+          if [ -d job-artifacts ]; then
+            git add job-artifacts/
+          fi
           git commit -m "job: ${ACTION} ${JOB_ID}" || exit 0
           for attempt in 1 2 3; do
             if git push; then exit 0; fi
