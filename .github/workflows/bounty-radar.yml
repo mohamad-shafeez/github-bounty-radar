@@ -63,14 +63,17 @@ jobs:
 
           git commit -m "radar: update state"
 
-          for attempt in 1 2 3; do
-            if git push; then
+          for attempt in 1 2 3 4 5; do
+            if git push origin "${GITHUB_REF_NAME}"; then
+              echo "Radar state saved and pushed successfully."
               exit 0
             fi
+
             echo "Push failed; refreshing branch before retry $attempt..."
-            git pull --rebase origin "${GITHUB_REF_NAME}"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git merge origin/"${GITHUB_REF_NAME}" -X ours --no-edit || git merge --abort
+            sleep 2
           done
 
-          echo "Could not push state.json after 3 attempts."
+          echo "Could not push state files after multiple attempts."
           exit 1
-
