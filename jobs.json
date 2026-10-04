@@ -1,5 +1,50 @@
 {
-  "version": 2,
-  "updated_at": null,
-  "jobs": {}
+  "jobs": {
+    "b83c9c3981992f3f2d83": {
+      "artifacts": {},
+      "created_at": "2026-10-04T10:08:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-04T10:08:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-04T10:08:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101702,
+      "job_id": "b83c9c3981992f3f2d83",
+      "last_seen_at": "2026-10-04T10:08:04Z",
+      "latest": {
+        "bounty": {
+          "amount": null,
+          "currency": null,
+          "pattern": null,
+          "source": null,
+          "status": "none"
+        },
+        "labels": [
+          "External",
+          "Weekly"
+        ],
+        "score": 31,
+        "title": "[Due for payment 2026-10-07] Update global RBR/GBR colors",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101702"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-04T10:08:04Z"
+    }
+  },
+  "updated_at": "2026-10-04T10:08:04Z",
+  "version": 2
 }
