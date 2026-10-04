@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "global": {
+    "minimum_bounty_usd": 50,
+    "notification_threshold": 40
+  },
+  "targets": [
+    {
+      "url": "https://github.com/Expensify/App",
+      "enabled": true,
+      "priority": "high",
+      "minimum_bounty_usd": 50,
+      "labels": [
+        "External",
+        "Help Wanted",
+        "💎 Bounty"
+      ],
+      "search_bounty_text": true,
+      "search_bounty_label": true,
+      "search_help_wanted": false
+    }
+  ]
+}

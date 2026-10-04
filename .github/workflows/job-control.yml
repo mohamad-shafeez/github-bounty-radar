@@ -1,0 +1,94 @@
+name: bounty-job-control
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "Bounty job ID from the ntfy notification"
+        required: true
+        type: string
+      action:
+        description: "Human decision"
+        required: true
+        type: choice
+        options:
+          - ACCEPT
+          - DECLINE
+          - CANCEL
+          - RESET
+          - PREPARE_PROPOSAL
+          - POST_COMMENT
+          - MAINTAINER_AGREED
+          - APPROVE_IMPLEMENTATION
+          - REJECT_IMPLEMENTATION
+      reason:
+        description: "Optional decision note"
+        required: false
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: bounty-state
+  cancel-in-progress: false
+
+jobs:
+  control:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check "requests>=2.31,<3"
+
+      - name: Apply decision
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          ACTION: ${{ inputs.action }}
+          REASON: ${{ inputs.reason }}
+          ACTOR: ${{ github.actor }}
+          UPSTREAM_GITHUB_TOKEN: ${{ secrets.UPSTREAM_GITHUB_TOKEN }}
+        run: |
+          python control.py "$ACTION" "$JOB_ID"
+
+      - name: Commit decision
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          ACTION: ${{ inputs.action }}
+        run: |
+          git config user.name "bounty-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs.json job-artifacts/
+          git commit -m "job: ${ACTION} ${JOB_ID}" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done
+          exit 1
+
+      - name: Start accepted-job worker
+        if: ${{ inputs.action == 'ACCEPT' }}
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run job-worker.yml --ref "${GITHUB_REF_NAME}" -f job_id="$JOB_ID"
+
+      - name: Start implementation after explicit approval
+        if: ${{ inputs.action == 'APPROVE_IMPLEMENTATION' }}
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run implementation.yml --ref "${GITHUB_REF_NAME}" -f job_id="$JOB_ID"

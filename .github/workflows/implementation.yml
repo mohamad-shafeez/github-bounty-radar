@@ -1,0 +1,62 @@
+name: bounty-implementation
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "APPROVED bounty job ID"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: bounty-state
+  cancel-in-progress: false
+
+jobs:
+  implement:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Checkout control repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependency
+        run: python -m pip install --disable-pip-version-check "requests>=2.31,<3"
+
+      - name: Generate, apply and test implementation
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+        run: python implement.py
+
+      - name: Commit implementation artifacts
+        run: |
+          git config user.name "bounty-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs.json job-artifacts/
+          git diff --cached --quiet && exit 0
+          git commit -m "job: implementation ${GITHUB_SHA}" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done
+          exit 1
+
+      - name: Start final review
+        if: success()
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run final-review.yml --ref "${GITHUB_REF_NAME}" -f job_id="$JOB_ID"

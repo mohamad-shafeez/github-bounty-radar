@@ -1,0 +1,52 @@
+name: bounty-final-review
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: "TESTING bounty job ID"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: bounty-state
+  cancel-in-progress: false
+
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run final safety gate
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+        run: python final_review.py
+      - name: Commit review state
+        run: |
+          git config user.name "bounty-radar"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add jobs.json job-artifacts/
+          git diff --cached --quiet && exit 0
+          git commit -m "job: final review" || exit 0
+          for attempt in 1 2 3; do
+            if git push; then exit 0; fi
+            git pull --rebase origin "${GITHUB_REF_NAME}"
+          done
+          exit 1
+
+      - name: Start PR creation
+        if: success()
+        env:
+          JOB_ID: ${{ inputs.job_id }}
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pr-create.yml --ref "${GITHUB_REF_NAME}" -f job_id="$JOB_ID"

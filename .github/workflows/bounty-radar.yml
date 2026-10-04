@@ -15,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: bounty-radar
+  group: bounty-state
   cancel-in-progress: false
 
 jobs:
@@ -47,17 +47,17 @@ jobs:
       - name: Save radar state
         if: ${{ success() && inputs.send_test != true }}
         run: |
-          if [ ! -f state.json ]; then
-            echo "No state.json was created. Nothing to commit."
+          if [ ! -f state.json ] && [ ! -f jobs.json ]; then
+            echo "No state files were created. Nothing to commit."
             exit 0
           fi
 
           git config user.name "bounty-radar"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f state.json
+          git add -f state.json jobs.json
 
           if git diff --cached --quiet; then
-            echo "state.json did not change. Nothing to commit."
+            echo "No radar state changed. Nothing to commit."
             exit 0
           fi
 
