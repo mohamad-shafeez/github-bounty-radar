@@ -3,7 +3,11 @@
     "b624887ac7b065f6e76b": {
       "artifacts": {},
       "created_at": "2026-10-04T17:57:19Z",
-      "decision": null,
+      "decision": {
+        "actor": "mohamad-shafeez",
+        "at": "2026-10-05T01:02:36Z",
+        "reason": "SAFE E2E TEST - real confirmed $175 bounty; investigate through proposal/dossier only; DO NOT POST COMMENT"
+      },
       "error": null,
       "history": [
         {
@@ -16,6 +20,14 @@
         {
           "at": "2026-10-04T17:57:19Z",
           "event": "PENDING_APPROVAL"
+        },
+        {
+          "actor": "mohamad-shafeez",
+          "at": "2026-10-05T01:02:36Z",
+          "event": "STATE_CHANGED",
+          "from_state": "PENDING_APPROVAL",
+          "reason": "SAFE E2E TEST - real confirmed $175 bounty; investigate through proposal/dossier only; DO NOT POST COMMENT",
+          "to_state": "ACCEPTED"
         }
       ],
       "issue_number": 102943,
@@ -42,8 +54,8 @@
         "url": "https://github.com/Expensify/App/issues/102943"
       },
       "repo": "Expensify/App",
-      "state": "PENDING_APPROVAL",
-      "updated_at": "2026-10-04T17:57:19Z"
+      "state": "ACCEPTED",
+      "updated_at": "2026-10-05T01:02:36Z"
     },
     "b83c9c3981992f3f2d83": {
       "artifacts": {},
@@ -135,6 +147,6 @@
       "updated_at": "2026-10-04T18:40:21Z"
     }
   },
-  "updated_at": "2026-10-04T18:40:22Z",
+  "updated_at": "2026-10-05T01:02:36Z",
   "version": 2
 }
