@@ -3,9 +3,10 @@
 from __future__ import annotations
 
 import os
+import time
 from pathlib import Path
 
-from ai_review import review_job
+from ai_review import review_job, is_quota_error
 from review_gate import main as review_gate_main
 from pipeline import accept_and_ingest
 from jobs import load_store, save_store, utc_now
@@ -20,7 +21,7 @@ def main() -> int:
     requested = os.environ.get("JOB_ID", "").strip()
 
     # Process ACCEPTED or INGESTING jobs
-    processable_states = {"ACCEPTED", "INGESTING"}
+    processable_states = {"ACCEPTED", "INGESTING", "WAITING_FOR_AI_QUOTA"}
     ids = [requested] if requested else [
         jid for jid, job in data["jobs"].items() if job.get("state") in processable_states
     ]
@@ -37,6 +38,18 @@ def main() -> int:
         if job.get("state") not in processable_states:
             print(f"Skipping {job_id}: state={job.get('state')}")
             continue
+
+        # Durable quota cooldown: evidence already collected is preserved.
+        if job.get("state") == "WAITING_FOR_AI_QUOTA":
+            retry_after = float(job.get("ai_retry_after", 0) or 0)
+            if time.time() < retry_after:
+                print(f"Waiting for AI quota cooldown: {job_id}")
+                continue
+            job["state"] = "INVESTIGATING"
+            job.pop("ai_retry_after", None)
+            data["jobs"][job_id] = job
+            from jobs import save_store
+            save_store(data, root / "jobs.json")
 
         print(f"Ingesting evidence for {job_id} ({job['repo']}#{job['issue_number']})")
         path = accept_and_ingest(job_id, root, os.environ.get("GITHUB_TOKEN"))
@@ -67,7 +80,21 @@ def main() -> int:
             continue
 
         print(f"Running independent AI review for {job_id}")
-        outputs = review_job(root, job_id)
+        try:
+            outputs = review_job(root, job_id)
+        except Exception as exc:
+            if is_quota_error(exc):
+                cooldown = int(os.environ.get("AI_QUOTA_COOLDOWN_SECONDS", "900"))
+                data = load_store(root / "jobs.json")
+                job = data["jobs"][job_id]
+                job["state"] = "WAITING_FOR_AI_QUOTA"
+                job["ai_retry_after"] = time.time() + cooldown
+                job["ai_quota_error"] = str(exc)[-2000:]
+                job.setdefault("history", []).append({"at": utc_now(), "state": "WAITING_FOR_AI_QUOTA", "reason": "AI quota/rate limit"})
+                save_store(data, root / "jobs.json")
+                print(f"AI quota exhausted; preserved evidence and deferred retry for {cooldown}s")
+                continue
+            raise
         print("Review outputs:")
         for output in outputs:
             print(f" - {output}")

@@ -18,7 +18,7 @@ def build(job_id: str, root: Path = Path(".")) -> Path:
     job = data["jobs"].get(job_id)
     if not job:
         raise RuntimeError(f"job not found: {job_id}")
-    if job["state"] not in {"DIAGNOSIS_READY", "CROSS_REVIEW"}:
+    if job["state"] not in {"DIAGNOSIS_READY"}:
         raise RuntimeError(f"proposal can only be prepared from diagnosis/review; current={job['state']}")
 
     reviews: list[dict[str, Any]] = []

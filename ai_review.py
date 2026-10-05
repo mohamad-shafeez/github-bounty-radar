@@ -148,6 +148,11 @@ def _parse_and_validate_review_json(text: str, provider: str) -> dict[str, Any]:
     return obj
 
 
+def is_quota_error(exc):
+    text=str(exc).lower()
+    return any(x in text for x in ("429", "rate limit", "rate-limit", "quota", "resource exhausted"))
+
+
 def run_provider_with_retry(name: str, prompt: str, system: str = SYSTEM, json_mode: bool = True) -> dict[str, Any] | str:
     """Execute provider call with retry policy on timeout, rate-limits, and transient failures."""
     name = name.lower().strip()
@@ -172,6 +177,14 @@ def run_provider_with_retry(name: str, prompt: str, system: str = SYSTEM, json_m
         except Exception as exc:
             last_error = exc
             err_msg = str(exc)
+            # Quota/rate-limit errors must immediately stop this provider so the
+            # fallback provider gets a chance. Never hammer a rate-limited API.
+            if is_quota_error(exc):
+                raise
+            # Quota/rate-limit errors immediately stop this provider.
+            # This allows fallback without repeatedly hammering a limited API.
+            if is_quota_error(exc):
+                raise
             # Permanent errors (missing key, auth error 401/403) should not retry
             if "not configured" in err_msg or "HTTP 401" in err_msg or "HTTP 403" in err_msg:
                 break
