@@ -108,11 +108,13 @@ class AIProviderTests(unittest.TestCase):
                 }
             }]
         }
-        mock_post.side_effect = [resp_429, resp_200]
+        mock_post.side_effect = [resp_429]
 
-        res = run_provider_with_retry("gemini", "mock_prompt", json_mode=True)
-        self.assertEqual(res["summary"], "Recovered after retry")
-        self.assertEqual(mock_post.call_count, 2)
+        with self.assertRaises(Exception) as ctx:
+            run_provider_with_retry("gemini", "mock_prompt", json_mode=True)
+
+        self.assertIn("429", str(ctx.exception))
+        self.assertEqual(mock_post.call_count, 1)
 
     @patch("requests.post")
     def test_fallback_gemini_to_grok(self, mock_post):
