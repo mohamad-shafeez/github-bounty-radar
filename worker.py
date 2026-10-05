@@ -60,7 +60,6 @@ def main() -> int:
             job["state"] = "INVESTIGATING"
             job.pop("ai_retry_after", None)
             data["jobs"][job_id] = job
-            from jobs import save_store
             save_store(data, root / "jobs.json")
 
         # Resumption rule: never re-ingest an INVESTIGATING job when its
