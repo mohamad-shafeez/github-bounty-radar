@@ -1,0 +1,139 @@
+name: AI Provider Health
+
+on:
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          import requests
+
+          key = os.environ.get("GEMINI_API_KEY")
+
+          if not key:
+              print("GEMINI: FAIL - secret not available")
+              sys.exit(1)
+
+          url = (
+              "https://generativelanguage.googleapis.com/v1beta/"
+              "models/gemini-2.0-flash:generateContent"
+          )
+
+          payload = {
+              "contents": [
+                  {
+                      "parts": [
+                          {"text": "Reply with exactly: HEALTH_OK"}
+                      ]
+                  }
+              ]
+          }
+
+          try:
+              r = requests.post(
+                  url,
+                  params={"key": key},
+                  json=payload,
+                  timeout=30,
+              )
+
+              print("GEMINI HTTP:", r.status_code)
+
+              if r.ok:
+                  data = r.json()
+                  text = (
+                      data.get("candidates", [{}])[0]
+                      .get("content", {})
+                      .get("parts", [{}])[0]
+                      .get("text", "")
+                  )
+                  print("GEMINI: OK")
+                  print("GEMINI RESPONSE CHECK:", bool(text.strip()))
+              elif r.status_code == 429:
+                  print("GEMINI: RATE_LIMITED")
+              elif r.status_code in (401, 403):
+                  print("GEMINI: AUTH_FAILED")
+              else:
+                  print("GEMINI: FAIL")
+                  print("Response:", r.text[:500])
+                  sys.exit(1)
+
+          except Exception as e:
+              print("GEMINI: ERROR", type(e).__name__, str(e))
+              sys.exit(1)
+          PY
+
+      - name: Test Grok
+        env:
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          import requests
+
+          key = os.environ.get("GROK_API_KEY")
+
+          if not key:
+              print("GROK: FAIL - secret not available")
+              sys.exit(1)
+
+          url = "https://api.x.ai/v1/chat/completions"
+
+          headers = {
+              "Authorization": f"Bearer {key}",
+              "Content-Type": "application/json",
+          }
+
+          payload = {
+              "model": "grok-3-mini",
+              "messages": [
+                  {
+                      "role": "user",
+                      "content": "Reply with exactly: HEALTH_OK",
+                  }
+              ],
+              "max_tokens": 10,
+          }
+
+          try:
+              r = requests.post(
+                  url,
+                  headers=headers,
+                  json=payload,
+                  timeout=30,
+              )
+
+              print("GROK HTTP:", r.status_code)
+
+              if r.ok:
+                  data = r.json()
+                  text = (
+                      data.get("choices", [{}])[0]
+                      .get("message", {})
+                      .get("content", "")
+                  )
+                  print("GROK: OK")
+                  print("GROK RESPONSE CHECK:", bool(text.strip()))
+              elif r.status_code == 429:
+                  print("GROK: RATE_LIMITED")
+              elif r.status_code in (401, 403):
+                  print("GROK: AUTH_FAILED")
+              else:
+                  print("GROK: FAIL")
+                  print("Response:", r.text[:500])
+                  sys.exit(1)
+
+          except Exception as e:
+              print("GROK: ERROR", type(e).__name__, str(e))
+              sys.exit(1)
+          PY
