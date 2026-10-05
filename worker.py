@@ -15,6 +15,16 @@ from notify import send
 from dossier import build_dossier_content, save_dossier
 
 
+def _saved_ingestion_path(root: Path, job: dict) -> Path | None:
+    value = (job.get("artifacts") or {}).get("ingestion")
+    if not value:
+        return None
+    candidate = Path(value)
+    if not candidate.is_absolute():
+        candidate = root / candidate
+    return candidate if candidate.exists() else None
+
+
 def main() -> int:
     root = Path(".")
     data = load_store(root / "jobs.json")
@@ -51,9 +61,18 @@ def main() -> int:
             from jobs import save_store
             save_store(data, root / "jobs.json")
 
-        print(f"Ingesting evidence for {job_id} ({job['repo']}#{job['issue_number']})")
-        path = accept_and_ingest(job_id, root, os.environ.get("GITHUB_TOKEN"))
-        print(f"Evidence: {path}")
+        quota_retry = job.get("state") == "WAITING_FOR_AI_QUOTA"
+
+        if quota_retry:
+            saved_path = _saved_ingestion_path(root, job)
+            if saved_path is None:
+                raise RuntimeError(f"Quota retry for {job_id} has no saved ingestion evidence; refusing to re-ingest automatically.")
+            path = saved_path
+            print(f"Reusing saved evidence for quota retry {job_id}: {path}")
+        else:
+            print(f"Ingesting evidence for {job_id} ({job['repo']}#{job['issue_number']})")
+            path = accept_and_ingest(job_id, root, os.environ.get("GITHUB_TOKEN"))
+            print(f"Evidence: {path}")
 
         # Check for Gemini or Grok credentials
         has_ai_key = any(os.environ.get(k, "").strip() for k in ("GEMINI_API_KEY", "GROK_API_KEY"))

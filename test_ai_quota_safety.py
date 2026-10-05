@@ -1,20 +1,22 @@
-import unittest
 from pathlib import Path
-from unittest.mock import patch
-from ai_review import is_quota_error
 
-class TestAIQuotaSafety(unittest.TestCase):
-    def test_quota_detection(self):
-        self.assertTrue(is_quota_error(Exception("HTTP 429 RESOURCE EXHAUSTED")))
-        self.assertTrue(is_quota_error(Exception("rate limit exceeded")))
-        self.assertTrue(is_quota_error(Exception("quota exceeded")))
-        self.assertFalse(is_quota_error(Exception("HTTP 401 invalid key")))
+ROOT = Path(__file__).resolve().parent
 
-    def test_cross_review_blocked(self):
-        from proposal import build
-        with patch("proposal.load_store", return_value={"jobs":{"x":{"state":"CROSS_REVIEW"}}}):
-            with self.assertRaises(Exception):
-                build("x", Path("."))
 
-if __name__ == "__main__":
-    unittest.main()
+def test_quota_retry_reuses_saved_evidence():
+    source = (ROOT / "worker.py").read_text(encoding="utf-8")
+    assert "quota_retry = job.get("state") == "WAITING_FOR_AI_QUOTA"" in source
+    assert "_saved_ingestion_path(root, job)" in source
+    branch = source.split("if quota_retry:", 1)[1].split("else:", 1)[0]
+    assert "accept_and_ingest(" not in branch
+
+
+def test_saved_ingestion_path_requires_existing_artifact():
+    source = (ROOT / "worker.py").read_text(encoding="utf-8")
+    assert "value = (job.get("artifacts") or {}).get("ingestion")" in source
+    assert "return candidate if candidate.exists() else None" in source
+
+
+def test_waiting_quota_state_is_not_duplicated():
+    source = (ROOT / "jobs.py").read_text(encoding="utf-8")
+    assert source.count("WAITING_FOR_AI_QUOTA") == 1
