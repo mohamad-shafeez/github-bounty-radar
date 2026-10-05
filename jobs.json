@@ -46,6 +46,278 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "082c0665480436c9eebb": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103076,
+      "job_id": "082c0665480436c9eebb",
+      "last_seen_at": "2026-10-05T21:15:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Show posted date on company card transactions after they post",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103076"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:24Z"
+    },
+    "0df4aea516f56b6288e4": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103063,
+      "job_id": "0df4aea516f56b6288e4",
+      "last_seen_at": "2026-10-05T21:15:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Navigation - View button from email navigates to WS chat but not the specific expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103063"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:25Z"
+    },
+    "110dadbc5f02e5331f65": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103030,
+      "job_id": "110dadbc5f02e5331f65",
+      "last_seen_at": "2026-10-05T21:15:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Search-\"Multiple tax export\" is suggested after typing for \"..USD-only workspace..\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103030"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:25Z"
+    },
+    "392552cb28b4463dd3d1": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 90572,
+      "job_id": "392552cb28b4463dd3d1",
+      "last_seen_at": "2026-10-05T21:15:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "NewFeature"
+        ],
+        "score": 55,
+        "title": "[$250] [CFI] Add Plaid connect/reconnect flow to NewDot",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/90572"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "3a378894c70552fd5236": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98838,
+      "job_id": "3a378894c70552fd5236",
+      "last_seen_at": "2026-10-05T21:15:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Monthly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Spend - Categories are not visible on fresh sign in in a expense",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98838"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "4a3846c847be0ae6f195": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101848,
+      "job_id": "4a3846c847be0ae6f195",
+      "last_seen_at": "2026-10-05T21:15:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] 2FA - After setup 2FA new workspace user is stay in Account option",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101848"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:23Z"
+    },
     "600af0bdbe32e8db893e": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -90,6 +362,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "6632a934726451d8c412": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103058,
+      "job_id": "6632a934726451d8c412",
+      "last_seen_at": "2026-10-05T21:15:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] WS settings - Error appear when changing role just after adding User",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103058"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:24Z"
     },
     "6a35f069714bc04a302a": {
       "artifacts": {},
@@ -136,6 +453,186 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "7574ae953388be63f1c4": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103041,
+      "job_id": "7574ae953388be63f1c4",
+      "last_seen_at": "2026-10-05T21:15:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Hybrid - After close and reopen app the distance edit page is dismissed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103041"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "896311d4787732d61f1f": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103059,
+      "job_id": "896311d4787732d61f1f",
+      "last_seen_at": "2026-10-05T21:15:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Distance receipts: Hide the \"Page X of Y\" indicator",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103059"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:24Z"
+    },
+    "89ef4b1d7e1189c204f4": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103083,
+      "job_id": "89ef4b1d7e1189c204f4",
+      "last_seen_at": "2026-10-05T21:15:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Home - Not here page when accessing just deleted offline expense from arrow button",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103083"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "8b58dcd2f67e61c6ba2e": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103043,
+      "job_id": "8b58dcd2f67e61c6ba2e",
+      "last_seen_at": "2026-10-05T21:15:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Chat - User does not scrolled to the bottom of the chat when press on new messages",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103043"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:25Z"
     },
     "8c16f78eb553045092b9": {
       "artifacts": {},
@@ -227,6 +724,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
+    },
+    "9320cddc3c283e576961": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103036,
+      "job_id": "9320cddc3c283e576961",
+      "last_seen_at": "2026-10-05T21:15:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Threads -Composer isn't focused after empty the message navigate to another report and return",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103036"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:25Z"
     },
     "9554b7240fbb44ed390b": {
       "artifacts": {},
@@ -404,6 +946,51 @@
       "state": "WAITING_FOR_AI_QUOTA",
       "updated_at": "2026-10-05T01:03:50Z"
     },
+    "b7ef4ebb888e02b742dc": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:22Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:22Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:22Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103082,
+      "job_id": "b7ef4ebb888e02b742dc",
+      "last_seen_at": "2026-10-05T21:15:22Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 63,
+        "title": "[$175] [CFI] Multi-level tags: keep spreadsheet order and disable sorting in NewDot",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103082"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:22Z"
+    },
     "b83531249cd09c3ceb33": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -495,6 +1082,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
     },
+    "c27f862fec67a8cf01ba": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103066,
+      "job_id": "c27f862fec67a8cf01ba",
+      "last_seen_at": "2026-10-05T21:15:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace Members - Error message does not match the actual field name when importing CSV",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103066"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:24Z"
+    },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
       "created_at": "2026-10-04T18:40:21Z",
@@ -539,6 +1171,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
+    },
+    "d07da0ce21573d4859ce": {
+      "artifacts": {},
+      "created_at": "2026-10-05T21:15:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T21:15:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103067,
+      "job_id": "d07da0ce21573d4859ce",
+      "last_seen_at": "2026-10-05T21:15:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Invite - Custom message does not render correctly on email",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103067"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T21:15:23Z"
     },
     "d92149c95436c6e5b9f0": {
       "artifacts": {},
@@ -678,6 +1355,6 @@
       "updated_at": "2026-10-05T05:55:34Z"
     }
   },
-  "updated_at": "2026-10-05T13:08:36Z",
+  "updated_at": "2026-10-05T21:15:26Z",
   "version": 2
 }
