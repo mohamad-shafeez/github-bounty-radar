@@ -50,7 +50,9 @@ def main() -> int:
             continue
 
         # Durable quota cooldown: evidence already collected is preserved.
-        if job.get("state") == "WAITING_FOR_AI_QUOTA":
+        quota_retry = job.get("state") == "WAITING_FOR_AI_QUOTA"
+
+        if quota_retry:
             retry_after = float(job.get("ai_retry_after", 0) or 0)
             if time.time() < retry_after:
                 print(f"Waiting for AI quota cooldown: {job_id}")
@@ -60,8 +62,6 @@ def main() -> int:
             data["jobs"][job_id] = job
             from jobs import save_store
             save_store(data, root / "jobs.json")
-
-        quota_retry = job.get("state") == "WAITING_FOR_AI_QUOTA"
 
         if quota_retry:
             saved_path = _saved_ingestion_path(root, job)
