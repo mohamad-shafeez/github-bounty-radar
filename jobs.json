@@ -1,12 +1,16 @@
 {
   "jobs": {
     "b624887ac7b065f6e76b": {
-      "artifacts": {},
+      "artifacts": {
+        "ingestion": "job-artifacts/b624887ac7b065f6e76b/ingestion.json",
+        "ingestion_sha256": "b8a6c7f8c3fc8577aa0900f3922aec5069141a7a762880fe5590840c7ec2d690"
+      },
+      "base_branch": "main",
       "created_at": "2026-10-04T17:57:19Z",
       "decision": {
-        "actor": "mohamad-shafeez",
-        "at": "2026-10-05T01:02:36Z",
-        "reason": "SAFE E2E TEST - real confirmed $175 bounty; investigate through proposal/dossier only; DO NOT POST COMMENT"
+        "actor": "worker",
+        "at": "2026-10-05T01:03:50Z",
+        "reason": ""
       },
       "error": null,
       "history": [
@@ -28,6 +32,22 @@
           "from_state": "PENDING_APPROVAL",
           "reason": "SAFE E2E TEST - real confirmed $175 bounty; investigate through proposal/dossier only; DO NOT POST COMMENT",
           "to_state": "ACCEPTED"
+        },
+        {
+          "actor": "worker",
+          "at": "2026-10-05T01:02:49Z",
+          "event": "STATE_CHANGED",
+          "from_state": "ACCEPTED",
+          "reason": "",
+          "to_state": "INGESTING"
+        },
+        {
+          "actor": "worker",
+          "at": "2026-10-05T01:03:50Z",
+          "event": "STATE_CHANGED",
+          "from_state": "INGESTING",
+          "reason": "",
+          "to_state": "INVESTIGATING"
         }
       ],
       "issue_number": 102943,
@@ -54,8 +74,8 @@
         "url": "https://github.com/Expensify/App/issues/102943"
       },
       "repo": "Expensify/App",
-      "state": "ACCEPTED",
-      "updated_at": "2026-10-05T01:02:36Z"
+      "state": "INVESTIGATING",
+      "updated_at": "2026-10-05T01:03:50Z"
     },
     "b83c9c3981992f3f2d83": {
       "artifacts": {},
@@ -147,6 +167,6 @@
       "updated_at": "2026-10-04T18:40:21Z"
     }
   },
-  "updated_at": "2026-10-05T01:02:36Z",
+  "updated_at": "2026-10-05T01:03:50Z",
   "version": 2
 }
