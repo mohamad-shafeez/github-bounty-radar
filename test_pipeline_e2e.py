@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """End-to-end integration test of the entire GitHub bounty automation pipeline.
 
-Mocks all external network requests (GitHub API, Gemini/Grok API, ntfy).
+Mocks all external network requests (GitHub API, Gemini/OpenRouter API, ntfy).
 Verifies complete state progression, engineering dossier creation, and PR creation gate.
 """
 import json
@@ -25,8 +25,8 @@ class EndToEndPipelineTests(unittest.TestCase):
     def setUp(self):
         self.old_env = os.environ.copy()
         os.environ["GEMINI_API_KEY"] = "mock_gemini_key"
-        os.environ["GROK_API_KEY"] = "mock_grok_key"
-        os.environ["AI_PROVIDERS"] = "gemini,grok"
+        os.environ["OPENROUTER_API_KEY"] = "mock_openrouter_key"
+        os.environ["AI_PROVIDERS"] = "gemini,openrouter"
         os.environ["AI_MAX_RETRIES"] = "1"
         os.environ["UPSTREAM_GITHUB_TOKEN"] = "mock_upstream_token"
         os.environ["NTFY_TOPIC"] = "mock_topic"
@@ -38,7 +38,7 @@ class EndToEndPipelineTests(unittest.TestCase):
     @patch("requests.post")
     @patch("requests.Session.post")
     @patch("requests.Session.get")
-    def test_e2e_investigation_to_proposal(self, mock_session_get, mock_session_post, mock_requests_post):
+    def test_e2e_investigation_stops_at_human_review(self, mock_session_get, mock_session_post, mock_requests_post):
         with tempfile.TemporaryDirectory() as td:
             root = Path(td)
             data = empty_store()
@@ -94,7 +94,7 @@ class EndToEndPipelineTests(unittest.TestCase):
             data = load_store(root / "jobs.json")
             self.assertEqual(data["jobs"][jid]["state"], "INVESTIGATING")
 
-            # 4. AI review mock responses (both Gemini and Grok)
+            # 4. AI review mock responses (both Gemini and OpenRouter)
             def mock_req_post_router(url, **kwargs):
                 r = MagicMock()
                 r.status_code = 200
@@ -117,12 +117,12 @@ class EndToEndPipelineTests(unittest.TestCase):
                         }]
                     }
                 else:
-                    # Grok
+                    # OpenRouter
                     r.json.return_value = {
                         "choices": [{
                             "message": {
                                 "content": json.dumps({
-                                    "summary": "Grok verified crash in search.py",
+                                    "summary": "OpenRouter verified crash in search.py",
                                     "root_cause_hypothesis": "Missing empty check in search",
                                     "confirmed_facts": ["search.py raises Exception"],
                                     "unknowns": [],
@@ -168,49 +168,14 @@ class EndToEndPipelineTests(unittest.TestCase):
                 self.assertIn("## 1. Issue Summary", dossier_text)
                 self.assertIn("## 19. Pull Request", dossier_text)
 
-                # 7. Post comment via control
-                mock_comment_resp = MagicMock()
-                mock_comment_resp.status_code = 201
-                mock_comment_resp.json.return_value = {"id": 555, "html_url": "https://github.com/Expensify/App/issues/9999#issuecomment-555"}
-                mock_session_post.return_value = mock_comment_resp
-                mock_requests_post.side_effect = None
-                mock_requests_post.return_value.status_code = 200
-
-                control_apply("POST_COMMENT", jid, root)
+                # 7. Controlled-test safety boundary: STOP at HUMAN_REVIEW.
+                # No proposal comment, maintainer message, implementation, or PR
+                # is allowed during this E2E test.
                 data = load_store(root / "jobs.json")
-                self.assertEqual(data["jobs"][jid]["state"], "AWAITING_MAINTAINER")
-                self.assertEqual(data["jobs"][jid]["artifacts"]["posted_comment"]["id"], 555)
-
-                # 8. Maintainer watch observes comment from maintainer
-                def mock_watch_comments(url, **kwargs):
-                    r = MagicMock()
-                    r.status_code = 200
-                    r.json.return_value = [
-                        {"id": 555, "user": {"login": "bounty-bot"}, "body": "Proposal"},
-                        {"id": 556, "user": {"login": "mallenexpensify"}, "author_association": "MEMBER", "body": "Agreed, please implement!", "created_at": "2026-10-03T14:00:00Z", "html_url": "url"},
-                    ]
-                    return r
-
-                mock_session_get.side_effect = mock_watch_comments
-                mock_requests_post.return_value.status_code = 200
-
-                maintainer_watch_main()
-                data = load_store(root / "jobs.json")
-                self.assertEqual(len(data["jobs"][jid]["maintainer_activity"]), 1)
-                self.assertEqual(data["jobs"][jid]["maintainer_activity"][0]["author"], "mallenexpensify")
-
-                # Verify dossier Section 16 was updated with maintainer response
-                updated_dossier = dossier_path.read_text(encoding="utf-8")
-                self.assertIn("Agreed, please implement!", updated_dossier)
-
-                # 9. Human signals maintainer agreed, then approves implementation
-                control_apply("MAINTAINER_AGREED", jid, root)
-                data = load_store(root / "jobs.json")
-                self.assertEqual(data["jobs"][jid]["state"], "MAINTAINER_AGREED")
-
-                control_apply("APPROVE_IMPLEMENTATION", jid, root)
-                data = load_store(root / "jobs.json")
-                self.assertEqual(data["jobs"][jid]["state"], "APPROVED")
+                self.assertEqual(data["jobs"][jid]["state"], "HUMAN_REVIEW")
+                self.assertNotIn("posted_comment", data["jobs"][jid].get("artifacts", {}))
+                self.assertNotIn("pull_request", data["jobs"][jid].get("artifacts", {}))
+                self.assertNotIn("implementation", data["jobs"][jid].get("artifacts", {}))
 
             finally:
                 os.chdir(old_cwd)

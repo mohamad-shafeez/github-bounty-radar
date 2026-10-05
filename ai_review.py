@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Multi-provider evidence reviewer with Gemini and Grok support.
+"""Multi-provider evidence reviewer with Gemini, OpenRouter, and Groq support.
 
-Provides robust retry and fallback between Gemini and Grok:
-- Gemini fails -> retries -> falls back to Grok.
-- Grok fails -> retries -> falls back to Gemini.
-- Only Gemini and Grok are supported.
+Provides independent Gemini/OpenRouter review with Groq fallback.
+- Gemini and OpenRouter are independent reviewers; Groq is fallback when primary reviewers are unavailable.
+- Quota/outage failures are handled without hammering a provider.
+- Gemini, OpenRouter, and Groq are supported.
 - Keys are read from environment variables / secrets only.
 - Never assumes free-tier is permanently available; reports availability honestly.
 """
@@ -43,20 +43,25 @@ INITIAL_BACKOFF = float(os.environ.get("AI_INITIAL_BACKOFF", "1.0"))
 BACKOFF_FACTOR = float(os.environ.get("AI_BACKOFF_FACTOR", "2.0"))
 
 
-def get_grok_config() -> dict[str, str]:
-    """Resolve xAI Grok configuration from environment variables only."""
-    key = os.environ.get("GROK_API_KEY", "").strip()
-    url = os.environ.get("GROK_BASE_URL", "https://api.x.ai/v1/chat/completions").strip()
-    model = os.environ.get("GROK_MODEL", "grok-2-latest").strip()
-    return {"key": key, "url": url, "model": model}
-
-
 def get_gemini_config() -> dict[str, str]:
     key = os.environ.get("GEMINI_API_KEY", "").strip()
-    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash")
+    model = os.environ.get("GEMINI_MODEL", "gemini-2.5-flash").strip()
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     return {"key": key, "url": url, "model": model}
 
+
+def get_groq_config() -> dict[str, str]:
+    key = os.environ.get("GROQ_API_KEY", "").strip()
+    url = os.environ.get("GROQ_BASE_URL", "https://api.groq.com/openai/v1/chat/completions").strip()
+    model = os.environ.get("GROQ_MODEL", "llama-3.3-70b-versatile").strip()
+    return {"key": key, "url": url, "model": model}
+
+
+def get_openrouter_config() -> dict[str, str]:
+    key = os.environ.get("OPENROUTER_API_KEY", "").strip()
+    url = os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1/chat/completions").strip()
+    model = os.environ.get("OPENROUTER_MODEL", "deepseek/deepseek-r1:free").strip()
+    return {"key": key, "url": url, "model": model}
 
 def build_prompt(evidence: dict[str, Any]) -> str:
     compact = {
@@ -98,12 +103,14 @@ def _call_gemini_raw(prompt: str, system: str, json_mode: bool = True, timeout: 
     return "".join(p.get("text", "") for p in candidates[0].get("content", {}).get("parts", []))
 
 
-def _call_grok_raw(prompt: str, system: str, json_mode: bool = True, timeout: int = 120) -> str:
-    cfg = get_grok_config()
+def _call_openai_compatible_raw(provider: str, cfg: dict[str, str], prompt: str, system: str, json_mode: bool = True, timeout: int = 120) -> str:
     key = cfg["key"]
     if not key:
-        raise RuntimeError("GROK_API_KEY is not configured")
-    headers = {"Authorization": f"Bearer {key}"}
+        raise RuntimeError(f"{provider.upper()}_API_KEY is not configured")
+    headers = {"Authorization": f"Bearer {key}", "Content-Type": "application/json"}
+    if provider == "openrouter":
+        headers["HTTP-Referer"] = os.environ.get("OPENROUTER_HTTP_REFERER", "https://github.com/mohamad-shafeez/github-bounty-radar")
+        headers["X-Title"] = os.environ.get("OPENROUTER_X_TITLE", "GitHub Bounty Radar")
     payload: dict[str, Any] = {
         "model": cfg["model"],
         "temperature": 0.1,
@@ -114,18 +121,27 @@ def _call_grok_raw(prompt: str, system: str, json_mode: bool = True, timeout: in
     }
     if json_mode:
         payload["response_format"] = {"type": "json_object"}
-
     r = requests.post(cfg["url"], headers=headers, json=payload, timeout=timeout)
     if r.status_code == 429:
-        raise RuntimeError(f"Grok rate limit / quota exceeded (HTTP 429): {r.text[:300]}")
+        raise RuntimeError(f"{provider.title()} rate limit / quota exceeded (HTTP 429): {r.text[:300]}")
     if r.status_code >= 400:
-        raise RuntimeError(f"Grok API error (HTTP {r.status_code}): {r.text[:300]}")
+        raise RuntimeError(f"{provider.title()} API error (HTTP {r.status_code}): {r.text[:300]}")
     data = r.json()
     choices = data.get("choices", [])
     if not choices:
-        raise RuntimeError(f"Grok returned empty choices: {data}")
-    return choices[0].get("message", {}).get("content", "")
+        raise RuntimeError(f"{provider.title()} returned empty choices: {data}")
+    content = choices[0].get("message", {}).get("content", "")
+    if isinstance(content, list):
+        content = "".join(part.get("text", "") if isinstance(part, dict) else str(part) for part in content)
+    return str(content)
 
+
+def _call_groq_raw(prompt: str, system: str, json_mode: bool = True, timeout: int = 120) -> str:
+    return _call_openai_compatible_raw("groq", get_groq_config(), prompt, system, json_mode=json_mode, timeout=timeout)
+
+
+def _call_openrouter_raw(prompt: str, system: str, json_mode: bool = True, timeout: int = 120) -> str:
+    return _call_openai_compatible_raw("openrouter", get_openrouter_config(), prompt, system, json_mode=json_mode, timeout=timeout)
 
 def _parse_and_validate_review_json(text: str, provider: str) -> dict[str, Any]:
     # Extract json block if wrapped in markdown code fence
@@ -156,8 +172,8 @@ def is_quota_error(exc):
 def run_provider_with_retry(name: str, prompt: str, system: str = SYSTEM, json_mode: bool = True) -> dict[str, Any] | str:
     """Execute provider call with retry policy on timeout, rate-limits, and transient failures."""
     name = name.lower().strip()
-    if name not in ("gemini", "grok"):
-        raise ValueError(f"unsupported provider: {name}. Only 'gemini' and 'grok' are supported.")
+    if name not in ("gemini", "openrouter", "groq"):
+        raise ValueError(f"unsupported provider: {name}. Supported: gemini, openrouter, groq")
 
     max_retries = int(os.environ.get("AI_MAX_RETRIES", "3"))
     backoff = float(os.environ.get("AI_INITIAL_BACKOFF", "1.0"))
@@ -168,8 +184,10 @@ def run_provider_with_retry(name: str, prompt: str, system: str = SYSTEM, json_m
         try:
             if name == "gemini":
                 raw_text = _call_gemini_raw(prompt, system, json_mode=json_mode)
+            elif name == "openrouter":
+                raw_text = _call_openrouter_raw(prompt, system, json_mode=json_mode)
             else:
-                raw_text = _call_grok_raw(prompt, system, json_mode=json_mode)
+                raw_text = _call_groq_raw(prompt, system, json_mode=json_mode)
 
             if json_mode:
                 return _parse_and_validate_review_json(raw_text, name)
@@ -179,10 +197,6 @@ def run_provider_with_retry(name: str, prompt: str, system: str = SYSTEM, json_m
             err_msg = str(exc)
             # Quota/rate-limit errors must immediately stop this provider so the
             # fallback provider gets a chance. Never hammer a rate-limited API.
-            if is_quota_error(exc):
-                raise
-            # Quota/rate-limit errors immediately stop this provider.
-            # This allows fallback without repeatedly hammering a limited API.
             if is_quota_error(exc):
                 raise
             # Permanent errors (missing key, auth error 401/403) should not retry
@@ -200,7 +214,7 @@ def run_with_fallback(
     system: str = SYSTEM,
     json_mode: bool = True,
     primary: str = "gemini",
-    fallback: str = "grok",
+    fallback: str = "openrouter",
 ) -> tuple[dict[str, Any] | str, str]:
     """Attempt primary provider with retry; if it fails, fall back to alternate provider."""
     errors: list[str] = []
@@ -224,12 +238,14 @@ def run_with_fallback(
 
 
 def configured_providers() -> list[str]:
-    """Return available configured providers among ONLY gemini and grok."""
+    """Return configured providers in deterministic review order."""
     available: list[str] = []
     if get_gemini_config()["key"]:
         available.append("gemini")
-    if get_grok_config()["key"]:
-        available.append("grok")
+    if get_openrouter_config()["key"]:
+        available.append("openrouter")
+    if get_groq_config()["key"]:
+        available.append("groq")
     return available
 
 
@@ -251,14 +267,14 @@ def review_job(root: Path, job_id: str) -> list[Path]:
 
     available = configured_providers()
     if not available:
-        raise RuntimeError("No AI provider credentials configured. Please set GEMINI_API_KEY or GROK_API_KEY.")
+        raise RuntimeError("No AI provider credentials configured. Set GEMINI_API_KEY, OPENROUTER_API_KEY, or GROQ_API_KEY.")
 
     outputs: list[Path] = []
     errors: list[dict[str, str]] = []
 
     # If user explicitly requested providers via AI_PROVIDERS, filter to supported ones
     requested_raw = [x.strip().lower() for x in os.environ.get("AI_PROVIDERS", "").split(",") if x.strip()]
-    target_providers = [p for p in requested_raw if p in ("gemini", "grok")] or available
+    target_providers = [p for p in requested_raw if p in ("gemini", "openrouter", "groq")] or [p for p in ("gemini", "openrouter") if p in available]
 
     for name in target_providers:
         try:
@@ -274,7 +290,7 @@ def review_job(root: Path, job_id: str) -> list[Path]:
     if not outputs:
         # Determine fallback
         failed_names = {e["provider"] for e in errors}
-        fallback_candidates = [p for p in ("gemini", "grok") if p not in failed_names and p in available]
+        fallback_candidates = [p for p in ("gemini", "openrouter", "groq") if p not in failed_names and p in available]
         for name in fallback_candidates:
             try:
                 result = run_provider_with_retry(name, prompt, system=SYSTEM, json_mode=True)
@@ -304,8 +320,8 @@ def review_job(root: Path, job_id: str) -> list[Path]:
     return outputs
 
 
-def generate_diff(prompt: str, primary: str = "gemini", fallback: str = "grok") -> str:
-    """Generate a unified diff with retry and fallback between Gemini and Grok."""
+def generate_diff(prompt: str, primary: str = "gemini", fallback: str = "openrouter") -> str:
+    """Generate a unified diff with Gemini primary and OpenRouter fallback."""
     res, provider = run_with_fallback(
         prompt=prompt,
         system=SYSTEM_DIFF,

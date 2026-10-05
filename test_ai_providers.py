@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
-"""Tests for Gemini and Grok AI providers with retry and fallback behavior.
+"""Tests for Gemini, OpenRouter, and Groq AI providers with retry and fallback behavior.
 
-Uses mocks exclusively to conserve Gemini and Grok API usage and prevent quota consumption.
+Uses mocks exclusively to prevent real AI API calls and quota consumption.
 """
 import json
 import os
@@ -20,7 +20,7 @@ class AIProviderTests(unittest.TestCase):
     def setUp(self):
         self.old_env = os.environ.copy()
         os.environ["GEMINI_API_KEY"] = "mock_gemini_key_123"
-        os.environ["GROK_API_KEY"] = "mock_grok_key_123"
+        os.environ["GROQ_API_KEY"] = "mock_groq_key_123"
         os.environ["AI_MAX_RETRIES"] = "2"
         os.environ["AI_INITIAL_BACKOFF"] = "0.01"
 
@@ -57,14 +57,14 @@ class AIProviderTests(unittest.TestCase):
         self.assertIn("FILE:src/parser.py", res["evidence"])
 
     @patch("requests.post")
-    def test_grok_success_mock(self, mock_post):
+    def test_groq_success_mock(self, mock_post):
         mock_resp = MagicMock()
         mock_resp.status_code = 200
         mock_resp.json.return_value = {
             "choices": [{
                 "message": {
                     "content": json.dumps({
-                        "summary": "Grok verified bug in parser",
+                        "summary": "Groq verified bug in parser",
                         "root_cause_hypothesis": "Off-by-one index access",
                         "confirmed_facts": ["Off-by-one on loop termination"],
                         "unknowns": [],
@@ -79,8 +79,8 @@ class AIProviderTests(unittest.TestCase):
         }
         mock_post.return_value = mock_resp
 
-        res = run_provider_with_retry("grok", "mock_prompt", json_mode=True)
-        self.assertEqual(res["provider"], "grok")
+        res = run_provider_with_retry("groq", "mock_prompt", json_mode=True)
+        self.assertEqual(res["provider"], "groq")
         self.assertEqual(res["confidence"], 88)
 
     @patch("requests.post")
@@ -117,7 +117,8 @@ class AIProviderTests(unittest.TestCase):
         self.assertEqual(mock_post.call_count, 1)
 
     @patch("requests.post")
-    def test_fallback_gemini_to_grok(self, mock_post):
+    def test_fallback_gemini_to_openrouter(self, mock_post):
+        os.environ["OPENROUTER_API_KEY"] = "mock_openrouter_key"
         def route_post(url, **kwargs):
             if "generativelanguage.googleapis.com" in url:
                 resp = MagicMock()
@@ -131,7 +132,7 @@ class AIProviderTests(unittest.TestCase):
                     "choices": [{
                         "message": {
                             "content": json.dumps({
-                                "summary": "Grok fallback succeeded",
+                                "summary": "OpenRouter fallback succeeded",
                                 "root_cause_hypothesis": "Root cause",
                                 "confirmed_facts": [],
                                 "unknowns": [],
@@ -145,12 +146,12 @@ class AIProviderTests(unittest.TestCase):
                 return resp
         mock_post.side_effect = route_post
 
-        res, provider_used = run_with_fallback("mock_prompt", primary="gemini", fallback="grok")
-        self.assertEqual(provider_used, "grok")
-        self.assertEqual(res["summary"], "Grok fallback succeeded")
+        res, provider_used = run_with_fallback("mock_prompt", primary="gemini", fallback="openrouter")
+        self.assertEqual(provider_used, "openrouter")
+        self.assertEqual(res["summary"], "OpenRouter fallback succeeded")
 
     @patch("requests.post")
-    def test_fallback_grok_to_gemini(self, mock_post):
+    def test_fallback_openrouter_to_gemini(self, mock_post):
         def route_post(url, **kwargs):
             if "generativelanguage.googleapis.com" in url:
                 resp = MagicMock()
@@ -178,7 +179,7 @@ class AIProviderTests(unittest.TestCase):
                 return resp
         mock_post.side_effect = route_post
 
-        res, provider_used = run_with_fallback("mock_prompt", primary="grok", fallback="gemini")
+        res, provider_used = run_with_fallback("mock_prompt", primary="openrouter", fallback="gemini")
         self.assertEqual(provider_used, "gemini")
         self.assertEqual(res["summary"], "Gemini fallback succeeded")
 
@@ -194,11 +195,11 @@ class AIProviderTests(unittest.TestCase):
 
     def test_configured_providers_filtering(self):
         os.environ["GEMINI_API_KEY"] = "mock_key"
-        os.environ["GROK_API_KEY"] = "mock_key2"
-        self.assertEqual(configured_providers(), ["gemini", "grok"])
+        os.environ["GROQ_API_KEY"] = ""
+        os.environ["OPENROUTER_API_KEY"] = "mock_openrouter_key"
+        self.assertEqual(configured_providers(), ["gemini", "openrouter"])
 
-        os.environ["GROK_API_KEY"] = ""
-        os.environ["GROK_API_KEY"] = ""
+        os.environ["OPENROUTER_API_KEY"] = ""
         self.assertEqual(configured_providers(), ["gemini"])
 
 

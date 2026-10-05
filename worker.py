@@ -88,19 +88,19 @@ def main() -> int:
             path = accept_and_ingest(job_id, root, os.environ.get("GITHUB_TOKEN"))
             print(f"Evidence: {path}")
 
-        # Check for Gemini or Grok credentials
-        has_ai_key = any(os.environ.get(k, "").strip() for k in ("GEMINI_API_KEY", "GROK_API_KEY"))
+        # Check for Gemini, OpenRouter, or Groq credentials
+        has_ai_key = any(os.environ.get(k, "").strip() for k in ("GEMINI_API_KEY", "OPENROUTER_API_KEY", "GROQ_API_KEY"))
         if not has_ai_key:
             note = root / "job-artifacts" / job_id / "ai-review-required.json"
             note.parent.mkdir(parents=True, exist_ok=True)
-            note.write_text('{"status":"waiting_for_ai_provider_credentials","required":["GEMINI_API_KEY","GROK_API_KEY"]}\n', encoding="utf-8")
-            print("Evidence ingestion complete; no Gemini or Grok secret is configured yet.")
+            note.write_text('{"status":"waiting_for_ai_provider_credentials","required":["GEMINI_API_KEY","OPENROUTER_API_KEY","GROQ_API_KEY"]}\n', encoding="utf-8")
+            print("Evidence ingestion complete; no Gemini, OpenRouter, or Groq secret is configured yet.")
 
             # Still generate initial engineering dossier with repository evidence
             dossier_text = build_dossier_content(
                 issue_number=job["issue_number"],
                 title=job.get("latest", {}).get("title", ""),
-                summary_what="Awaiting AI provider credentials (GEMINI_API_KEY or GROK_API_KEY)",
+                summary_what="Awaiting AI provider credentials (GEMINI_API_KEY, OPENROUTER_API_KEY, or GROQ_API_KEY)",
                 summary_where=job["repo"],
                 root_cause="NOT TESTED — requires external credential/permission for AI investigation.",
                 maintainer_proposal="Pending AI investigation after secrets configuration.",

@@ -49,7 +49,7 @@ class ReviewGateTests(unittest.TestCase):
             "confidence": 90,
         }
         rev2 = {
-            "provider": "grok",
+            "provider": "openrouter",
             "evidence": ["FILE:frontend/ui.js", "ISSUE"],
             "root_cause_hypothesis": "React state re-render loop",
             "confidence": 40,
@@ -84,9 +84,9 @@ class ReviewGateTests(unittest.TestCase):
                 "confidence": 90
             }), encoding="utf-8")
 
-            r2_path = rev_dir / "grok.json"
+            r2_path = rev_dir / "openrouter.json"
             r2_path.write_text(json.dumps({
-                "provider": "grok",
+                "provider": "openrouter",
                 "summary": "Frontend bug",
                 "root_cause_hypothesis": "CSS z-index issue",
                 "proposed_fix": "Change z-index",
