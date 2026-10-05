@@ -1,5 +1,188 @@
 {
   "jobs": {
+    "044db7bb7b27e66c4dfb": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102006,
+      "job_id": "044db7bb7b27e66c4dfb",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Improvement"
+        ],
+        "score": 52,
+        "title": "[$175] Onboarding - Switch the interested features step to tiles with subtext",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102006"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "600af0bdbe32e8db893e": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102993,
+      "job_id": "600af0bdbe32e8db893e",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] AI - Expense categorization - Expense category is not updated to the mentioned option",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102993"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "6a35f069714bc04a302a": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 94494,
+      "job_id": "6a35f069714bc04a302a",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 300.0,
+          "currency": "$",
+          "pattern": "\"$300\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$300] Scan - When the scan fails, the amount field is filled with $0, error is not shown",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/94494"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "8c16f78eb553045092b9": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102973,
+      "job_id": "8c16f78eb553045092b9",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] LHN sometimes doesn't show unread chats until the chat is opened",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102973"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
     "8c75e4ad401a586dd7ff": {
       "artifacts": {},
       "created_at": "2026-10-05T05:55:34Z",
@@ -44,6 +227,98 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
+    },
+    "9554b7240fbb44ed390b": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102227,
+      "job_id": "9554b7240fbb44ed390b",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] All - Profile - List of years in the calendar includes future years up to 2126",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102227"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "a172eccea4c1392fe0b8": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102684,
+      "job_id": "a172eccea4c1392fe0b8",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Payment option required for open balance on New Expensify",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102684"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
     },
     "b624887ac7b065f6e76b": {
       "ai_quota_error": "All AI providers failed: [{'provider': 'gemini', 'error': 'Gemini rate limit / quota exceeded (HTTP 429): {\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\\\n* Quota ex'}, {'provider': 'grok', 'error': 'Provider grok failed after 3 attempts: Grok API error (HTTP 400): {\"code\":\"invalid-argument\",\"error\":\"Incorrect API key provided. You can obtain an API key from https://console.x.ai.\"}'}]",
@@ -128,6 +403,53 @@
       "repo": "Expensify/App",
       "state": "WAITING_FOR_AI_QUOTA",
       "updated_at": "2026-10-05T01:03:50Z"
+    },
+    "b83531249cd09c3ceb33": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100943,
+      "job_id": "b83531249cd09c3ceb33",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Exploratory] Rules- Tax rate disappears in Category tax default when change Tax code",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100943"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
     },
     "b83c9c3981992f3f2d83": {
       "artifacts": {},
@@ -218,6 +540,98 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
     },
+    "d92149c95436c6e5b9f0": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100988,
+      "job_id": "d92149c95436c6e5b9f0",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 75.0,
+          "currency": "$",
+          "pattern": "\"$75\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 44,
+        "title": "[Due for payment 2026-09-30] [$75] Add bank account button in report system message is too large",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100988"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "ef6a35795cb12eb64a1c": {
+      "artifacts": {},
+      "created_at": "2026-10-05T13:08:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-05T13:08:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102570,
+      "job_id": "ef6a35795cb12eb64a1c",
+      "last_seen_at": "2026-10-05T13:08:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Unable change Settlement frequency in ND",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102570"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-05T13:08:36Z"
+    },
     "f25838329fa481b9abb5": {
       "artifacts": {},
       "created_at": "2026-10-05T05:55:34Z",
@@ -264,6 +678,6 @@
       "updated_at": "2026-10-05T05:55:34Z"
     }
   },
-  "updated_at": "2026-10-05T12:16:42Z",
+  "updated_at": "2026-10-05T13:08:36Z",
   "version": 2
 }
