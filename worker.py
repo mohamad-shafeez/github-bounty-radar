@@ -30,8 +30,8 @@ def main() -> int:
     data = load_store(root / "jobs.json")
     requested = os.environ.get("JOB_ID", "").strip()
 
-    # Process ACCEPTED or INGESTING jobs
-    processable_states = {"ACCEPTED", "INGESTING", "WAITING_FOR_AI_QUOTA"}
+    # Process accepted/in-progress jobs. INVESTIGATING is resumable when saved evidence exists.
+    processable_states = {"ACCEPTED", "INGESTING", "INVESTIGATING", "WAITING_FOR_AI_QUOTA"}
     ids = [requested] if requested else [
         jid for jid, job in data["jobs"].items() if job.get("state") in processable_states
     ]
@@ -63,10 +63,25 @@ def main() -> int:
             from jobs import save_store
             save_store(data, root / "jobs.json")
 
-        if quota_retry:
-            saved_path = _saved_ingestion_path(root, job)
+        # Resumption rule: never re-ingest an INVESTIGATING job when its
+        # completed ingestion artifact already exists. Evidence is durable.
+        saved_path = _saved_ingestion_path(root, job)
+        investigating_resume = job.get("state") == "INVESTIGATING"
+
+        if investigating_resume:
             if saved_path is None:
-                raise RuntimeError(f"Quota retry for {job_id} has no saved ingestion evidence; refusing to re-ingest automatically.")
+                raise RuntimeError(
+                    f"INVESTIGATING job {job_id} has no saved ingestion evidence; "
+                    "refusing unsafe automatic re-ingestion."
+                )
+            path = saved_path
+            print(f"Resuming INVESTIGATING job {job_id} from saved evidence: {path}")
+        elif quota_retry:
+            if saved_path is None:
+                raise RuntimeError(
+                    f"Quota retry for {job_id} has no saved ingestion evidence; "
+                    "refusing to re-ingest automatically."
+                )
             path = saved_path
             print(f"Reusing saved evidence for quota retry {job_id}: {path}")
         else:
