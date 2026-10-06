@@ -90,6 +90,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
     },
+    "086fa71538df04ddf0b9": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102892,
+      "job_id": "086fa71538df04ddf0b9",
+      "last_seen_at": "2026-10-06T15:06:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature"
+        ],
+        "score": 57,
+        "title": "[CFI] [$175] Default the transaction start date to \"From the beginning\" when assigning cards from a CSV feed",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102892"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:17Z"
+    },
     "0df4aea516f56b6288e4": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -180,6 +225,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "11dea90f914c53ffa6e3": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103155,
+      "job_id": "11dea90f914c53ffa6e3",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Perf: stop Search page header from rescanning todos on every update",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103155"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
     "141dbd8ae0180abf1304": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -226,6 +317,97 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "171a8cd8def3c9c216bf": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102671,
+      "job_id": "171a8cd8def3c9c216bf",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Chat - Editing a broken attachment link duplicates the URL",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102671"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "1941b082e8aeefda77f5": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103156,
+      "job_id": "1941b082e8aeefda77f5",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Offline Bank Unlock Doesn’t Open Concierge",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103156"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -271,6 +453,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
+    },
+    "2cb78f9e5729053cc96f": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103162,
+      "job_id": "2cb78f9e5729053cc96f",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend - Wrong group expense total when expense is submitted offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103162"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
     },
     "2e444e93b0f74f2e3e8a": {
       "artifacts": {},
@@ -819,6 +1046,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "7163aed119dcbbf6937b": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103148,
+      "job_id": "7163aed119dcbbf6937b",
+      "last_seen_at": "2026-10-06T15:06:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 62,
+        "title": "[$175] Avoid repeating full search and filtering work while typing in SearchRouter",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103148"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:17Z"
     },
     "73855993ce76ef253e57": {
       "artifacts": {},
@@ -1601,6 +1873,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
     },
+    "be84c5983048988e372a": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103163,
+      "job_id": "be84c5983048988e372a",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Not all selected expenses exported to Reconciliation - All Expenses",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103163"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -1735,6 +2052,96 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "d14cb8d3c503a401e861": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 93931,
+      "job_id": "d14cb8d3c503a401e861",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Native share - Image is duplicated in chat when tapping the Share button several times",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/93931"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "d70e9d9e15c4fe2c2557": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103183,
+      "job_id": "d70e9d9e15c4fe2c2557",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Transaction's tag isn't updated correctly when selecting a tag contain `\\:`",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103183"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
     },
     "d92149c95436c6e5b9f0": {
       "artifacts": {},
@@ -2012,6 +2419,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
     },
+    "f67c070290749f0838c0": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_increased"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101424,
+      "job_id": "f67c070290749f0838c0",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[Due for payment 2026-10-01] [$250] Report — Sorting by date is broken in expense reports with more than one expense",
+        "trigger": [
+          "bounty_increased"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101424"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
+    },
     "f6c9451eb1945d32382d": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -2057,8 +2510,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
+    },
+    "fbd6dd81907f74f8747a": {
+      "artifacts": {},
+      "created_at": "2026-10-06T15:06:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T15:06:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103157,
+      "job_id": "fbd6dd81907f74f8747a",
+      "last_seen_at": "2026-10-06T15:06:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] App not scroll to new message when send at the top having new-message indicator",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103157"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-06T14:30:30Z",
+  "updated_at": "2026-10-06T15:06:18Z",
   "version": 2
 }
