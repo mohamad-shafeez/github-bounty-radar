@@ -1083,7 +1083,7 @@ def run():
             slot["queries"].append(name)
 
         if index < len(active) - 1:
-            time.sleep(SEARCH_PAUSE_SECONDS)
+            pass
 
     successful_searches = sum(1 for value in query_ok.values() if value is not None)
     if successful_searches == 0:
@@ -1144,6 +1144,11 @@ def run():
     sent = failed = deferred = 0
     failed_ids = set()
 
+    # Prevent the same issue/event from being sent more than once during
+    # a single run when multiple searches return the same issue.
+    # Persisted alert history remains the cross-run success/dedupe record.
+    claimed_events = set()
+
     for plan in to_alert:
         snapshot = plan["snapshot"]
         decision = plan["decision"]
@@ -1162,10 +1167,23 @@ def run():
             f"score={decision['score']} ({parts})"
         )
 
-        payload = build_notification(snapshot, decision, now)
+        claimable_events = []
+        for event in decision["events"]:
+            run_event_key = f"{snapshot['repo']}#{snapshot['number']}:{event['key']}"
+            if run_event_key not in claimed_events:
+                claimed_events.add(run_event_key)
+                claimable_events.append(event)
+
+        if not claimable_events:
+            log(f"Skipping duplicate alert events for {label}")
+            continue
+
+        notification_decision = dict(decision)
+        notification_decision["events"] = claimable_events
+        payload = build_notification(snapshot, notification_decision, now)
         if send_ntfy(topic, payload):
             sent += 1
-            plan["sent_events"] = decision["events"]
+            plan["sent_events"] = claimable_events
         else:
             failed += 1
             failed_ids.add(plan["id"])
