@@ -180,6 +180,190 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "141dbd8ae0180abf1304": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102305,
+      "job_id": "141dbd8ae0180abf1304",
+      "last_seen_at": "2026-10-06T01:44:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Spend-Original expense changes to Unreported after splitting expense offline in group-by view",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102305"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "1f7703af2e00bd59637e": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100408,
+      "job_id": "1f7703af2e00bd59637e",
+      "last_seen_at": "2026-10-06T01:44:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] Unable to \"fast edit\" workflow and have \"Expense from\" saved.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100408"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:06Z"
+    },
+    "2e444e93b0f74f2e3e8a": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102613,
+      "job_id": "2e444e93b0f74f2e3e8a",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace - No horizontal scrollbar appears when narrowing browser on \"Members\" page",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102613"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "3476479f1c1b8bfeede2": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101778,
+      "job_id": "3476479f1c1b8bfeede2",
+      "last_seen_at": "2026-10-06T01:44:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Concierge Reply thread hides after returning to Concierge Main chat",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101778"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:08Z"
+    },
     "392552cb28b4463dd3d1": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:23Z",
@@ -225,6 +409,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "398662c22510afb41916": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103045,
+      "job_id": "398662c22510afb41916",
+      "last_seen_at": "2026-10-06T01:44:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] iOS - User lands in ND when invited to the workspace via OD",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103045"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:08Z"
     },
     "3a378894c70552fd5236": {
       "artifacts": {},
@@ -272,6 +501,98 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
     },
+    "3c687124b4fd8b2888c7": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101119,
+      "job_id": "3c687124b4fd8b2888c7",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-12] [$175] Dev: Duplicate Join Workspace Screen",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101119"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "412ed54800011e989616": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102614,
+      "job_id": "412ed54800011e989616",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Travel - Incorrect message after delete the workspace with Consolidated Travel enable",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102614"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
+    },
     "4a3846c847be0ae6f195": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:23Z",
@@ -317,6 +638,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "4de7e80cfb8658956916": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102558,
+      "job_id": "4de7e80cfb8658956916",
+      "last_seen_at": "2026-10-06T01:44:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature"
+        ],
+        "score": 53,
+        "title": "[$175] Display nightly average cost and number of nights on multi-day expenses",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102558"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:06Z"
     },
     "600af0bdbe32e8db893e": {
       "artifacts": {},
@@ -453,6 +819,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "73855993ce76ef253e57": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102323,
+      "job_id": "73855993ce76ef253e57",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Chat - Unable to select member in workspace chat",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102323"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
     },
     "7574ae953388be63f1c4": {
       "artifacts": {},
@@ -862,6 +1274,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "ab0d432843bb38072921": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102504,
+      "job_id": "ab0d432843bb38072921",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Company card-there's no error appears above the assign button",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102504"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
+    },
     "b624887ac7b065f6e76b": {
       "ai_quota_error": "All AI providers failed: [{'provider': 'gemini', 'error': 'Gemini rate limit / quota exceeded (HTTP 429): {\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\\\n* Quota ex'}]",
       "ai_retry_after": 1791250891.2137878,
@@ -1269,6 +1727,145 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "d962188b8549f64e7453": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102648,
+      "job_id": "d962188b8549f64e7453",
+      "last_seen_at": "2026-10-06T01:44:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Click on FAB > New chat, search \"Me\" not display self DM in result list",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102648"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:06Z"
+    },
+    "e67d68f62660442a8e0a": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101152,
+      "job_id": "e67d68f62660442a8e0a",
+      "last_seen_at": "2026-10-06T01:44:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 75.0,
+          "currency": "$",
+          "pattern": "\"$75\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 44,
+        "title": "[Due for payment 2026-10-07] [$75] Android - Copilot - Copilot button is out of view after rotating device to landscape",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101152"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "ec34d8a3d6f05689ea23": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102611,
+      "job_id": "ec34d8a3d6f05689ea23",
+      "last_seen_at": "2026-10-06T01:44:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Domains - Unable to revoke admin access",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102611"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:07Z"
+    },
     "ef6a35795cb12eb64a1c": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1358,8 +1955,54 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
+    },
+    "f6c9451eb1945d32382d": {
+      "artifacts": {},
+      "created_at": "2026-10-06T01:44:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T01:44:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102685,
+      "job_id": "f6c9451eb1945d32382d",
+      "last_seen_at": "2026-10-06T01:44:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Users are unable to add all AmEx cards through the AmEx Direct Connection when multiple AmEx sign-ins return card lists that share the same main card.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102685"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T01:44:06Z"
     }
   },
-  "updated_at": "2026-10-06T01:26:31Z",
+  "updated_at": "2026-10-06T01:44:08Z",
   "version": 2
 }
