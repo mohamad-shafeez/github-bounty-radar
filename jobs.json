@@ -866,6 +866,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "49b7134a3e3d77a48aec": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101939,
+      "job_id": "49b7134a3e3d77a48aec",
+      "last_seen_at": "2026-10-06T23:48:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[Due for payment 2026-10-13] [$175] New Expensify category import can't map Payroll code, Require description or Description hint from a Classic export. The backend already accepts all three.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101939"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:04Z"
+    },
     "4a3846c847be0ae6f195": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:23Z",
@@ -911,6 +957,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "4c00ae2290664f29a651": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102232,
+      "job_id": "4c00ae2290664f29a651",
+      "last_seen_at": "2026-10-06T23:48:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-07] [$175] New Expensify personal card CSV import cannot map a Tag column. Classic can",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102232"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:05Z"
     },
     "4de7e80cfb8658956916": {
       "artifacts": {},
@@ -1046,6 +1138,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "60b7c470593ba40f7011": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102337,
+      "job_id": "60b7c470593ba40f7011",
+      "last_seen_at": "2026-10-06T23:48:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-07] [$175] Onboarding modal reappears and unexpected error is displayed when login offline",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102337"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:05Z"
     },
     "6632a934726451d8c412": {
       "artifacts": {},
@@ -1591,6 +1729,97 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
     },
+    "8dc142fd6c7ef5cec7f3": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103245,
+      "job_id": "8dc142fd6c7ef5cec7f3",
+      "last_seen_at": "2026-10-06T23:48:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Agent: Agent page stuck in infinity loading after switch to Copilot",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103245"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:04Z"
+    },
+    "92fb3e969a65f8c9e747": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103240,
+      "job_id": "92fb3e969a65f8c9e747",
+      "last_seen_at": "2026-10-06T23:48:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 50.0,
+          "currency": "$",
+          "pattern": "\"$50\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 49,
+        "title": "[$50] DEV - Duplicate key error showing up in the console",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103240"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:05Z"
+    },
     "9320cddc3c283e576961": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -1681,6 +1910,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "9a95954df1ab12518771": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103244,
+      "job_id": "9a95954df1ab12518771",
+      "last_seen_at": "2026-10-06T23:48:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Onboarding - Product update / feature announcements still shown to employees invited to a workspace (should be removed)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103244"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:04Z"
     },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
@@ -2518,6 +2792,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "dcf7d5e776abf10d31af": {
+      "artifacts": {},
+      "created_at": "2026-10-06T23:48:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T23:48:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101565,
+      "job_id": "dcf7d5e776abf10d31af",
+      "last_seen_at": "2026-10-06T23:48:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-13] [$175] Spend - Table column showing even though I've turned it off in the Display > Edit columns section",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101565"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T23:48:05Z"
+    },
     "e67d68f62660442a8e0a": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -2839,6 +3159,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-06T23:17:25Z",
+  "updated_at": "2026-10-06T23:48:06Z",
   "version": 2
 }
