@@ -454,6 +454,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "208e9e3622c24dfe084e": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99749,
+      "job_id": "208e9e3622c24dfe084e",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] WS - Approver row incorrectly appears or is missing based on how the workspace is upgraded",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99749"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
+    },
     "2cb78f9e5729053cc96f": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -911,6 +957,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "554c62baa6ce39aed19e": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103219,
+      "job_id": "554c62baa6ce39aed19e",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Security - \"Invalid code\" error persists after reopening 2FA side panel",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103219"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
+    },
     "600af0bdbe32e8db893e": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1137,6 +1228,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "753daeff6744ab532bf8": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103214,
+      "job_id": "753daeff6744ab532bf8",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] The new avatar is not reflected after uploading new photo to the profile",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103214"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
     },
     "7574ae953388be63f1c4": {
       "artifacts": {},
@@ -1592,6 +1728,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "a40f1d9a4dde703a7da5": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103228,
+      "job_id": "a40f1d9a4dde703a7da5",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Vendor auto-matching assigns “Nonickel” before SmartScan finishes reading the merchant",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103228"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
+    },
     "ab0d432843bb38072921": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -1923,6 +2105,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "c01a74b4950d07c2d011": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103216,
+      "job_id": "c01a74b4950d07c2d011",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] New Expensify defaults a manual expense to my Payment currency, not to the currency of the selected default workspace.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103216"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -2147,6 +2374,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "d8097d9be781f78c23bb": {
+      "artifacts": {},
+      "created_at": "2026-10-06T20:11:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-06T20:11:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103215,
+      "job_id": "d8097d9be781f78c23bb",
+      "last_seen_at": "2026-10-06T20:11:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Receipt preview displays 403 forbidden error when scan/per diem expense via Old dot",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103215"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-06T20:11:58Z"
     },
     "d92149c95436c6e5b9f0": {
       "artifacts": {},
@@ -2562,6 +2834,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-06T19:44:53Z",
+  "updated_at": "2026-10-06T20:11:59Z",
   "version": 2
 }
