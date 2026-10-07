@@ -135,6 +135,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:17Z"
     },
+    "0ce27f570ca0c3c11b1b": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103307,
+      "job_id": "0ce27f570ca0c3c11b1b",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Gusto-Setting defaulted to \"Manager approval\" instead of \"Custom approval\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103307"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
     "0df4aea516f56b6288e4": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -1230,6 +1275,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
     },
+    "6762318f8695b8c28fb4": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103297,
+      "job_id": "6762318f8695b8c28fb4",
+      "last_seen_at": "2026-10-07T16:37:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Copy WS settings stuck on \"Copy in progress...\" modal while offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103297"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:38Z"
+    },
     "6a35f069714bc04a302a": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1275,6 +1365,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "6ab3651be254a83e0aa0": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103324,
+      "job_id": "6ab3651be254a83e0aa0",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Domains- Error displayed when user attempt to verify Domain",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103324"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
     },
     "7163aed119dcbbf6937b": {
       "artifacts": {},
@@ -1457,6 +1592,142 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
     },
+    "7cf8fabe920e59142637": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103304,
+      "job_id": "7cf8fabe920e59142637",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Speed up findLastAccessedReport by walking last visit times",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103304"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "7f91a11276a78b6e0302": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103345,
+      "job_id": "7f91a11276a78b6e0302",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] User Settings - App crashes when adding a new contact with a \"%\" character in the email",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103345"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "84183ab51aca2b6ae007": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103343,
+      "job_id": "84183ab51aca2b6ae007",
+      "last_seen_at": "2026-10-07T16:37:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily"
+        ],
+        "score": 58,
+        "title": "[$175] [Performance] Skip empty-report scans while create menus are closed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103343"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:36Z"
+    },
     "896311d4787732d61f1f": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -1501,6 +1772,54 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
+    },
+    "89a36f840c29cd3f64bc": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100579,
+      "job_id": "89a36f840c29cd3f64bc",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Engineering",
+          "Weekly",
+          "Improvement",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] Attachments can download without a file extension",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100579"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
     },
     "89ef4b1d7e1189c204f4": {
       "artifacts": {},
@@ -1910,6 +2229,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "97e68e40e3173b63d018": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103355,
+      "job_id": "97e68e40e3173b63d018",
+      "last_seen_at": "2026-10-07T16:37:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Expense members input always shown",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103355"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:36Z"
     },
     "9a95954df1ab12518771": {
       "artifacts": {},
@@ -2489,6 +2853,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
     },
+    "c3060bd5e76bbfc55dc9": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103326,
+      "job_id": "c3060bd5e76bbfc55dc9",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] When offline Grey text with \"Upload Attachment\" doesn't appear during uploading attachment",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103326"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
       "created_at": "2026-10-04T18:40:21Z",
@@ -2853,6 +3262,97 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "e4b7b26d5e83de230def": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103349,
+      "job_id": "e4b7b26d5e83de230def",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Expensify app is not available in the share sheet when sharing an HEVC video file",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103349"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "e4d184ac235cabb238e8": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100527,
+      "job_id": "e4d184ac235cabb238e8",
+      "last_seen_at": "2026-10-07T16:37:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [CFI] Description hint is not displayed in the description field.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100527"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:38Z"
+    },
     "e67d68f62660442a8e0a": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -3036,6 +3536,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
     },
+    "f367faef1c3159ac9a44": {
+      "artifacts": {},
+      "created_at": "2026-10-07T16:37:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T16:37:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99760,
+      "job_id": "f367faef1c3159ac9a44",
+      "last_seen_at": "2026-10-07T16:37:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Pressing the Arrow Up key while viewing consecutive report previews causes a message located below the previews to enter edit mode, but the page does not automatically scroll to or focus the me",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99760"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T16:37:37Z"
+    },
     "f67c070290749f0838c0": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -3174,6 +3721,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-07T16:18:06Z",
+  "updated_at": "2026-10-07T16:37:38Z",
   "version": 2
 }
