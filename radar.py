@@ -24,43 +24,24 @@ from pathlib import Path
 
 import requests
 
+from jobs import create_discovered, load_store as load_job_store, save_store as save_job_store
+from targets import load_targets, build_queries, TargetConfigError
+
 # -----------------------------------------------------------------------------
 # CONFIGURATION
 # -----------------------------------------------------------------------------
 
-QUERIES = [
-    {
-        "name": "Expensify External",
-        "q": "repo:Expensify/App is:issue is:open label:External",
-        "weight": 5,
-        "alert_new": "any",
-        "opportunity_labels": ["Help Wanted"],
-        "high_requires_opportunity_label": True,
-        "assignee_matters": False,
-    },
-    {
-        "name": "Expensify Help Wanted",
-        "q": 'repo:Expensify/App is:issue is:open label:"Help Wanted"',
-        "weight": 8,
-        "alert_new": "any",
-        "opportunity_labels": ["Help Wanted"],
-        "high_requires_opportunity_label": True,
-        "assignee_matters": False,
-    },
-    {
-        "name": "Diamond Bounty label",
-        "q": 'is:issue is:open label:"💎 Bounty" -label:"💰 Rewarded"',
-        "weight": 0,
-        "alert_new": "bounty",
-    },
-    {
-        "name": "Generic bounty label",
-        "q": "is:issue is:open label:bounty",
-        "enabled": False,
-        "weight": 0,
-        "alert_new": "bounty",
-    },
-]
+try:
+    TARGETS = load_targets(Path(os.environ.get("RADAR_TARGETS_FILE", "targets.json")))
+    QUERIES = build_queries(TARGETS)
+except TargetConfigError as exc:
+    # Keep imports usable for local unit tests; the runtime main() reports the
+    # configuration error rather than silently scanning an unintended scope.
+    TARGETS = []
+    QUERIES = []
+    TARGET_CONFIG_ERROR = str(exc)
+else:
+    TARGET_CONFIG_ERROR = ""
 
 MIN_BOUNTY_AMOUNT = 50
 BOUNTY_LABEL_REGEX = r"(?i)bounty|💎"
@@ -148,6 +129,9 @@ QUERY_DEFAULTS = {
 
 STATE_VERSION = 1
 STATE_PATH = Path(os.environ.get("RADAR_STATE_FILE", "state.json"))
+JOBS_PATH = Path(os.environ.get("BOUNTY_JOBS_FILE", "jobs.json"))
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "mohamad-shafeez/github-bounty-radar")
+APPROVAL_WORKFLOW_URL = f"https://github.com/{GITHUB_REPOSITORY}/actions/workflows/job-control.yml"
 SEARCH_URL = "https://api.github.com/search/issues"
 NTFY_SERVER = os.environ.get("NTFY_SERVER", "https://ntfy.sh").rstrip("/")
 IN_ACTIONS = os.environ.get("GITHUB_ACTIONS") == "true"
@@ -530,6 +514,8 @@ def query_config(entry):
 
 
 def validate_config():
+    if TARGET_CONFIG_ERROR:
+        raise ConfigError(TARGET_CONFIG_ERROR)
     names = set()
     for entry in QUERIES:
         if not entry.get("name") or not entry.get("q"):
@@ -638,7 +624,42 @@ def github_search(session, query, page):
     raise SearchError(f"failed after {HTTP_RETRIES} attempts ({last_problem})")
 
 
+def github_get_issue(session, repo, number):
+    url = f"https://api.github.com/repos/{repo}/issues/{number}"
+    last_problem = "unknown problem"
+    for attempt in range(1, HTTP_RETRIES + 1):
+        try:
+            response = session.get(
+                url,
+                timeout=HTTP_TIMEOUT,
+            )
+        except requests.RequestException as exc:
+            last_problem = f"network error: {type(exc).__name__}"
+        else:
+            wait = rate_limit_wait(response)
+            if wait is not None:
+                if wait > MAX_RATE_LIMIT_WAIT:
+                    raise SearchError(f"rate limited; reset is {wait}s away")
+                time.sleep(wait + 1)
+                last_problem = "rate limited"
+                continue
+            if response.status_code == 200:
+                item = response.json()
+                if "pull_request" in item:
+                    return [], True
+                return [item], True
+            last_problem = f"HTTP {response.status_code}: {response.text[:200]}"
+        if attempt < HTTP_RETRIES:
+            time.sleep(attempt)
+    raise SearchError(f"failed exact issue lookup after {HTTP_RETRIES} attempts ({last_problem})")
+
+
 def run_query(session, entry, watermark):
+    exact_issue = entry.get("exact_issue")
+    if exact_issue:
+        item = github_get_issue(session, entry["repo"], int(exact_issue))
+        return item, True
+
     cutoff = None
     if watermark:
         parsed = parse_ts(watermark)
@@ -904,6 +925,12 @@ def decide(snapshot, old, config, baseline_silent, now):
     if not kept:
         return decision
 
+    # Only confirmed monetary bounties meeting the minimum are actionable.
+    # Labels such as External/Help Wanted are discovery signals, not proof of payment.
+    if not qualifies(snapshot["bounty"]):
+        decision["skips"].append(f"no confirmed bounty >= {MIN_BOUNTY_AMOUNT}; candidate tracked silently")
+        return decision
+
     kept.sort(key=lambda event: EVENT_ORDER.index(event["type"]))
     headline = kept[0]["type"]
     reference_time = (
@@ -931,7 +958,7 @@ def decide(snapshot, old, config, baseline_silent, now):
 # NTFY
 # -----------------------------------------------------------------------------
 
-def build_notification(snapshot, decision, now):
+def build_notification(snapshot, decision, now, job_id=None):
     events = decision["events"]
     level = decision["level"]
     head = events[0]
@@ -968,13 +995,19 @@ def build_notification(snapshot, decision, now):
         lines.append(f"🧰 Tech: {', '.join(snapshot['tech'])}")
     lines.append(f"Score {decision['score']}")
 
+    actions = [{"action": "view", "label": "Open issue", "url": snapshot["url"]}]
+    if job_id:
+        lines.append(f"🆔 Job: {job_id}")
+        lines.append("📱 Open approval workflow to ACCEPT or DECLINE")
+        actions.append({"action": "view", "label": "Approve / Decline", "url": APPROVAL_WORKFLOW_URL})
+
     return {
         "title": title,
         "message": "\n".join(lines),
         "priority": 5 if level == "HIGH" else 3,
         "tags": (["fire"] if level == "HIGH" else []) + [tag],
         "click": snapshot["url"],
-        "actions": [{"action": "view", "label": "Open issue", "url": snapshot["url"]}],
+        "actions": actions,
     }
 
 
@@ -1041,6 +1074,8 @@ def run():
         warn("GITHUB_TOKEN not set; using unauthenticated GitHub requests")
 
     state = load_state(STATE_PATH)
+    jobs = load_job_store(JOBS_PATH)
+    jobs_before = json.dumps(jobs, sort_keys=True, ensure_ascii=False)
     before = comparable(state)
     now = now_utc()
     log(f"Bounty Radar run at {iso(now)} | tracked issues: {len(state['issues'])}")
@@ -1180,7 +1215,22 @@ def run():
 
         notification_decision = dict(decision)
         notification_decision["events"] = claimable_events
-        payload = build_notification(snapshot, notification_decision, now)
+
+        # Create the durable job before notifying so the phone notification can
+        # point to a deterministic job id. The job contains no credentials.
+        job, created = create_discovered(
+            jobs,
+            repo=snapshot["repo"],
+            number=int(snapshot["number"]),
+            title=snapshot["title"],
+            url=snapshot["url"],
+            score=int(decision["score"]),
+            bounty=snapshot["bounty"],
+            labels=snapshot["labels"],
+            trigger=[event["type"] for event in claimable_events],
+        )
+        job_id = job["job_id"]
+        payload = build_notification(snapshot, notification_decision, now, job_id=job_id)
         if send_ntfy(topic, payload):
             sent += 1
             plan["sent_events"] = claimable_events
@@ -1232,6 +1282,11 @@ def run():
         }
 
     removed = prune_state(state)
+
+    jobs_changed = json.dumps(jobs, sort_keys=True, ensure_ascii=False) != jobs_before
+    if jobs_changed:
+        save_job_store(jobs, JOBS_PATH)
+        log(f"Jobs saved: {len(jobs['jobs'])} jobs")
 
     if sent == 0 and failed > 0:
         fail("Alerts were attempted but none could be sent; state was not saved")

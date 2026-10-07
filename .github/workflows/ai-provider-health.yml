@@ -1,0 +1,261 @@
+name: AI Provider Health
+
+on:
+  workflow_dispatch:
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install requests
+        run: |
+          python -m pip install --disable-pip-version-check "requests>=2.31,<3"
+
+      - name: Test Gemini
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+        run: |
+          python - <<'PY'
+          import os
+          import sys
+          import requests
+
+          key = os.environ.get("GEMINI_API_KEY")
+          model = os.environ.get("GEMINI_MODEL") or "gemini-3.8-flash"
+
+          print("===== GEMINI HEALTH =====")
+          print("Model:", model)
+
+          if not key:
+              print("GEMINI: FAIL - GEMINI_API_KEY secret not available")
+              sys.exit(0)
+
+          url = (
+              "https://generativelanguage.googleapis.com/v1beta/"
+              f"models/{model}:generateContent"
+          )
+
+          payload = {
+              "contents": [
+                  {
+                      "parts": [
+                          {"text": "Reply with exactly: HEALTH_OK"}
+                      ]
+                  }
+              ]
+          }
+
+          try:
+              r = requests.post(
+                  url,
+                  params={"key": key},
+                  json=payload,
+                  timeout=30,
+              )
+
+              print("GEMINI HTTP:", r.status_code)
+
+              if r.ok:
+                  data = r.json()
+                  text = (
+                      data.get("candidates", [{}])[0]
+                      .get("content", {})
+                      .get("parts", [{}])[0]
+                      .get("text", "")
+                  ).strip()
+
+                  print("GEMINI: OK")
+                  print("GEMINI RESPONSE CHECK:", bool(text))
+                  print("GEMINI HEALTH RESULT:", text[:100] if text else "<empty>")
+
+              elif r.status_code == 429:
+                  print("GEMINI: RATE_LIMITED")
+
+              elif r.status_code in (401, 403):
+                  print("GEMINI: AUTH_FAILED")
+
+              else:
+                  print("GEMINI: FAIL")
+                  print("Response:", r.text[:500])
+
+          except Exception as e:
+              print("GEMINI: ERROR")
+              print("Error type:", type(e).__name__)
+              print("Error:", str(e))
+          PY
+
+      - name: Test Groq
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GROQ_MODEL: ${{ vars.GROQ_MODEL }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+
+          key = os.environ.get("GROQ_API_KEY")
+          model = os.environ.get("GROQ_MODEL") or "openai/gpt-oss-20b"
+
+          print("===== GROQ HEALTH =====")
+          print("Model:", model)
+
+          if not key:
+              print("GROQ: FAIL - GROQ_API_KEY secret not available")
+              raise SystemExit(0)
+
+          url = "https://api.groq.com/openai/v1/chat/completions"
+
+          payload = {
+              "model": model,
+              "messages": [
+                  {
+                      "role": "user",
+                      "content": "Reply with exactly: HEALTH_OK"
+                  }
+              ],
+              "temperature": 0,
+              "max_tokens": 20
+          }
+
+          try:
+              r = requests.post(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {key}",
+                      "Content-Type": "application/json",
+                  },
+                  json=payload,
+                  timeout=30,
+              )
+
+              print("GROQ HTTP:", r.status_code)
+
+              if r.ok:
+                  data = r.json()
+                  text = (
+                      data.get("choices", [{}])[0]
+                      .get("message", {})
+                      .get("content", "")
+                  ).strip()
+
+                  print("GROQ: OK")
+                  print("GROQ RESPONSE CHECK:", bool(text))
+                  print("GROQ HEALTH RESULT:", text[:100] if text else "<empty>")
+
+              elif r.status_code == 429:
+                  print("GROQ: RATE_LIMITED")
+
+              elif r.status_code in (401, 403):
+                  print("GROQ: AUTH_FAILED")
+
+              else:
+                  print("GROQ: FAIL")
+                  print("Response:", r.text[:500])
+
+          except Exception as e:
+              print("GROQ: ERROR")
+              print("Error type:", type(e).__name__)
+              print("Error:", str(e))
+          PY
+
+      - name: Test OpenRouter
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+
+          key = os.environ.get("OPENROUTER_API_KEY")
+          model = os.environ.get("OPENROUTER_MODEL") or "openai/gpt-oss-20b:free"
+
+          print("===== OPENROUTER HEALTH =====")
+          print("Model:", model)
+
+          if not key:
+              print("OPENROUTER: FAIL - OPENROUTER_API_KEY secret not available")
+              raise SystemExit(0)
+
+          url = "https://openrouter.ai/api/v1/chat/completions"
+
+          payload = {
+              "model": model,
+              "messages": [
+                  {
+                      "role": "user",
+                      "content": "Reply with exactly: HEALTH_OK"
+                  }
+              ],
+              "temperature": 0,
+              "max_tokens": 20
+          }
+
+          try:
+              r = requests.post(
+                  url,
+                  headers={
+                      "Authorization": f"Bearer {key}",
+                      "Content-Type": "application/json",
+                      "HTTP-Referer": "https://github.com/mohamad-shafeez/github-bounty-radar",
+                      "X-Title": "GitHub Bounty Radar"
+                  },
+                  json=payload,
+                  timeout=30,
+              )
+
+              print("OPENROUTER HTTP:", r.status_code)
+
+              if r.ok:
+                  data = r.json()
+                  text = (
+                      data.get("choices", [{}])[0]
+                      .get("message", {})
+                      .get("content", "")
+                  ).strip()
+
+                  print("OPENROUTER: OK")
+                  print("OPENROUTER RESPONSE CHECK:", bool(text))
+                  print(
+                      "OPENROUTER HEALTH RESULT:",
+                      text[:100] if text else "<empty>"
+                  )
+
+              elif r.status_code == 429:
+                  print("OPENROUTER: RATE_LIMITED")
+
+              elif r.status_code in (401, 403):
+                  print("OPENROUTER: AUTH_FAILED")
+
+              else:
+                  print("OPENROUTER: FAIL")
+                  print("Response:", r.text[:500])
+
+          except Exception as e:
+              print("OPENROUTER: ERROR")
+              print("Error type:", type(e).__name__)
+              print("Error:", str(e))
+          PY
+
+      - name: Provider Summary
+        run: |
+          echo "========================================"
+          echo "AI PROVIDER HEALTH CHECK COMPLETE"
+          echo "========================================"
+          echo "Provider order:"
+          echo "1. Gemini"
+          echo "2. Groq"
+          echo "3. OpenRouter"
+          echo ""
+          echo "This workflow ONLY tests provider connectivity."
+          echo "It does NOT run the bounty worker."
+          echo "It does NOT generate a proposal."
+          echo "It does NOT post to GitHub issues."
+          echo "It does NOT create a PR."
