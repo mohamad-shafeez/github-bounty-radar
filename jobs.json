@@ -1139,6 +1139,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "5f9ccc363a927aa50b2a": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103357,
+      "job_id": "5f9ccc363a927aa50b2a",
+      "last_seen_at": "2026-10-07T21:32:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 48,
+        "title": "[$175] [CFI] Wrap long option names in search filter select lists",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103357"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:41Z"
+    },
     "600af0bdbe32e8db893e": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1727,6 +1771,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "8593b52b38e7ecaf4a51": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99329,
+      "job_id": "8593b52b38e7ecaf4a51",
+      "last_seen_at": "2026-10-07T21:32:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-14] [$175] The manual request URL does not work correctly on the staging environment.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99329"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:41Z"
     },
     "896311d4787732d61f1f": {
       "artifacts": {},
@@ -2458,6 +2548,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "b571ab4371033f266471": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99694,
+      "job_id": "b571ab4371033f266471",
+      "last_seen_at": "2026-10-07T21:32:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Improvement",
+          "Internal"
+        ],
+        "score": 48,
+        "title": "[$175] [Due for payment 2026-10-12] Surface a member's approver in the workspace Members table and member profile",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99694"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:42Z"
+    },
     "b624887ac7b065f6e76b": {
       "ai_quota_error": "All AI providers failed: [{'provider': 'gemini', 'error': 'Gemini rate limit / quota exceeded (HTTP 429): {\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\\\n* Quota ex'}]",
       "ai_retry_after": 1791408978.2561262,
@@ -2903,6 +3040,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "c686278aa12ca37af013": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100130,
+      "job_id": "c686278aa12ca37af013",
+      "last_seen_at": "2026-10-07T21:32:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-14] [$175] [Exploratory] Per Diem - Expense fails to revert to original after removing split in SelfDM",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100130"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:41Z"
+    },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
       "created_at": "2026-10-04T18:40:21Z",
@@ -3267,6 +3451,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "e406ad06b57ecaedba3c": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 84840,
+      "job_id": "e406ad06b57ecaedba3c",
+      "last_seen_at": "2026-10-07T21:32:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Expense - Educational modal is not displayed if expense is held via context menu.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/84840"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:41Z"
+    },
     "e4b7b26d5e83de230def": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:37Z",
@@ -3404,6 +3634,99 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "e7afa1d2cb0f106806cc": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 67648,
+      "job_id": "e7afa1d2cb0f106806cc",
+      "last_seen_at": "2026-10-07T21:32:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug",
+          "Skip Payment"
+        ],
+        "score": 56,
+        "title": "[$250] Concierge Chat - The \"Review your workspace settings\" task doesn’t auto-complete",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/67648"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:40Z"
+    },
+    "eb37e09fb11d33e07823": {
+      "artifacts": {},
+      "created_at": "2026-10-07T21:32:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-07T21:32:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100709,
+      "job_id": "eb37e09fb11d33e07823",
+      "last_seen_at": "2026-10-07T21:32:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Reports- preview Disabled submit button not displayed to prevent self-approval wp",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100709"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-07T21:32:41Z"
     },
     "ec34d8a3d6f05689ea23": {
       "artifacts": {},
@@ -3726,6 +4049,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-07T21:21:18Z",
+  "updated_at": "2026-10-07T21:32:42Z",
   "version": 2
 }
