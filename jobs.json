@@ -94,6 +94,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "0824eb8d5e290467d5f1": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103480,
+      "job_id": "0824eb8d5e290467d5f1",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Spend - Deleted card expenses display with no owner (From column)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103480"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "082c0665480436c9eebb": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -409,6 +454,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "15f82e884c93b2c7e375": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103514,
+      "job_id": "15f82e884c93b2c7e375",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] iOS - Attachments - Double-tap doesn't zoom in PDF",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103514"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
     },
     "171a8cd8def3c9c216bf": {
       "artifacts": {},
@@ -1593,6 +1683,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:38Z"
     },
+    "687b682b44a5381b0d00": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103341,
+      "job_id": "687b682b44a5381b0d00",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature"
+        ],
+        "score": 47,
+        "title": "[$175] Show the Reimbursable toggle on company card expenses when the card feed is set to Do Not Force",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103341"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "6a35f069714bc04a302a": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -2000,6 +2135,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "7f9432042c1f9dacd565": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103492,
+      "job_id": "7f9432042c1f9dacd565",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workspaces - Unable to remove the RBR on archived Workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103492"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
     },
     "84183ab51aca2b6ae007": {
       "artifacts": {},
@@ -2822,6 +3002,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "a7759766e5068f1617b2": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103497,
+      "job_id": "a7759766e5068f1617b2",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Composer - Input field renders at two-line height before typing starts",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103497"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "ab0d432843bb38072921": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -3290,6 +3516,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "bdad1d8ba1cbb28a420e": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103491,
+      "job_id": "bdad1d8ba1cbb28a420e",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend - \"Remove hold\" option not display in bulk action bar when offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103491"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "be84c5983048988e372a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -3334,6 +3605,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "bebef47d46abb9b8a6b8": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103198,
+      "job_id": "bebef47d46abb9b8a6b8",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Make the remove/unassign card warning clearer about which expenses get deleted",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103198"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
     },
     "c01a74b4950d07c2d011": {
       "artifacts": {},
@@ -4386,6 +4701,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "f3a756bf8f89970497d1": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103488,
+      "job_id": "f3a756bf8f89970497d1",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 48,
+        "title": "[$175] Make the GPS distance counter label a fully localized phrase",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103488"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "f67c070290749f0838c0": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -4478,6 +4838,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "f80ed21e4b4f20090dc5": {
+      "artifacts": {},
+      "created_at": "2026-10-08T20:12:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T20:12:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103493,
+      "job_id": "f80ed21e4b4f20090dc5",
+      "last_seen_at": "2026-10-08T20:12:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Dragging and dropping a receipt onto an existing receipt image on an expense behaves inconsistently.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103493"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T20:12:00Z"
+    },
     "fbd6dd81907f74f8747a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -4524,6 +4929,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-08T20:05:33Z",
+  "updated_at": "2026-10-08T20:12:00Z",
   "version": 2
 }
