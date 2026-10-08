@@ -638,6 +638,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "2d3629b5eab86cd7c71c": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101276,
+      "job_id": "2d3629b5eab86cd7c71c",
+      "last_seen_at": "2026-10-08T14:45:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] Sage Intacct – export date page crashes when the config value is `REPORT_EXPORTED` or `REPORT_SUBMITTED`",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101276"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:57Z"
+    },
     "2e444e93b0f74f2e3e8a": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -958,6 +1004,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "44308062cd6345ab45e1": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103478,
+      "job_id": "44308062cd6345ab45e1",
+      "last_seen_at": "2026-10-08T14:45:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Workflows - First time set date for submission frequency to Monthly, the date change to the 1st",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103478"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:57Z"
     },
     "49b7134a3e3d77a48aec": {
       "artifacts": {},
@@ -2593,6 +2684,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:04Z"
     },
+    "9c956fbd68ba4e1d5d44": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101251,
+      "job_id": "9c956fbd68ba4e1d5d44",
+      "last_seen_at": "2026-10-08T14:45:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "NewFeature"
+        ],
+        "score": 52,
+        "title": "[$175] [CFI] Edit bank account names in New Expensify",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101251"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:57Z"
+    },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -2730,6 +2867,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "af3c6bb3904fce110fbc": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103479,
+      "job_id": "af3c6bb3904fce110fbc",
+      "last_seen_at": "2026-10-08T14:45:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Expenses tab: Pay does nothing on a non-reimbursable-only expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103479"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:57Z"
     },
     "b571ab4371033f266471": {
       "artifacts": {},
@@ -3057,6 +3239,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
+    },
+    "ba978007465c34fb30c2": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103444,
+      "job_id": "ba978007465c34fb30c2",
+      "last_seen_at": "2026-10-08T14:45:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] Search - Report submit errors show as a separate RBR outside the report row",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103444"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:57Z"
     },
     "be84c5983048988e372a": {
       "artifacts": {},
@@ -3786,6 +4013,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:38Z"
     },
+    "e667fbd9d3fc9373400d": {
+      "artifacts": {},
+      "created_at": "2026-10-08T14:45:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T14:45:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T14:45:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103430,
+      "job_id": "e667fbd9d3fc9373400d",
+      "last_seen_at": "2026-10-08T14:45:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Choosing a large file to share doesn't redirect App to Home after attach error msg appears",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103430"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T14:45:58Z"
+    },
     "e67d68f62660442a8e0a": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -4247,6 +4519,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-08T14:37:00Z",
+  "updated_at": "2026-10-08T14:45:58Z",
   "version": 2
 }
