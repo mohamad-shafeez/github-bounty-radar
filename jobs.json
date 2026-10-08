@@ -46,6 +46,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "04d58b5341d597092ae3": {
+      "artifacts": {},
+      "created_at": "2026-10-08T01:14:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_increased",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102437,
+      "job_id": "04d58b5341d597092ae3",
+      "last_seen_at": "2026-10-08T01:14:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] 2FA - User admin is redirected to NewDot instead of completing the OldDot 2FA flow for Xero",
+        "trigger": [
+          "bounty_increased",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102437"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T01:14:28Z"
+    },
     "082c0665480436c9eebb": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -1138,6 +1186,96 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
+    },
+    "57b28891372eaee6d786": {
+      "artifacts": {},
+      "created_at": "2026-10-08T01:14:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103403,
+      "job_id": "57b28891372eaee6d786",
+      "last_seen_at": "2026-10-08T01:14:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Android/iOS-Offline-Navigation arrows disappear after deleted expense syncs online",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103403"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T01:14:28Z"
+    },
+    "5be5fd14338afaa9e87c": {
+      "artifacts": {},
+      "created_at": "2026-10-08T01:14:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-08T01:14:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101928,
+      "job_id": "5be5fd14338afaa9e87c",
+      "last_seen_at": "2026-10-08T01:14:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Image thumbnail flickers after sending an attachment on iOS and Android",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101928"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-08T01:14:28Z"
     },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
@@ -4054,6 +4192,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-08T01:04:55Z",
+  "updated_at": "2026-10-08T01:14:29Z",
   "version": 2
 }
