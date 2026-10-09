@@ -475,24 +475,26 @@
       ],
       "issue_number": 103531,
       "job_id": "14cddc3addfad4180e64",
-      "last_seen_at": "2026-10-09T00:22:00Z",
+      "last_seen_at": "2026-10-09T06:21:37Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] iOS - Attachments - Password input of protected PDF closes after rotating to landscape",
+        "score": 68,
+        "title": "[$250] iOS - Attachments - Password input of protected PDF closes after rotating to landscape",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103531"
       },
@@ -5213,6 +5215,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-09T06:15:01Z",
+  "updated_at": "2026-10-09T06:21:37Z",
   "version": 2
 }
