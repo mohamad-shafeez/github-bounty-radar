@@ -1187,6 +1187,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "41a02ac6e585e69dc95e": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103560,
+      "job_id": "41a02ac6e585e69dc95e",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Attendees - Error is not announced in Attendees row",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103560"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
+    },
     "44308062cd6345ab45e1": {
       "artifacts": {},
       "created_at": "2026-10-08T14:45:57Z",
@@ -2409,6 +2455,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
     },
+    "8655cd2db040a31fff25": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103562,
+      "job_id": "8655cd2db040a31fff25",
+      "last_seen_at": "2026-10-09T13:29:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Home- Cancelled trip reservation is not displayed in Upcoming travel in Home",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103562"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:17Z"
+    },
     "884136ffec6839bfbf0a": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -3092,6 +3183,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "9d1bdcbf0141a1f8760b": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99272,
+      "job_id": "9d1bdcbf0141a1f8760b",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Workspace - The Payer row disappears after disconnecting the bank account.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99272"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
+    },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -3320,6 +3457,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
+    },
+    "b2fbcea47b1b65888f53": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103578,
+      "job_id": "b2fbcea47b1b65888f53",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expensify card - Sorting/display options are missing on Expensify card page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103578"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
     },
     "b571ab4371033f266471": {
       "artifacts": {},
@@ -4077,6 +4259,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
     },
+    "cae78f8fd7d22bef1272": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 97752,
+      "job_id": "cae78f8fd7d22bef1272",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Intl] Map: Switch Mapbox map language to the user's preferred app locale",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/97752"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
+    },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
       "created_at": "2026-10-04T18:40:21Z",
@@ -4623,6 +4851,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:38Z"
+    },
+    "e60e61d92703b8bfe19d": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103576,
+      "job_id": "e60e61d92703b8bfe19d",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Attachments - Chat scroll bar moves  by arrow keys when PDF is opened",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103576"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
     },
     "e667fbd9d3fc9373400d": {
       "artifacts": {},
@@ -5174,6 +5447,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "fa4ce85856007310ffaa": {
+      "artifacts": {},
+      "created_at": "2026-10-09T13:29:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T13:29:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103595,
+      "job_id": "fa4ce85856007310ffaa",
+      "last_seen_at": "2026-10-09T13:29:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] [Auto] - Android - Public Room - Error appears when opening public room as anon user",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103595"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T13:29:16Z"
+    },
     "fbd6dd81907f74f8747a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -5220,6 +5538,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-09T13:20:29Z",
+  "updated_at": "2026-10-09T13:29:17Z",
   "version": 2
 }
