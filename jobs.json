@@ -455,6 +455,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "14cddc3addfad4180e64": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103531,
+      "job_id": "14cddc3addfad4180e64",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS - Attachments - Password input of protected PDF closes after rotating to landscape",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103531"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
+    },
     "15f82e884c93b2c7e375": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -590,6 +635,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "1b850b0ee927aeccf229": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101182,
+      "job_id": "1b850b0ee927aeccf229",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 60,
+        "title": "[$175] LHN - #admin room already read after signed up as \"submit expense to my employer\" intention",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101182"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
     },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
@@ -2181,6 +2271,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "82b6d2b5ee263c598155": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103533,
+      "job_id": "82b6d2b5ee263c598155",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Concierge - Image appears cut on its preview on the Concierge RHP",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103533"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
+    },
     "84183ab51aca2b6ae007": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:36Z",
@@ -2271,6 +2406,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "884136ffec6839bfbf0a": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101327,
+      "job_id": "884136ffec6839bfbf0a",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly"
+        ],
+        "score": 48,
+        "title": "[$175] Duplicating an expense should stay on the source report when that report can accept it",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101327"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
     },
     "896311d4787732d61f1f": {
       "artifacts": {},
@@ -3521,6 +3701,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "bbf28a87a6f8fa7b64ea": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101425,
+      "job_id": "bbf28a87a6f8fa7b64ea",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Native share - Android - No sharing flow/app freezes when share image signed out",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101425"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
+    },
     "bdad1d8ba1cbb28a420e": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -3926,6 +4154,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "d0d60584bb40a86ae9e4": {
+      "artifacts": {},
+      "created_at": "2026-10-09T00:22:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T00:22:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102215,
+      "job_id": "d0d60584bb40a86ae9e4",
+      "last_seen_at": "2026-10-09T00:22:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Support `Pay > Mark as paid` on reports with a $0 total",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102215"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T00:22:00Z"
     },
     "d14cb8d3c503a401e861": {
       "artifacts": {},
@@ -4934,6 +5208,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-09T00:16:31Z",
+  "updated_at": "2026-10-09T00:22:01Z",
   "version": 2
 }
