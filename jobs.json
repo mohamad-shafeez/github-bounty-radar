@@ -1551,6 +1551,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
     },
+    "4bea7da62a36addac555": {
+      "artifacts": {},
+      "created_at": "2026-10-09T22:59:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103650,
+      "job_id": "4bea7da62a36addac555",
+      "last_seen_at": "2026-10-09T22:59:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted"
+        ],
+        "score": 56,
+        "title": "[CFI] [$250] Spend - Add a Paid column option to the reports table",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103650"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T22:59:05Z"
+    },
     "4c00ae2290664f29a651": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:05Z",
@@ -1641,6 +1686,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
+    },
+    "4e8915f18dc38914863b": {
+      "artifacts": {},
+      "created_at": "2026-10-09T22:59:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103648,
+      "job_id": "4e8915f18dc38914863b",
+      "last_seen_at": "2026-10-09T22:59:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Image attachment - Pinch-to-zoom stops working after reaching maximum zoom",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103648"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T22:59:05Z"
     },
     "554c62baa6ce39aed19e": {
       "artifacts": {},
@@ -2409,6 +2499,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "7a7452be98e35f2782cc": {
+      "artifacts": {},
+      "created_at": "2026-10-09T22:59:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103662,
+      "job_id": "7a7452be98e35f2782cc",
+      "last_seen_at": "2026-10-09T22:59:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Native share - File size too large error is not displayed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103662"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T22:59:05Z"
     },
     "7cf8fabe920e59142637": {
       "artifacts": {},
@@ -3684,6 +3819,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "ada3ebde0bb5eed36905": {
+      "artifacts": {},
+      "created_at": "2026-10-09T22:59:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T22:59:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 85907,
+      "job_id": "ada3ebde0bb5eed36905",
+      "last_seen_at": "2026-10-09T22:59:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Monthly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 68,
+        "title": "[$250] Chat - Emojis pasted from Slack render as images",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/85907"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T22:59:05Z"
     },
     "af3c6bb3904fce110fbc": {
       "artifacts": {},
@@ -5820,6 +6002,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-09T22:56:30Z",
+  "updated_at": "2026-10-09T22:59:06Z",
   "version": 2
 }
