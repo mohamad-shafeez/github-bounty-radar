@@ -94,6 +94,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "0505457177d7d4f7f524": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103622,
+      "job_id": "0505457177d7d4f7f524",
+      "last_seen_at": "2026-10-09T18:55:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Filters - Expense \"From\" filter pill is cleared when navigating to Workspace via Go to room > Header > Go to workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103622"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:42Z"
+    },
     "0824eb8d5e290467d5f1": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -683,6 +728,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "1d31f0969c6d42019575": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103619,
+      "job_id": "1d31f0969c6d42019575",
+      "last_seen_at": "2026-10-09T18:55:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Attachments - Image flashes briefly after uploading",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103619"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:42Z"
+    },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -912,6 +1002,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "32b951dc605486188538": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101252,
+      "job_id": "32b951dc605486188538",
+      "last_seen_at": "2026-10-09T18:55:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Workflows – Advanced tab shows the \"Advanced Approvals\" upgrade page instead of the generic Control upgrade",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101252"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:42Z"
+    },
     "3476479f1c1b8bfeede2": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -957,6 +1093,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "384ccbca297c55784c08": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:43Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:43Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:43Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100120,
+      "job_id": "384ccbca297c55784c08",
+      "last_seen_at": "2026-10-09T18:55:43Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Exploratory] Vacation Delegate - Error loading after reject 1 split then remove another split",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100120"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:43Z"
     },
     "392552cb28b4463dd3d1": {
       "artifacts": {},
@@ -1775,6 +1956,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
+    },
+    "666c74c85d3b0a67d0df": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103620,
+      "job_id": "666c74c85d3b0a67d0df",
+      "last_seen_at": "2026-10-09T18:55:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Merchant name changes save on an expense, but the Reports tab continues to show the old merchant name.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103620"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:42Z"
     },
     "6762318f8695b8c28fb4": {
       "artifacts": {},
@@ -2955,6 +3182,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
+    },
+    "930f3dab6aab2d548a19": {
+      "artifacts": {},
+      "created_at": "2026-10-09T18:55:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-09T18:55:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103624,
+      "job_id": "930f3dab6aab2d548a19",
+      "last_seen_at": "2026-10-09T18:55:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Search - \"has:submitted violation\" filter results show violations only after clicking into each expense individually",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103624"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-09T18:55:42Z"
     },
     "9320cddc3c283e576961": {
       "artifacts": {},
@@ -5543,6 +5815,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-09T18:51:56Z",
+  "updated_at": "2026-10-09T18:55:43Z",
   "version": 2
 }
