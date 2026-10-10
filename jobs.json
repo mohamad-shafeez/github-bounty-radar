@@ -2002,6 +2002,55 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "6322be6b54fdc4f3905a": {
+      "artifacts": {},
+      "created_at": "2026-10-10T14:34:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-10T14:34:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-10T14:34:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101675,
+      "job_id": "6322be6b54fdc4f3905a",
+      "last_seen_at": "2026-10-10T14:34:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Concierge - Reaction to prompt disappears after user clears cache and restart.",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101675"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-10T14:34:50Z"
+    },
     "6632a934726451d8c412": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -6065,6 +6114,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-10T14:31:48Z",
+  "updated_at": "2026-10-10T14:34:50Z",
   "version": 2
 }
