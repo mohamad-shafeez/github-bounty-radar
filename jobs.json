@@ -4960,6 +4960,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "d6d616cd919cd180e2f3": {
+      "artifacts": {},
+      "created_at": "2026-10-10T08:26:32Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-10T08:26:32Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-10T08:26:32Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 83257,
+      "job_id": "d6d616cd919cd180e2f3",
+      "last_seen_at": "2026-10-10T08:26:32Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Engineering",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Expense - Different destination opens when bulk merging vs merging individually",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/83257"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-10T08:26:32Z"
+    },
     "d70e9d9e15c4fe2c2557": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -6012,6 +6060,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-10T08:22:12Z",
+  "updated_at": "2026-10-10T08:26:32Z",
   "version": 2
 }
