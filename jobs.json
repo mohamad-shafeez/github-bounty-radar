@@ -1114,24 +1114,26 @@
       ],
       "issue_number": 100120,
       "job_id": "384ccbca297c55784c08",
-      "last_seen_at": "2026-10-09T18:55:43Z",
+      "last_seen_at": "2026-10-11T13:22:31Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 48,
-        "title": "[$175] [Exploratory] Vacation Delegate - Error loading after reject 1 split then remove another split",
+        "score": 62,
+        "title": "[$250] [Exploratory] Vacation Delegate - Error loading after reject 1 split then remove another split",
         "trigger": [
-          "bounty_added"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/100120"
       },
@@ -1887,23 +1889,25 @@
       ],
       "issue_number": 103357,
       "job_id": "5f9ccc363a927aa50b2a",
-      "last_seen_at": "2026-10-07T21:32:41Z",
+      "last_seen_at": "2026-10-11T13:22:30Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
-          "Daily"
+          "Daily",
+          "Help Wanted"
         ],
-        "score": 48,
-        "title": "[$175] [CFI] Wrap long option names in search filter select lists",
+        "score": 62,
+        "title": "[$250] [CFI] Wrap long option names in search filter select lists",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103357"
       },
@@ -6186,6 +6190,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-11T13:19:17Z",
+  "updated_at": "2026-10-11T13:22:31Z",
   "version": 2
 }
