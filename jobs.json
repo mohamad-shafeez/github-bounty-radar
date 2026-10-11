@@ -3736,6 +3736,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "9e9f9f2de4b726a26a89": {
+      "artifacts": {},
+      "created_at": "2026-10-11T18:10:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-11T18:10:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-11T18:10:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102046,
+      "job_id": "9e9f9f2de4b726a26a89",
+      "last_seen_at": "2026-10-11T18:10:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] [Sentry: APP-M0V] Android crash, IllegalStateException Fragment already added in ScreenStackFragment",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102046"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-11T18:10:58Z"
+    },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -6195,6 +6241,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-11T18:09:39Z",
+  "updated_at": "2026-10-11T18:10:59Z",
   "version": 2
 }
