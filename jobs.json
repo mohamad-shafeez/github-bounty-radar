@@ -408,6 +408,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "0e20021ee4fc2b679ed5": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 92930,
+      "job_id": "0e20021ee4fc2b679ed5",
+      "last_seen_at": "2026-10-12T22:53:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Weekly",
+          "Overdue"
+        ],
+        "score": 56,
+        "title": "[$250] Update pages using the common table component to scroll the entire page",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/92930"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:17Z"
+    },
     "110dadbc5f02e5331f65": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -818,6 +863,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:42Z"
     },
+    "1dc5f3a816cad98ca4b5": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103802,
+      "job_id": "1dc5f3a816cad98ca4b5",
+      "last_seen_at": "2026-10-12T22:53:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense - Edit split when confirming delete expense of a split per diem expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103802"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:17Z"
+    },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -1000,6 +1090,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "27d4b21ebcaf323fb00f": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98941,
+      "job_id": "27d4b21ebcaf323fb00f",
+      "last_seen_at": "2026-10-12T22:53:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Exploratory] Company card - Can assign card to an Expensify team Members",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98941"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:18Z"
+    },
     "2cb78f9e5729053cc96f": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1136,6 +1273,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "3061294aa62aa1565ffa": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100074,
+      "job_id": "3061294aa62aa1565ffa",
+      "last_seen_at": "2026-10-12T22:53:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Unable to see \"export To\" when selecting group of expenses",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100074"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:18Z"
     },
     "32b951dc605486188538": {
       "artifacts": {},
@@ -3094,6 +3277,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "8200e23c9e7f5c4e52a7": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100728,
+      "job_id": "8200e23c9e7f5c4e52a7",
+      "last_seen_at": "2026-10-12T22:53:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Approver row is hidden on the workspace invite confirmation page for Dynamic External Workflow policies",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100728"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:18Z"
+    },
     "82b6d2b5ee263c598155": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -4325,6 +4554,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "aa133b357edbe8d82299": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100368,
+      "job_id": "aa133b357edbe8d82299",
+      "last_seen_at": "2026-10-12T22:53:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] [Exploratory] Expense - Creating receipt expense with two receipts displays Not Here page",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100368"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:17Z"
     },
     "ab0d432843bb38072921": {
       "artifacts": {},
@@ -6808,6 +7084,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "f700ddb88fee0f6e4dc6": {
+      "artifacts": {},
+      "created_at": "2026-10-12T22:53:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T22:53:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101428,
+      "job_id": "f700ddb88fee0f6e4dc6",
+      "last_seen_at": "2026-10-12T22:53:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] Wallet - Legacy combo Expensify Card appears as two rows with the same last four digits",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101428"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T22:53:17Z"
+    },
     "f80ed21e4b4f20090dc5": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -6944,6 +7266,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-12T22:51:58Z",
+  "updated_at": "2026-10-12T22:53:18Z",
   "version": 2
 }
