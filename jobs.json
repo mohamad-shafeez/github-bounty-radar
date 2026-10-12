@@ -318,6 +318,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "0d013d0ffc3eb4516476": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103721,
+      "job_id": "0d013d0ffc3eb4516476",
+      "last_seen_at": "2026-10-12T16:04:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] 103421 - Per Diem - Not here page after going back online when the destination loads",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103721"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:09Z"
+    },
     "0df4aea516f56b6288e4": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -865,6 +910,96 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "2118cf772fbdcd08c8c1": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103774,
+      "job_id": "2118cf772fbdcd08c8c1",
+      "last_seen_at": "2026-10-12T16:04:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Sentry: APP-J60] Cannot read 'submitsTo' of null in getSuggestedSearchesVisibility",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103774"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:09Z"
+    },
+    "2614edb4ec1c86507162": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103770,
+      "job_id": "2614edb4ec1c86507162",
+      "last_seen_at": "2026-10-12T16:04:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Animations for pages in account settings are stuck",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103770"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:10Z"
+    },
     "2cb78f9e5729053cc96f": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1323,6 +1458,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "3df70bef88f9e28dcd4d": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103764,
+      "job_id": "3df70bef88f9e28dcd4d",
+      "last_seen_at": "2026-10-12T16:04:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 63,
+        "title": "[$175] [Android] \"Update Required\" shown after updating the app because the startup ReconnectApp prefetch sends the old `appversion`",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103764"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:08Z"
     },
     "412ed54800011e989616": {
       "artifacts": {},
@@ -1823,6 +2003,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
+    },
+    "5bb5692b717200ada583": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103775,
+      "job_id": "5bb5692b717200ada583",
+      "last_seen_at": "2026-10-12T16:04:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-KT0] Search bulk actions crash reading undefined search results data",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103775"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:09Z"
     },
     "5be5fd14338afaa9e87c": {
       "artifacts": {},
@@ -2372,6 +2597,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:17Z"
     },
+    "71c125b1f0d77fb83525": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103777,
+      "job_id": "71c125b1f0d77fb83525",
+      "last_seen_at": "2026-10-12T16:04:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-KC9] Navigation crash: 'filter' of undefined in getStateForRouteNamesChange",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103777"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:09Z"
+    },
     "72f84953a4e5589a3487": {
       "artifacts": {},
       "created_at": "2026-10-08T07:26:38Z",
@@ -2416,6 +2686,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T07:26:38Z"
+    },
+    "7346a1e76c0b387bdb34": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103778,
+      "job_id": "7346a1e76c0b387bdb34",
+      "last_seen_at": "2026-10-12T16:04:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [Sentry: APP-M66] Android: ReactModalHostView updateSystemAppearance \"dialog must exist\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103778"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:08Z"
     },
     "73855993ce76ef253e57": {
       "artifacts": {},
@@ -2552,6 +2867,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "77669a5344bb24a12282": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103776,
+      "job_id": "77669a5344bb24a12282",
+      "last_seen_at": "2026-10-12T16:04:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Sentry: APP-JQB] FlashList \"right operand of 'in' is not an object\" in participant selector",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103776"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:10Z"
     },
     "7a7452be98e35f2782cc": {
       "artifacts": {},
@@ -3736,6 +4096,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "9e3c3b510882e64902a4": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101734,
+      "job_id": "9e3c3b510882e64902a4",
+      "last_seen_at": "2026-10-12T16:04:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Profile - Can't save new address offline",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101734"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:11Z"
+    },
     "9e9f9f2de4b726a26a89": {
       "artifacts": {},
       "created_at": "2026-10-11T18:10:58Z",
@@ -4102,6 +4508,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
+    },
+    "b4904681c34c99c0d1ec": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103759,
+      "job_id": "b4904681c34c99c0d1ec",
+      "last_seen_at": "2026-10-12T16:04:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Threads - Nothing happens in LHN when message is mark as unread",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103759"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:11Z"
     },
     "b571ab4371033f266471": {
       "artifacts": {},
@@ -4797,6 +5248,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "c08e267a96d3b6dec21a": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103726,
+      "job_id": "c08e267a96d3b6dec21a",
+      "last_seen_at": "2026-10-12T16:04:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Global reimbursement-Registration number is prefilled for second BA global reimbursement",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103726"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:10Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -4980,6 +5476,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "cb13b83ac40e1c8e16b5": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103616,
+      "job_id": "cb13b83ac40e1c8e16b5",
+      "last_seen_at": "2026-10-12T16:04:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 59,
+        "title": "[$175] [Performance] Onyx: skip unchanged cached objects when removing nested nulls on set",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103616"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:09Z"
+    },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
       "created_at": "2026-10-04T18:40:21Z",
@@ -5024,6 +5565,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
+    },
+    "ce567f9fc0eb149e1a9b": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103779,
+      "job_id": "ce567f9fc0eb149e1a9b",
+      "last_seen_at": "2026-10-12T16:04:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] TriNet - Missing Final Approver when user select Custom Approval",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103779"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:10Z"
     },
     "d07da0ce21573d4859ce": {
       "artifacts": {},
@@ -5160,6 +5746,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "d60470498024c0a47c5d": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102095,
+      "job_id": "d60470498024c0a47c5d",
+      "last_seen_at": "2026-10-12T16:04:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Not here page opens when creating new workspace from FAB on Account and Insights tab",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102095"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:11Z"
     },
     "d6d616cd919cd180e2f3": {
       "artifacts": {},
@@ -5941,6 +6573,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
     },
+    "f297d52710dd71ce5f76": {
+      "artifacts": {},
+      "created_at": "2026-10-12T16:04:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-12T16:04:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101924,
+      "job_id": "f297d52710dd71ce5f76",
+      "last_seen_at": "2026-10-12T16:04:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Auto]--After escaping group creation and clicking CMD+Enter in search confirmation RHP opens",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101924"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-12T16:04:11Z"
+    },
     "f367faef1c3159ac9a44": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:37Z",
@@ -6261,6 +6939,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-12T16:02:08Z",
+  "updated_at": "2026-10-12T16:04:12Z",
   "version": 2
 }
