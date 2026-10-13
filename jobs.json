@@ -637,6 +637,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "136a2b0b89cf458be6fa": {
+      "artifacts": {},
+      "created_at": "2026-10-13T21:58:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103935,
+      "job_id": "136a2b0b89cf458be6fa",
+      "last_seen_at": "2026-10-13T21:58:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Report fields - Disabled list type report field appears on report after deletion",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103935"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T21:58:39Z"
+    },
     "141dbd8ae0180abf1304": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -2645,6 +2690,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "5c1683a23f05d6e8f52f": {
+      "artifacts": {},
+      "created_at": "2026-10-13T21:58:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103931,
+      "job_id": "5c1683a23f05d6e8f52f",
+      "last_seen_at": "2026-10-13T21:58:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Fix flakey SessionTest",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103931"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T21:58:39Z"
+    },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -4601,6 +4690,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "9973bf4a46cacceb0acb": {
+      "artifacts": {},
+      "created_at": "2026-10-13T21:58:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T21:58:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103944,
+      "job_id": "9973bf4a46cacceb0acb",
+      "last_seen_at": "2026-10-13T21:58:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense - After unreporting expense, arrows are shown on report which lead to self DM",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103944"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T21:58:39Z"
     },
     "9a95954df1ab12518771": {
       "artifacts": {},
@@ -7922,6 +8056,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-13T17:47:13Z",
+  "updated_at": "2026-10-13T21:58:39Z",
   "version": 2
 }
