@@ -1,5 +1,51 @@
 {
   "jobs": {
+    "00bbb1e3ed9bbb204ca3": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_increased"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102012,
+      "job_id": "00bbb1e3ed9bbb204ca3",
+      "last_seen_at": "2026-10-13T10:37:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task",
+          "Awaiting Payment"
+        ],
+        "score": 56,
+        "title": "[Due for payment 2026-10-12] [$250] [Refactor] Refactor `TransactionUtils/index.ts` to stay under the 4000-line ESLint limit",
+        "trigger": [
+          "bounty_increased"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102012"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:56Z"
+    },
     "044db7bb7b27e66c4dfb": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -362,6 +408,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:09Z"
+    },
+    "0d975196e55217148966": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100565,
+      "job_id": "0d975196e55217148966",
+      "last_seen_at": "2026-10-13T10:37:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[Due for payment 2026-10-20] [$175] [Exploratory] Distance - Split distance expense with disabled tax rate unexpected error appears",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100565"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:56Z"
     },
     "0df4aea516f56b6288e4": {
       "artifacts": {},
@@ -1686,6 +1779,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:08Z"
+    },
+    "3fdec1da72cf3337d19f": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103831,
+      "job_id": "3fdec1da72cf3337d19f",
+      "last_seen_at": "2026-10-13T10:37:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Netsuite - \"This site can’t be reached\" error occurs if incorrect credentials is entered",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103831"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:57Z"
     },
     "412ed54800011e989616": {
       "artifacts": {},
@@ -4325,6 +4463,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "9d5aff6bff61ddb84bb9": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101733,
+      "job_id": "9d5aff6bff61ddb84bb9",
+      "last_seen_at": "2026-10-13T10:37:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] Edit multiple hides the Category and Reimbursable rows after Clear cache until each expense detail is opened",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101733"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:56Z"
+    },
     "9e3c3b510882e64902a4": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:11Z",
@@ -4462,6 +4647,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "a3685f48eb067efa55a2": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103838,
+      "job_id": "a3685f48eb067efa55a2",
+      "last_seen_at": "2026-10-13T10:37:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] The tab bar does not visible above the spinner",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103838"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:56Z"
     },
     "a40f1d9a4dde703a7da5": {
       "artifacts": {},
@@ -5857,6 +6087,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
     },
+    "ccff208c9a208873460b": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103822,
+      "job_id": "ccff208c9a208873460b",
+      "last_seen_at": "2026-10-13T10:37:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - Workspace - Can't move focus to the search bar by arrow keys when invite member",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103822"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:56Z"
+    },
     "ce567f9fc0eb149e1a9b": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:10Z",
@@ -6682,6 +6957,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:40Z"
     },
+    "e7bb0920dea461b97520": {
+      "artifacts": {},
+      "created_at": "2026-10-13T10:37:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T10:37:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T10:37:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103824,
+      "job_id": "e7bb0920dea461b97520",
+      "last_seen_at": "2026-10-13T10:37:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Native share - The app crashes after sharing a large video file (>125 MB)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103824"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T10:37:57Z"
+    },
     "eb37e09fb11d33e07823": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -7276,6 +7596,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-13T10:37:04Z",
+  "updated_at": "2026-10-13T10:37:57Z",
   "version": 2
 }
