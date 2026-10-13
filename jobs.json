@@ -1230,6 +1230,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:18Z"
     },
+    "2c85c7c0fb03a2678ed1": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101231,
+      "job_id": "2c85c7c0fb03a2678ed1",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] The search-router popover closes when resizing the window",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101231"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
+    },
     "2cb78f9e5729053cc96f": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1735,6 +1781,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "3cf235338e2496cd1679": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103290,
+      "job_id": "3cf235338e2496cd1679",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Archive WS - No results found page appears in Workspaces after archiving a workspace",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103290"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
+    },
     "3df70bef88f9e28dcd4d": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:08Z",
@@ -1824,6 +1916,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:57Z"
+    },
+    "4076d966e9f65f789637": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103863,
+      "job_id": "4076d966e9f65f789637",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Hourly",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Rules - Category that has already been selected in existing rule can be selected again",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103863"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
     },
     "412ed54800011e989616": {
       "artifacts": {},
@@ -2190,6 +2328,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "4e68e01cd8ebc8b39483": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103898,
+      "job_id": "4e68e01cd8ebc8b39483",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Improvement: Update copy in empty screen of creating Per diem expense flow",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103898"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
+    },
     "4e8915f18dc38914863b": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -2279,6 +2463,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
+    },
+    "567f6a68eb5874310b3c": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103875,
+      "job_id": "567f6a68eb5874310b3c",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103875"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
     },
     "57b28891372eaee6d786": {
       "artifacts": {},
@@ -2872,6 +3102,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "6b9f41195dd744b8492a": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103876,
+      "job_id": "6b9f41195dd744b8492a",
+      "last_seen_at": "2026-10-13T17:47:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug",
+          "#feeds-2026"
+        ],
+        "score": 53,
+        "title": "[$175] Amex feed error persists after reconnect until manual scrape",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103876"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:13Z"
     },
     "7163aed119dcbbf6937b": {
       "artifacts": {},
@@ -7094,6 +7370,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "eec7282f24c7a1cf5707": {
+      "artifacts": {},
+      "created_at": "2026-10-13T17:47:12Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-13T17:47:12Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-13T17:47:12Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103908,
+      "job_id": "eec7282f24c7a1cf5707",
+      "last_seen_at": "2026-10-13T17:47:12Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Infinite loading or not here page found page shown when a submitted expense opens",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103908"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-13T17:47:12Z"
+    },
     "ef6a35795cb12eb64a1c": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -7596,6 +7917,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-13T10:37:57Z",
+  "updated_at": "2026-10-13T17:47:13Z",
   "version": 2
 }
