@@ -1412,6 +1412,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "2e164391a4422b485fe5": {
+      "artifacts": {},
+      "created_at": "2026-10-14T05:38:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103961,
+      "job_id": "2e164391a4422b485fe5",
+      "last_seen_at": "2026-10-14T05:38:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Web - Chat -Browser back navigates to previous action instead of previous report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103961"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T05:38:11Z"
+    },
     "2e444e93b0f74f2e3e8a": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -6743,6 +6788,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "d5d889c79898a1ecafd7": {
+      "artifacts": {},
+      "created_at": "2026-10-14T05:38:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101938,
+      "job_id": "d5d889c79898a1ecafd7",
+      "last_seen_at": "2026-10-14T05:38:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [DEV] Console error on startup",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101938"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T05:38:11Z"
+    },
     "d60470498024c0a47c5d": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:11Z",
@@ -6973,6 +7064,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "d926282d7babecab9508": {
+      "artifacts": {},
+      "created_at": "2026-10-14T05:38:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 97826,
+      "job_id": "d926282d7babecab9508",
+      "last_seen_at": "2026-10-14T05:38:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Director bank account task notification is unclear and email delivery is delayed",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/97826"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T05:38:11Z"
     },
     "d962188b8549f64e7453": {
       "artifacts": {},
@@ -7339,6 +7476,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "e6fcad9f088b083e3fd0": {
+      "artifacts": {},
+      "created_at": "2026-10-14T05:38:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T05:38:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103957,
+      "job_id": "e6fcad9f088b083e3fd0",
+      "last_seen_at": "2026-10-14T05:38:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] WS - \"This member already belongs to another approval workflow\" message does not appear",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103957"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T05:38:11Z"
     },
     "e7afa1d2cb0f106806cc": {
       "artifacts": {},
@@ -8071,6 +8253,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-14T05:36:30Z",
+  "updated_at": "2026-10-14T05:38:11Z",
   "version": 2
 }
