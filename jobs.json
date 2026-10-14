@@ -1365,6 +1365,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:18Z"
     },
+    "29e8827b666c63bff0b6": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104048,
+      "job_id": "29e8827b666c63bff0b6",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense report- This expense was rejected not appears in expense preview",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104048"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
+    },
     "2c85c7c0fb03a2678ed1": {
       "artifacts": {},
       "created_at": "2026-10-13T17:47:13Z",
@@ -2463,6 +2508,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "4d9149deca098fc6b346": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104050,
+      "job_id": "4d9149deca098fc6b346",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Auto -Split- Report total is calculating totals incorrectly when offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104050"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
+    },
     "4de7e80cfb8658956916": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -3463,6 +3553,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T17:47:13Z"
     },
+    "70435d8ed97697ffb101": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104043,
+      "job_id": "70435d8ed97697ffb101",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 53,
+        "title": "[$175] Remove the centered AI features promo modal and announce features only in the bottom-right window",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104043"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
+    },
     "7163aed119dcbbf6937b": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:17Z",
@@ -4004,6 +4139,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "81c207929b569a23b52e": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104049,
+      "job_id": "81c207929b569a23b52e",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Bank account-This field is required error in the company name field after completing Onfido",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104049"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
     },
     "8200e23c9e7f5c4e52a7": {
       "artifacts": {},
@@ -6671,6 +6851,97 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
     },
+    "c837f250671b33ef4ef3": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104045,
+      "job_id": "c837f250671b33ef4ef3",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense-IOU expense with 0.00 amount is created after replacing a failed scan receipt",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104045"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "c969f1bfc73ad5df737d": {
+      "artifacts": {},
+      "created_at": "2026-10-14T22:33:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-14T22:33:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104039,
+      "job_id": "c969f1bfc73ad5df737d",
+      "last_seen_at": "2026-10-14T22:33:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - App review modal opens without the dimmed backdrop",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104039"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-14T22:33:19Z"
+    },
     "cae78f8fd7d22bef1272": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -8634,6 +8905,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-14T22:32:43Z",
+  "updated_at": "2026-10-14T22:33:19Z",
   "version": 2
 }
