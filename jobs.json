@@ -8430,6 +8430,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "e165720a509304862df7": {
+      "artifacts": {},
+      "created_at": "2026-10-15T23:54:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T23:54:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T23:54:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104175,
+      "job_id": "e165720a509304862df7",
+      "last_seen_at": "2026-10-15T23:54:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Allow the Per Diem import template to be downloaded before adding rates.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104175"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T23:54:41Z"
+    },
     "e406ad06b57ecaedba3c": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -9707,6 +9752,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T21:47:40Z",
+  "updated_at": "2026-10-15T23:54:41Z",
   "version": 2
 }
