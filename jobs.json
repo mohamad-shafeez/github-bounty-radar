@@ -2097,6 +2097,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:08Z"
     },
+    "3f8afc76cd00bf889b4a": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104114,
+      "job_id": "3f8afc76cd00bf889b4a",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Split - Total Expense Shows Incorrect Report Amount",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104114"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
+    },
     "3fdec1da72cf3337d19f": {
       "artifacts": {},
       "created_at": "2026-10-13T10:37:57Z",
@@ -2324,6 +2369,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
+    },
+    "45d1395dbef0a6670491": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104093,
+      "job_id": "45d1395dbef0a6670491",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Onboarding - #admins room opens in RHP after joining a workspace with the Join my company workspace intent",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104093"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
     },
     "49b7134a3e3d77a48aec": {
       "artifacts": {},
@@ -5190,6 +5281,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-10T22:01:29Z"
     },
+    "975bec02c6e92eb78302": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104138,
+      "job_id": "975bec02c6e92eb78302",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Receipts are not showing fully when sent to receipts@expensify.com",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104138"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
+    },
     "97e68e40e3173b63d018": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:36Z",
@@ -5234,6 +5370,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "98a07d042eb670db3a23": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104089,
+      "job_id": "98a07d042eb670db3a23",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature"
+        ],
+        "score": 48,
+        "title": "[$175] Post a message in the #admins room when an Expensify Card feed is shared to a workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104089"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
     },
     "9973bf4a46cacceb0acb": {
       "artifacts": {},
@@ -5968,6 +6149,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
+    },
+    "b41e308e6bfb9b2bccdf": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104127,
+      "job_id": "b41e308e6bfb9b2bccdf",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Android - Concierge does not change category in report when asked in natural language",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104127"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
     },
     "b4904681c34c99c0d1ec": {
       "artifacts": {},
@@ -7877,6 +8103,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "dc51cf8725635e54195e": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99357,
+      "job_id": "dc51cf8725635e54195e",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[Due for payment 2026-10-22] [$175] Broken workflow disappears",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99357"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
+    },
     "dcf7d5e776abf10d31af": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:05Z",
@@ -9018,6 +9290,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "fbc38dbf673fc10a12bb": {
+      "artifacts": {},
+      "created_at": "2026-10-15T18:42:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T18:42:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104113,
+      "job_id": "fbc38dbf673fc10a12bb",
+      "last_seen_at": "2026-10-15T18:42:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Scan - Expense Amount Shows 00 While Offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104113"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T18:42:47Z"
+    },
     "fbd6dd81907f74f8747a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -9064,6 +9381,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T14:52:13Z",
+  "updated_at": "2026-10-15T18:42:47Z",
   "version": 2
 }
