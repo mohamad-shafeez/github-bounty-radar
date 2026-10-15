@@ -1156,25 +1156,25 @@
       ],
       "issue_number": 100408,
       "job_id": "1f7703af2e00bd59637e",
-      "last_seen_at": "2026-10-06T01:44:06Z",
+      "last_seen_at": "2026-10-15T05:18:35Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
-          "Reviewing",
           "External",
-          "Weekly",
+          "Daily",
+          "Awaiting Payment",
           "Bug"
         ],
-        "score": 54,
-        "title": "[$175] Unable to \"fast edit\" workflow and have \"Expense from\" saved.",
+        "score": 56,
+        "title": "[Due for payment 2026-10-13] [$250] Unable to \"fast edit\" workflow and have \"Expense from\" saved.",
         "trigger": [
-          "opportunity_label_added"
+          "bounty_increased"
         ],
         "url": "https://github.com/Expensify/App/issues/100408"
       },
@@ -8915,6 +8915,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T05:18:16Z",
+  "updated_at": "2026-10-15T05:18:35Z",
   "version": 2
 }
