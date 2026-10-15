@@ -3347,12 +3347,12 @@
       ],
       "issue_number": 103620,
       "job_id": "666c74c85d3b0a67d0df",
-      "last_seen_at": "2026-10-09T18:55:42Z",
+      "last_seen_at": "2026-10-15T14:52:13Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
@@ -3360,12 +3360,14 @@
           "External",
           "Daily",
           "Needs Reproduction",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Merchant name changes save on an expense, but the Reports tab continues to show the old merchant name.",
+        "score": 68,
+        "title": "[$250] Merchant name changes save on an expense, but the Reports tab continues to show the old merchant name.",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103620"
       },
@@ -9062,6 +9064,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T14:50:48Z",
+  "updated_at": "2026-10-15T14:52:13Z",
   "version": 2
 }
