@@ -46,6 +46,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:56Z"
     },
+    "0238787dc53f52ee1010": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104161,
+      "job_id": "0238787dc53f52ee1010",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend -  It's not here page when opening a split expense from chat filter",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104161"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
+    },
     "044db7bb7b27e66c4dfb": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1136,6 +1181,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
     },
+    "1ecb6ee935735281710a": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104165,
+      "job_id": "1ecb6ee935735281710a",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Bank account - Address line is not saved when adding an US bank account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104165"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
+    },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -1775,6 +1865,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
+    },
+    "35f5b1144727276a1d0a": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104162,
+      "job_id": "35f5b1144727276a1d0a",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Expense - Report files is enable when all report contain non-reimbursable expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104162"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
     },
     "384ccbca297c55784c08": {
       "artifacts": {},
@@ -2869,6 +3004,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T10:35:03Z"
+    },
+    "54bf2e96a78eb31de70c": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104150,
+      "job_id": "54bf2e96a78eb31de70c",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Distance - Map shows km instead of miles",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104150"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
     },
     "554c62baa6ce39aed19e": {
       "artifacts": {},
@@ -5736,6 +5916,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-11T18:10:58Z"
+    },
+    "9fbc1324f53c2d9f3d52": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104164,
+      "job_id": "9fbc1324f53c2d9f3d52",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] When tapping back button in profile not found page, the entire module closes",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104164"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
     },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
@@ -8616,6 +8841,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:57Z"
     },
+    "e8951ec2514e1f416722": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104159,
+      "job_id": "e8951ec2514e1f416722",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Chat - short mention with a single character followed by dot isn't recognized",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104159"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
+    },
     "eb37e09fb11d33e07823": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -8707,6 +8977,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "ee7a252092ce35d09d1f": {
+      "artifacts": {},
+      "created_at": "2026-10-15T21:47:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T21:47:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104147,
+      "job_id": "ee7a252092ce35d09d1f",
+      "last_seen_at": "2026-10-15T21:47:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Spend-Expense appears in Spend results despite not matching the applied merchant filter",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104147"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T21:47:40Z"
     },
     "eec7282f24c7a1cf5707": {
       "artifacts": {},
@@ -9391,6 +9707,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T21:47:17Z",
+  "updated_at": "2026-10-15T21:47:40Z",
   "version": 2
 }
