@@ -3140,6 +3140,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "601e6dffe99b567d987e": {
+      "artifacts": {},
+      "created_at": "2026-10-15T10:02:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 97940,
+      "job_id": "601e6dffe99b567d987e",
+      "last_seen_at": "2026-10-15T10:02:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Exploratory] Expense - Duplicate negative deleted manual expense appear positive in Workspace chat",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/97940"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T10:02:51Z"
+    },
     "60b7c470593ba40f7011": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:05Z",
@@ -4275,6 +4322,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
+    },
+    "83e89a286b5072da5d1b": {
+      "artifacts": {},
+      "created_at": "2026-10-15T10:02:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104067,
+      "job_id": "83e89a286b5072da5d1b",
+      "last_seen_at": "2026-10-15T10:02:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Workspace - No error shown when saving a report field with an invalid formula",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104067"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T10:02:51Z"
     },
     "84183ab51aca2b6ae007": {
       "artifacts": {},
@@ -6819,6 +6911,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "c5f4ba5ee4851bf9ed06": {
+      "artifacts": {},
+      "created_at": "2026-10-15T10:02:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-15T10:02:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104060,
+      "job_id": "c5f4ba5ee4851bf9ed06",
+      "last_seen_at": "2026-10-15T10:02:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Different error appear after network reconnect",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104060"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-15T10:02:51Z"
+    },
     "c686278aa12ca37af013": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -8920,6 +9057,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-15T10:02:01Z",
+  "updated_at": "2026-10-15T10:02:51Z",
   "version": 2
 }
