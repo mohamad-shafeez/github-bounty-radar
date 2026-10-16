@@ -7304,6 +7304,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "c0fe4b2b2c2b641ccf8b": {
+      "artifacts": {},
+      "created_at": "2026-10-16T07:04:15Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T07:04:15Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T07:04:15Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104178,
+      "job_id": "c0fe4b2b2c2b641ccf8b",
+      "last_seen_at": "2026-10-16T07:04:15Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] mweb-New message indicator displays on self chat when open chat login on 3 sessions",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104178"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T07:04:15Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -9812,6 +9857,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-16T06:47:09Z",
+  "updated_at": "2026-10-16T07:04:15Z",
   "version": 2
 }
