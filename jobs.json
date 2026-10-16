@@ -8302,6 +8302,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T05:38:11Z"
     },
+    "d9573ff9d9a1e5f3c5b9": {
+      "artifacts": {},
+      "created_at": "2026-10-16T02:05:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T02:05:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T02:05:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104176,
+      "job_id": "d9573ff9d9a1e5f3c5b9",
+      "last_seen_at": "2026-10-16T02:05:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Filters - Vendor option is missing in filters",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104176"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T02:05:51Z"
+    },
     "d962188b8549f64e7453": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:06Z",
@@ -9762,6 +9807,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-16T01:58:49Z",
+  "updated_at": "2026-10-16T02:05:51Z",
   "version": 2
 }
