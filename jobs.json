@@ -1408,6 +1408,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "27b6e7390048053d245e": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104218,
+      "job_id": "27b6e7390048053d245e",
+      "last_seen_at": "2026-10-16T16:44:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] QuickBooks Desktop Sync Now in New Expensify repeatedly returns a stale-data error without requesting a fresh Codat refresh, while a Classic sync successfully refreshes the same connection.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104218"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:55Z"
+    },
     "27d4b21ebcaf323fb00f": {
       "artifacts": {},
       "created_at": "2026-10-12T22:53:18Z",
@@ -2643,6 +2688,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
     },
+    "4ac7c29407398ddc3763": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104216,
+      "job_id": "4ac7c29407398ddc3763",
+      "last_seen_at": "2026-10-16T16:44:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] The From filter in New Expensify cannot find a removed workspace member. The main search field can.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104216"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:55Z"
+    },
     "4bea7da62a36addac555": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -2778,6 +2868,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "4dcd755ed8be834ba7cc": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104236,
+      "job_id": "4dcd755ed8be834ba7cc",
+      "last_seen_at": "2026-10-16T16:44:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Scan expenses - Multiple scan expenses with different recipients all get added to the workspace of whichever one you tap Submit on",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104236"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:56Z"
     },
     "4de7e80cfb8658956916": {
       "artifacts": {},
@@ -4731,6 +4866,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "85e0500e36f6edb1d211": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104221,
+      "job_id": "85e0500e36f6edb1d211",
+      "last_seen_at": "2026-10-16T16:44:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace admin can view card transactions from a different workspace (Y) in a shared Expensify Card program despite not being a member/admin there",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104221"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:55Z"
     },
     "8655cd2db040a31fff25": {
       "artifacts": {},
@@ -8913,6 +9093,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "e689b9c52daedfc826e8": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104231,
+      "job_id": "e689b9c52daedfc826e8",
+      "last_seen_at": "2026-10-16T16:44:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Rules option should not be displayed when duplicating workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104231"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:55Z"
+    },
     "e6fcad9f088b083e3fd0": {
       "artifacts": {},
       "created_at": "2026-10-14T05:38:11Z",
@@ -9597,6 +9822,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "f54bed3e15e45561cd7f": {
+      "artifacts": {},
+      "created_at": "2026-10-16T16:44:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-16T16:44:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104247,
+      "job_id": "f54bed3e15e45561cd7f",
+      "last_seen_at": "2026-10-16T16:44:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend- From column Is missing when filtering by From is owner account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104247"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-16T16:44:55Z"
+    },
     "f67c070290749f0838c0": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -9916,6 +10186,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-16T15:53:15Z",
+  "updated_at": "2026-10-16T16:44:56Z",
   "version": 2
 }
