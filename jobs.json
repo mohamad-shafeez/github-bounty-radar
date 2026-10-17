@@ -5048,6 +5048,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:17Z"
     },
+    "86b7545c840185677dc1": {
+      "artifacts": {},
+      "created_at": "2026-10-17T17:58:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-17T17:58:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-17T17:58:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104300,
+      "job_id": "86b7545c840185677dc1",
+      "last_seen_at": "2026-10-17T17:58:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Web - Emoji Suggestions-Irrelevant emoji suggestions displayed when typing an emoji keyword",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104300"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-17T17:58:07Z"
+    },
     "884136ffec6839bfbf0a": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -10272,6 +10317,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "f9dcd33a3170b2a942fa": {
+      "artifacts": {},
+      "created_at": "2026-10-17T17:58:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-17T17:58:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-17T17:58:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104299,
+      "job_id": "f9dcd33a3170b2a942fa",
+      "last_seen_at": "2026-10-17T17:58:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Search - An asterisk (*) is added after merchant in the search query",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104299"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-17T17:58:07Z"
+    },
     "fa4ce85856007310ffaa": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -10408,6 +10498,6 @@
       "updated_at": "2026-10-06T15:06:18Z"
     }
   },
-  "updated_at": "2026-10-17T17:57:21Z",
+  "updated_at": "2026-10-17T17:58:07Z",
   "version": 2
 }
