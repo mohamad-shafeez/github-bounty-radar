@@ -5458,6 +5458,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
     },
+    "8d303003d404318c3979": {
+      "artifacts": {},
+      "created_at": "2026-10-17T20:10:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-17T20:10:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-17T20:10:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104301,
+      "job_id": "8d303003d404318c3979",
+      "last_seen_at": "2026-10-17T20:10:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] mWeb - Concierge RHP - Swiping back doesn't close the Concierge RHP",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104301"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-17T20:10:42Z"
+    },
     "8dc142fd6c7ef5cec7f3": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:04Z",
@@ -10501,8 +10546,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "fd3aa989fa4ba2358fe9": {
+      "artifacts": {},
+      "created_at": "2026-10-17T20:10:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-17T20:10:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-17T20:10:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104302,
+      "job_id": "fd3aa989fa4ba2358fe9",
+      "last_seen_at": "2026-10-17T20:10:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workflows - The report goes directly to the over-limit approver",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104302"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-17T20:03:06Z",
+  "updated_at": "2026-10-17T20:10:42Z",
   "version": 2
 }
