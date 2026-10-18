@@ -7014,7 +7014,7 @@
     },
     "b624887ac7b065f6e76b": {
       "ai_quota_error": "All AI providers failed: [{'provider': 'gemini', 'error': 'Gemini rate limit / quota exceeded (HTTP 429): {\\n  \"error\": {\\n    \"code\": 429,\\n    \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \\\\n* Quota ex'}]",
-      "ai_retry_after": 1792340664.0813055,
+      "ai_retry_after": 1792349482.2286954,
       "artifacts": {
         "ingestion": "job-artifacts/b624887ac7b065f6e76b/ingestion.json",
         "ingestion_sha256": "b8a6c7f8c3fc8577aa0900f3922aec5069141a7a762880fe5590840c7ec2d690"
@@ -7405,6 +7405,11 @@
         },
         {
           "at": "2026-10-18T16:09:24Z",
+          "reason": "AI quota/rate limit",
+          "state": "WAITING_FOR_AI_QUOTA"
+        },
+        {
+          "at": "2026-10-18T18:36:22Z",
           "reason": "AI quota/rate limit",
           "state": "WAITING_FOR_AI_QUOTA"
         }
@@ -10668,6 +10673,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-18T16:09:24Z",
+  "updated_at": "2026-10-18T18:36:22Z",
   "version": 2
 }
