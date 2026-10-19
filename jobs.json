@@ -2322,6 +2322,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
     },
+    "3c37a7f52a7f6505c8b0": {
+      "artifacts": {},
+      "created_at": "2026-10-19T21:35:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103339,
+      "job_id": "3c37a7f52a7f6505c8b0",
+      "last_seen_at": "2026-10-19T21:35:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Add a \"Rejected\" and a \"Held\" suggested search that appears once a user has rejected/held expenses",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103339"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T21:35:39Z"
+    },
     "3c687124b4fd8b2888c7": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -4425,6 +4469,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T17:47:13Z"
     },
+    "701a7a0d309dc61498e2": {
+      "artifacts": {},
+      "created_at": "2026-10-19T21:35:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T21:35:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T21:35:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104350,
+      "job_id": "701a7a0d309dc61498e2",
+      "last_seen_at": "2026-10-19T21:35:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Enabling Expensify Travel in New Expensify does not complete activation for the workspace.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104350"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T21:35:40Z"
+    },
     "70435d8ed97697ffb101": {
       "artifacts": {},
       "created_at": "2026-10-14T22:33:19Z",
@@ -4605,6 +4694,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:09Z"
+    },
+    "72d07e3d2e31af368a78": {
+      "artifacts": {},
+      "created_at": "2026-10-19T21:35:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104388,
+      "job_id": "72d07e3d2e31af368a78",
+      "last_seen_at": "2026-10-19T21:35:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Pay is shown when one of the reports contains only nonreimbursable expense during bulk select",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104388"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T21:35:39Z"
     },
     "72f84953a4e5589a3487": {
       "artifacts": {},
@@ -9804,6 +9939,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:48Z"
     },
+    "dc186ff42840a9552d10": {
+      "artifacts": {},
+      "created_at": "2026-10-19T21:35:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104341,
+      "job_id": "dc186ff42840a9552d10",
+      "last_seen_at": "2026-10-19T21:35:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Expense - Both approved & held expenses' total is shown after approving",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104341"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T21:35:39Z"
+    },
     "dc51cf8725635e54195e": {
       "artifacts": {},
       "created_at": "2026-10-15T18:42:47Z",
@@ -10533,6 +10713,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T21:47:40Z"
+    },
+    "e98ffa556496ec1ca444": {
+      "artifacts": {},
+      "created_at": "2026-10-19T21:35:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T21:35:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104396,
+      "job_id": "e98ffa556496ec1ca444",
+      "last_seen_at": "2026-10-19T21:35:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Test drive - Test drive steps when choosing Track onboarding flow are outdated",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104396"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T21:35:39Z"
     },
     "eb37e09fb11d33e07823": {
       "artifacts": {},
@@ -11490,6 +11715,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-19T21:30:32Z",
+  "updated_at": "2026-10-19T21:35:40Z",
   "version": 2
 }
