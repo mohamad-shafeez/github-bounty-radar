@@ -1001,6 +1001,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "18cd779e658c33b8bc52": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104363,
+      "job_id": "18cd779e658c33b8bc52",
+      "last_seen_at": "2026-10-19T17:18:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend-Sticky header does not stick when scrolling offline, then online",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104363"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:51Z"
+    },
     "1941b082e8aeefda77f5": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1180,6 +1225,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
+    },
+    "1ec4814070851c89c3af": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102117,
+      "job_id": "1ec4814070851c89c3af",
+      "last_seen_at": "2026-10-19T17:18:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 62,
+        "title": "[$250] the conversation that requested the money is marked as read instead of unread",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102117"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:48Z"
     },
     "1ecb6ee935735281710a": {
       "artifacts": {},
@@ -1544,6 +1635,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "2c7cff2a4fd5c6dab42a": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104352,
+      "job_id": "2c7cff2a4fd5c6dab42a",
+      "last_seen_at": "2026-10-19T17:18:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug",
+          "#feeds-2026"
+        ],
+        "score": 53,
+        "title": "[$175] Company Cards - Cannot assign new TD Canada Trust card (card ending in xxxx not listed in dashboard dropdown after successful \"Assign new cards\")",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104352"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:52Z"
     },
     "2c85c7c0fb03a2678ed1": {
       "artifacts": {},
@@ -2550,6 +2687,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
     },
+    "435e89ae7be526ace8ce": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104360,
+      "job_id": "435e89ae7be526ace8ce",
+      "last_seen_at": "2026-10-19T17:18:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web-Chat- Edit comment input is not focused",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104360"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:51Z"
+    },
     "44308062cd6345ab45e1": {
       "artifacts": {},
       "created_at": "2026-10-08T14:45:57Z",
@@ -2640,6 +2822,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
+    },
+    "48b74bfb72609954ff1f": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103805,
+      "job_id": "48b74bfb72609954ff1f",
+      "last_seen_at": "2026-10-19T17:18:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Web-Workspace- Want a FREE employee plan? modal does not dismiss after click Get a free plan",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103805"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:52Z"
     },
     "49b4827d9ef7961b3f24": {
       "artifacts": {},
@@ -3923,6 +4151,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:38Z"
     },
+    "67ac60d126159385e8f0": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103727,
+      "job_id": "67ac60d126159385e8f0",
+      "last_seen_at": "2026-10-19T17:18:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Reports - Tax amount shown as zero on duplicated negative expense with tax",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103727"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:50Z"
+    },
     "687b682b44a5381b0d00": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -3967,6 +4241,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "6a227a15de09568edec7": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104298,
+      "job_id": "6a227a15de09568edec7",
+      "last_seen_at": "2026-10-19T17:18:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Held report displays zero amount",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104298"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:51Z"
     },
     "6a35f069714bc04a302a": {
       "artifacts": {},
@@ -4557,6 +4877,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "7a2d817f47eff5d9ccc6": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103751,
+      "job_id": "7a2d817f47eff5d9ccc6",
+      "last_seen_at": "2026-10-19T17:18:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Wallet - Editing spend rule opens More features of wrong workspace",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103751"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:49Z"
+    },
     "7a7452be98e35f2782cc": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -4647,6 +5013,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "7de7444491264e4366b7": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104361,
+      "job_id": "7de7444491264e4366b7",
+      "last_seen_at": "2026-10-19T17:18:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Scheduled Submit - Retracting a report fails restore the workspace Scheduled Submit policy",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104361"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:51Z"
     },
     "7f91a11276a78b6e0302": {
       "artifacts": {},
@@ -5190,6 +5601,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-17T17:58:07Z"
+    },
+    "87410136677ed0e9678d": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104185,
+      "job_id": "87410136677ed0e9678d",
+      "last_seen_at": "2026-10-19T17:18:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] [Auto] - Report - Missing warning missing merchant when submit violation report",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104185"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:50Z"
     },
     "884136ffec6839bfbf0a": {
       "artifacts": {},
@@ -6193,6 +6650,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T21:58:39Z"
+    },
+    "9a5fc0c77183a915ea20": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104349,
+      "job_id": "9a5fc0c77183a915ea20",
+      "last_seen_at": "2026-10-19T17:18:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Unable to attach a receipt to Track Distance > Odometer expenses",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104349"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:52Z"
     },
     "9a95954df1ab12518771": {
       "artifacts": {},
@@ -8157,6 +8659,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "c3596e9ee3738b4b410e": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104358,
+      "job_id": "c3596e9ee3738b4b410e",
+      "last_seen_at": "2026-10-19T17:18:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Android-Chat-Message reappear in composer when sent to chat with unapproved expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104358"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:52Z"
+    },
     "c5f4ba5ee4851bf9ed06": {
       "artifacts": {},
       "created_at": "2026-10-15T10:02:51Z",
@@ -8293,6 +8840,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "c888c87f82a2e2c7d339": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103833,
+      "job_id": "c888c87f82a2e2c7d339",
+      "last_seen_at": "2026-10-19T17:18:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Split - Report of Employee appears in Admin workspace chat after revert split",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103833"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:49Z"
     },
     "c969f1bfc73ad5df737d": {
       "artifacts": {},
@@ -9161,6 +9754,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "da84293eb196b3221379": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104373,
+      "job_id": "da84293eb196b3221379",
+      "last_seen_at": "2026-10-19T17:18:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Share Sheet > Submit - Default workspace doesn't appear in the pick list when account has many workspaces/chats (only findable via search)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104373"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:48Z"
+    },
     "dc51cf8725635e54195e": {
       "artifacts": {},
       "created_at": "2026-10-15T18:42:47Z",
@@ -9252,6 +9890,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
+    },
+    "dfdc91882d218f881a71": {
+      "artifacts": {},
+      "created_at": "2026-10-19T17:18:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T17:18:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103977,
+      "job_id": "dfdc91882d218f881a71",
+      "last_seen_at": "2026-10-19T17:18:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature",
+          "Overdue"
+        ],
+        "score": 60,
+        "title": "[$175] [CFI] Use the left and right arrow keys to move between expenses on a report",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103977"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T17:18:49Z"
     },
     "e0a98e5ca5d4dbf2a5a9": {
       "artifacts": {},
@@ -10801,6 +11485,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-19T17:10:12Z",
+  "updated_at": "2026-10-19T17:18:52Z",
   "version": 2
 }
