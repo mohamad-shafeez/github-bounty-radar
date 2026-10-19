@@ -2641,6 +2641,56 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
     },
+    "49b4827d9ef7961b3f24": {
+      "artifacts": {},
+      "created_at": "2026-10-19T10:57:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T10:57:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-19T10:57:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99595,
+      "job_id": "49b4827d9ef7961b3f24",
+      "last_seen_at": "2026-10-19T10:57:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Help Wanted",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 62,
+        "title": "[$250] An admin is unable to submit a report because it is stuck in a Review duplicates loop.",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99595"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T10:57:04Z"
+    },
     "49b7134a3e3d77a48aec": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:04Z",
@@ -4144,6 +4194,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:17Z"
+    },
+    "719c01cee228a537da1e": {
+      "artifacts": {},
+      "created_at": "2026-10-19T10:57:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-19T10:57:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-19T10:57:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104329,
+      "job_id": "719c01cee228a537da1e",
+      "last_seen_at": "2026-10-19T10:57:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 1750.0,
+          "currency": "$",
+          "pattern": "\"$1750\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task",
+          "Awaiting Payment"
+        ],
+        "score": 73,
+        "title": "[Due for payment 2026-10-19] [$1750] Payment for Campfire integration",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104329"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-19T10:57:04Z"
     },
     "71c125b1f0d77fb83525": {
       "artifacts": {},
@@ -10700,6 +10796,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-19T10:44:29Z",
+  "updated_at": "2026-10-19T10:57:04Z",
   "version": 2
 }
