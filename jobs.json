@@ -3341,24 +3341,26 @@
       ],
       "issue_number": 103403,
       "job_id": "57b28891372eaee6d786",
-      "last_seen_at": "2026-10-08T01:14:28Z",
+      "last_seen_at": "2026-10-19T05:21:16Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 61,
-        "title": "[$175] Android/iOS-Offline-Navigation arrows disappear after deleted expense syncs online",
+        "score": 68,
+        "title": "[$250] Android/iOS-Offline-Navigation arrows disappear after deleted expense syncs online",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103403"
       },
@@ -10693,6 +10695,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-19T05:11:56Z",
+  "updated_at": "2026-10-19T05:21:16Z",
   "version": 2
 }
