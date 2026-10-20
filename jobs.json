@@ -910,6 +910,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "16bde11c6f61292a274a": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:58:59Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104501,
+      "job_id": "16bde11c6f61292a274a",
+      "last_seen_at": "2026-10-20T21:58:59Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-DQ2] Web: FlashList commitLayout loops into \"Maximum update depth exceeded\" on Add existing expenses",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104501"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:58:59Z"
+    },
     "171a8cd8def3c9c216bf": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1316,6 +1360,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T21:47:40Z"
+    },
+    "1ee700833ab187c5437e": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:58:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:58:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:58:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104515,
+      "job_id": "1ee700833ab187c5437e",
+      "last_seen_at": "2026-10-20T21:58:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] All - Empty \"Check your info\" page appears in RHP after adding BA to Wallet",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104515"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:58:58Z"
     },
     "1f7703af2e00bd59637e": {
       "artifacts": {},
@@ -2502,6 +2591,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T17:47:13Z"
     },
+    "3d31ec6d0e508d20a4da": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:59:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104494,
+      "job_id": "3d31ec6d0e508d20a4da",
+      "last_seen_at": "2026-10-20T21:59:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 48,
+        "title": "[$175] LHN - Avatar tooltip is not horizontally centered on the avatar",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104494"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:59:00Z"
+    },
     "3df70bef88f9e28dcd4d": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:08Z",
@@ -3142,6 +3275,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
+    },
+    "4a062045177b0704b062": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:59:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104509,
+      "job_id": "4a062045177b0704b062",
+      "last_seen_at": "2026-10-20T21:59:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expensify Card - Next button replaced with loading button after enabled then disabled rule",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104509"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:59:00Z"
     },
     "4a3846c847be0ae6f195": {
       "artifacts": {},
@@ -4514,6 +4692,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "6972c3dab17ffa305c5a": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:59:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104505,
+      "job_id": "6972c3dab17ffa305c5a",
+      "last_seen_at": "2026-10-20T21:59:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-N5H] HybridApp Android: native tab bar crashes with more than 6 items",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104505"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:59:00Z"
     },
     "6a227a15de09568edec7": {
       "artifacts": {},
@@ -9149,6 +9371,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:52Z"
     },
+    "c5d69724692d672cb6b9": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:58:59Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104504,
+      "job_id": "c5d69724692d672cb6b9",
+      "last_seen_at": "2026-10-20T21:58:59Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 59,
+        "title": "[$175] [Sentry: APP-JVF] Web: useSidebarOrderedReports setState loop, \"Maximum update depth exceeded\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104504"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:58:59Z"
+    },
     "c5f4ba5ee4851bf9ed06": {
       "artifacts": {},
       "created_at": "2026-10-15T10:02:51Z",
@@ -9286,6 +9552,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
     },
+    "c87fe6432f2df16e2d3d": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:59:00Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:59:00Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104500,
+      "job_id": "c87fe6432f2df16e2d3d",
+      "last_seen_at": "2026-10-20T21:59:00Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] Agent - Agent's fallback avatar is displayed in the threaded comment",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104500"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:59:00Z"
+    },
     "c888c87f82a2e2c7d339": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:49Z",
@@ -9377,6 +9688,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "c993fae0da35b5718262": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:58:59Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104503,
+      "job_id": "c993fae0da35b5718262",
+      "last_seen_at": "2026-10-20T21:58:59Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-MD4] HybridApp Android: startup abort, \"Cannot find native module 'ExpoAudio'\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104503"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:58:59Z"
     },
     "cae78f8fd7d22bef1272": {
       "artifacts": {},
@@ -9603,6 +9958,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:56Z"
+    },
+    "ce074edc5921994b229b": {
+      "artifacts": {},
+      "created_at": "2026-10-20T21:58:59Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T21:58:59Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104502,
+      "job_id": "ce074edc5921994b229b",
+      "last_seen_at": "2026-10-20T21:58:59Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 58,
+        "title": "[$175] [Sentry: APP-MHA] HybridApp iOS: FlashList onScroll throws \"LayoutManager is not initialized\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104502"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T21:58:59Z"
     },
     "ce567f9fc0eb149e1a9b": {
       "artifacts": {},
@@ -12156,6 +12555,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-20T21:56:06Z",
+  "updated_at": "2026-10-20T21:59:01Z",
   "version": 2
 }
