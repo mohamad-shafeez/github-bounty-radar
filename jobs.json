@@ -2231,6 +2231,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
     },
+    "3981a6e48cac0cfec8a2": {
+      "artifacts": {},
+      "created_at": "2026-10-20T00:36:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T00:36:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T00:36:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104426,
+      "job_id": "3981a6e48cac0cfec8a2",
+      "last_seen_at": "2026-10-20T00:36:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 59,
+        "title": "[$175] October 2026 product update - Add persistent bottom-right product marketing window",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104426"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T00:36:58Z"
+    },
     "398662c22510afb41916": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -11311,6 +11355,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T16:44:55Z"
     },
+    "f5bc00871aa0b9f85afc": {
+      "artifacts": {},
+      "created_at": "2026-10-20T00:36:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T00:36:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-20T00:36:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104425,
+      "job_id": "f5bc00871aa0b9f85afc",
+      "last_seen_at": "2026-10-20T00:36:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] – PR 103367 –  Concierge – Custom Agent Replies When @Concierge Is Mentioned",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104425"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T00:36:58Z"
+    },
     "f67c070290749f0838c0": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -11720,6 +11809,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-20T00:33:19Z",
+  "updated_at": "2026-10-20T00:36:58Z",
   "version": 2
 }
