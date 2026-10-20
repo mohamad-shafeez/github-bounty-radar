@@ -6785,6 +6785,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
     },
+    "99208fd7f03922809f64": {
+      "artifacts": {},
+      "created_at": "2026-10-20T10:04:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-20T10:04:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-20T10:04:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100259,
+      "job_id": "99208fd7f03922809f64",
+      "last_seen_at": "2026-10-20T10:04:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "NewFeature"
+        ],
+        "score": 48,
+        "title": "[$175] [CFI] Report Fields: Add up to 3 fields per row and add in-line editing",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100259"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-20T10:04:25Z"
+    },
     "9973bf4a46cacceb0acb": {
       "artifacts": {},
       "created_at": "2026-10-13T21:58:39Z",
@@ -11819,6 +11865,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-20T10:01:14Z",
+  "updated_at": "2026-10-20T10:04:25Z",
   "version": 2
 }
