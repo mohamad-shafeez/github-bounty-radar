@@ -727,6 +727,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "122a910bb56c585a1e78": {
+      "artifacts": {},
+      "created_at": "2026-10-21T22:20:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 90830,
+      "job_id": "122a910bb56c585a1e78",
+      "last_seen_at": "2026-10-21T22:20:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "NewFeature"
+        ],
+        "score": 56,
+        "title": "[$250] [CFI] Support validation_failed bank account state in NewDot",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/90830"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T22:20:28Z"
+    },
     "136a2b0b89cf458be6fa": {
       "artifacts": {},
       "created_at": "2026-10-13T21:58:39Z",
@@ -3224,6 +3270,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:52Z"
+    },
+    "49545df3c66879e716a1": {
+      "artifacts": {},
+      "created_at": "2026-10-21T22:20:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104596,
+      "job_id": "49545df3c66879e716a1",
+      "last_seen_at": "2026-10-21T22:20:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 57,
+        "title": "[$175] Missing attendees violation is hidden when an approver views another member's expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104596"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T22:20:28Z"
     },
     "49b4827d9ef7961b3f24": {
       "artifacts": {},
@@ -7875,6 +7966,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:11Z"
     },
+    "9e42e95b2dfecf55ff12": {
+      "artifacts": {},
+      "created_at": "2026-10-21T22:20:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104643,
+      "job_id": "9e42e95b2dfecf55ff12",
+      "last_seen_at": "2026-10-21T22:20:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Waiting for you to add USD bank account is shown for employee instead of the right next step",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104643"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T22:20:28Z"
+    },
     "9e9f9f2de4b726a26a89": {
       "artifacts": {},
       "created_at": "2026-10-11T18:10:58Z",
@@ -8288,6 +8424,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T22:59:05Z"
+    },
+    "ae44d073602e38ffd76b": {
+      "artifacts": {},
+      "created_at": "2026-10-21T22:20:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-21T22:20:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104613,
+      "job_id": "ae44d073602e38ffd76b",
+      "last_seen_at": "2026-10-21T22:20:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Report - Violation appears inside pending action system message on report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104613"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T22:20:28Z"
     },
     "af3c6bb3904fce110fbc": {
       "artifacts": {},
@@ -12903,6 +13084,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-21T22:02:31Z",
+  "updated_at": "2026-10-21T22:20:28Z",
   "version": 2
 }
