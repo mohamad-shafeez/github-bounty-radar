@@ -9291,6 +9291,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T07:04:15Z"
     },
+    "c1342310431871f810cb": {
+      "artifacts": {},
+      "created_at": "2026-10-21T05:04:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T05:04:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-21T05:04:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101587,
+      "job_id": "c1342310431871f810cb",
+      "last_seen_at": "2026-10-21T05:04:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 60,
+        "title": "[$175] The “Cash expenses are always non-reimbursable” rule is not enforced. Users can still mark cash expenses as reimbursable, and new cash expenses are created as reimbursable by default",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101587"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T05:04:11Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -12610,6 +12656,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-21T04:58:12Z",
+  "updated_at": "2026-10-21T05:04:11Z",
   "version": 2
 }
