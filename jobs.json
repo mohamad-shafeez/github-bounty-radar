@@ -1452,6 +1452,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "1f8b48ec45e489c41106": {
+      "artifacts": {},
+      "created_at": "2026-10-21T00:24:14Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-21T00:24:14Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-21T00:24:14Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104519,
+      "job_id": "1f8b48ec45e489c41106",
+      "last_seen_at": "2026-10-21T00:24:14Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Search - Contextual suggestion for new Held Report is missing",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104519"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-21T00:24:14Z"
+    },
     "208e9e3622c24dfe084e": {
       "artifacts": {},
       "created_at": "2026-10-06T20:11:58Z",
@@ -12560,6 +12605,6 @@
       "updated_at": "2026-10-17T20:10:41Z"
     }
   },
-  "updated_at": "2026-10-21T00:18:03Z",
+  "updated_at": "2026-10-21T00:24:14Z",
   "version": 2
 }
