@@ -1226,6 +1226,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "1c982203c3424b591b94": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104709,
+      "job_id": "1c982203c3424b591b94",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Can’t dismiss review app modal",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104709"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
+    },
     "1d31f0969c6d42019575": {
       "artifacts": {},
       "created_at": "2026-10-09T18:55:42Z",
@@ -1860,6 +1906,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "2b1229c9414c56f1b31f": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104688,
+      "job_id": "2b1229c9414c56f1b31f",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Full category description is displayed shortly instead of the rule title",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104688"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
     },
     "2c7cff2a4fd5c6dab42a": {
       "artifacts": {},
@@ -7097,6 +7188,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:04Z"
     },
+    "914e0b4c821e57a3a183": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104708,
+      "job_id": "914e0b4c821e57a3a183",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Web -WS Setting - No \"not found page\" is shown after disabling tax from other device",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104708"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
+    },
     "9198cfa28d5028d1f35e": {
       "artifacts": {},
       "created_at": "2026-10-16T12:17:31Z",
@@ -7145,6 +7281,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T12:17:31Z"
+    },
+    "9228d0ff436ad55cdc01": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104710,
+      "job_id": "9228d0ff436ad55cdc01",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] iOS & Android - Troubleshoot -  Unable to switch to Old Dot",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104710"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
     },
     "92f0998522f00135c5e9": {
       "artifacts": {},
@@ -7372,6 +7553,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "9653c17b163dcc7fbe7e": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104703,
+      "job_id": "9653c17b163dcc7fbe7e",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Expense-Currency and amount does not reset after refresh",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104703"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
     },
     "9677f4fd179a86b43529": {
       "artifacts": {},
@@ -10868,6 +11094,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-10T08:26:32Z"
     },
+    "d6ea143c9916e2a9cb5f": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104691,
+      "job_id": "d6ea143c9916e2a9cb5f",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Next is not disabled in offline mode when creating rule",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104691"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
+    },
     "d70e9d9e15c4fe2c2557": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -11186,6 +11457,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:48Z"
+    },
+    "db55ffe4945b4164b1ac": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104705,
+      "job_id": "db55ffe4945b4164b1ac",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] iOS - Copilot - Double account icon is not displayed when copiloting another account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104705"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
     },
     "dc186ff42840a9552d10": {
       "artifacts": {},
@@ -13097,8 +13413,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-17T20:10:41Z"
+    },
+    "fe04aefb9be2203a2058": {
+      "artifacts": {},
+      "created_at": "2026-10-22T10:21:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T10:21:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104704,
+      "job_id": "fe04aefb9be2203a2058",
+      "last_seen_at": "2026-10-22T10:21:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Travel-Cancellation policy date in ND is different from the cancellation policy in Spotnana",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104704"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-22T10:17:18Z",
+  "updated_at": "2026-10-22T10:21:34Z",
   "version": 2
 }
