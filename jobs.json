@@ -4774,6 +4774,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T21:58:39Z"
     },
+    "5de05bce2f7511444adb": {
+      "artifacts": {},
+      "created_at": "2026-10-22T22:25:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T22:25:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T22:25:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104798,
+      "job_id": "5de05bce2f7511444adb",
+      "last_seen_at": "2026-10-22T22:25:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Focus mode: new comments on a single-expense report don't show the report in the LHN",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104798"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T22:25:57Z"
+    },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -6548,6 +6593,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "80ec84a217fd0ac27186": {
+      "artifacts": {},
+      "created_at": "2026-10-22T22:25:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T22:25:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-22T22:25:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 103632,
+      "job_id": "80ec84a217fd0ac27186",
+      "last_seen_at": "2026-10-22T22:25:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Update the logic of the broken connection violation",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/103632"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T22:25:57Z"
     },
     "8119788573635499df6e": {
       "artifacts": {},
@@ -14647,6 +14736,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-22T22:22:58Z",
+  "updated_at": "2026-10-22T22:25:57Z",
   "version": 2
 }
