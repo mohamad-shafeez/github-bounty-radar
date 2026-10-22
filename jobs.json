@@ -2682,6 +2682,97 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
     },
+    "3af0d319ec955affdc8f": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104726,
+      "job_id": "3af0d319ec955affdc8f",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 75.0,
+          "currency": "$",
+          "pattern": "\"$75\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement",
+          "Task"
+        ],
+        "score": 49,
+        "title": "[$75] Track Concierge messages sent with FullStory custom event",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104726"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
+    },
+    "3b4c6f0b779450de03bd": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104744,
+      "job_id": "3b4c6f0b779450de03bd",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-M0W] HybridApp iOS: App Hang, Live Markdown parser blocks the main thread on the JS runtime lock",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104744"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
+    },
     "3c37a7f52a7f6505c8b0": {
       "artifacts": {},
       "created_at": "2026-10-19T21:35:39Z",
@@ -2951,6 +3042,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
+    },
+    "3f627b4723aaa19dbae0": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104728,
+      "job_id": "3f627b4723aaa19dbae0",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Prompt is shown under \"Please let us know what we can improve\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104728"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
     },
     "3f8afc76cd00bf889b4a": {
       "artifacts": {},
@@ -4368,6 +4504,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "59089fd2286270e3deb8": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104740,
+      "job_id": "59089fd2286270e3deb8",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] 1st point flashes briefly after Drag and Drop the Progess bar",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104740"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
+    },
     "5bb5692b717200ada583": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:09Z",
@@ -4872,6 +5053,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:42Z"
+    },
+    "67234cfdc9d18bd1a339": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104743,
+      "job_id": "67234cfdc9d18bd1a339",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-7AR] HybridApp Android: Fabric addViewAt \"failed to insert view\" still crashes after #101057",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104743"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
     },
     "6762318f8695b8c28fb4": {
       "artifacts": {},
@@ -6505,6 +6731,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T16:44:55Z"
     },
+    "863662b2ff7818f06b4a": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104746,
+      "job_id": "863662b2ff7818f06b4a",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Sentry: APP-C2W] Web: Copy in the report action context menu crashes when the report action is null",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104746"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
+    },
     "8655cd2db040a31fff25": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:17Z",
@@ -7554,6 +7825,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "95e99d0e209dcd8dd2a2": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104750,
+      "job_id": "95e99d0e209dcd8dd2a2",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Web - Scan Receipt - Approve button appears after scan failure",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104750"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
+    },
     "9653c17b163dcc7fbe7e": {
       "artifacts": {},
       "created_at": "2026-10-22T10:21:34Z",
@@ -7961,6 +8277,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:04Z"
+    },
+    "9c1aa5a43986a7ce9f76": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104742,
+      "job_id": "9c1aa5a43986a7ce9f76",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] [Performance] Reduce Search re-renders when opening reports",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104742"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
     },
     "9c956fbd68ba4e1d5d44": {
       "artifacts": {},
@@ -8373,6 +8733,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "a2b78c65d5869f1441ef": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104723,
+      "job_id": "a2b78c65d5869f1441ef",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Unexpected error text appears instead of Review text when connect BA",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104723"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
     },
     "a3685f48eb067efa55a2": {
       "artifacts": {},
@@ -9648,6 +10053,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "bb2789b365875e4f645b": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104754,
+      "job_id": "bb2789b365875e4f645b",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] Workspace - Members: show Owner as a badge next to the name, not in the Role column",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104754"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
+    },
     "bbf28a87a6f8fa7b64ea": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -10145,6 +10595,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:52Z"
+    },
+    "c3b2eea4b46551e30ca8": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104748,
+      "job_id": "c3b2eea4b46551e30ca8",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-N98] Web: editing a message loops setSelection into \"Maximum update depth exceeded\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104748"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
     },
     "c5d69724692d672cb6b9": {
       "artifacts": {},
@@ -11782,6 +12277,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T23:54:41Z"
     },
+    "e3255d10044e01ad815b": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104747,
+      "job_id": "e3255d10044e01ad815b",
+      "last_seen_at": "2026-10-22T15:23:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [Sentry: APP-NAE] HybridApp iOS OldDot: report.js throws \"Provided JSON doesn't contain cached data\" for support ticket reports",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104747"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:37Z"
+    },
     "e406ad06b57ecaedba3c": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -12373,6 +12913,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "ec34cba45d5a99f07083": {
+      "artifacts": {},
+      "created_at": "2026-10-22T15:23:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-22T15:23:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104745,
+      "job_id": "ec34cba45d5a99f07083",
+      "last_seen_at": "2026-10-22T15:23:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Sentry: APP-DRT] Web: category picker crashes when a category has no name",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104745"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-22T15:23:38Z"
     },
     "ec34d8a3d6f05689ea23": {
       "artifacts": {},
@@ -13465,6 +14050,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-22T15:20:24Z",
+  "updated_at": "2026-10-22T15:23:39Z",
   "version": 2
 }
