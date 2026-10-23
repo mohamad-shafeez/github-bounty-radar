@@ -3725,6 +3725,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
     },
+    "4890ee258b33a895b815": {
+      "artifacts": {},
+      "created_at": "2026-10-23T19:12:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T19:12:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-23T19:12:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104864,
+      "job_id": "4890ee258b33a895b815",
+      "last_seen_at": "2026-10-23T19:12:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Company cards - Card drop down is not shown for cards with longer card name",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104864"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T19:12:26Z"
+    },
     "48b74bfb72609954ff1f": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:52Z",
@@ -8502,6 +8547,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:06Z"
+    },
+    "9461f6f60448d73c499c": {
+      "artifacts": {},
+      "created_at": "2026-10-23T19:12:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T19:12:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T19:12:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 96846,
+      "job_id": "9461f6f60448d73c499c",
+      "last_seen_at": "2026-10-23T19:12:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[Due for payment 2026-10-30] [$250] Company Card - Credit Card Export Account Lists Appear on Vendor Bills",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/96846"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T19:12:25Z"
     },
     "9554b7240fbb44ed390b": {
       "artifacts": {},
@@ -15127,6 +15218,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-23T19:09:16Z",
+  "updated_at": "2026-10-23T19:12:26Z",
   "version": 2
 }
