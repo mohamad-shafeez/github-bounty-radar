@@ -681,6 +681,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
     },
+    "1075b30781df5298913b": {
+      "artifacts": {},
+      "created_at": "2026-10-23T00:46:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T00:46:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T00:46:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104286,
+      "job_id": "1075b30781df5298913b",
+      "last_seen_at": "2026-10-23T00:46:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Personal card-Not able to add Mock personal card second time",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104286"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T00:46:38Z"
+    },
     "110dadbc5f02e5331f65": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:25Z",
@@ -3269,6 +3315,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T17:47:13Z"
     },
+    "40f0ec2213a88d901e99": {
+      "artifacts": {},
+      "created_at": "2026-10-23T00:46:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T00:46:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T00:46:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100355,
+      "job_id": "40f0ec2213a88d901e99",
+      "last_seen_at": "2026-10-23T00:46:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [Exploratory] LHN - \"Pay\" badge is not visible on member´s side, despite being able to pay the expense.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100355"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T00:46:37Z"
+    },
     "41028cfc3e76f190dc92": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:07Z",
@@ -5391,23 +5483,25 @@
       ],
       "issue_number": 104505,
       "job_id": "6972c3dab17ffa305c5a",
-      "last_seen_at": "2026-10-20T21:59:00Z",
+      "last_seen_at": "2026-10-23T00:46:37Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
-          "Daily"
+          "Daily",
+          "Help Wanted"
         ],
-        "score": 55,
-        "title": "[$175] [Sentry: APP-N5H] HybridApp Android: native tab bar crashes with more than 6 items",
+        "score": 68,
+        "title": "[$250] [Sentry: APP-N5H] HybridApp Android: native tab bar crashes with more than 6 items",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104505"
       },
@@ -6999,6 +7093,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "84d17647926c460c7564": {
+      "artifacts": {},
+      "created_at": "2026-10-23T00:46:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T00:46:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T00:46:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101527,
+      "job_id": "84d17647926c460c7564",
+      "last_seen_at": "2026-10-23T00:46:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] SelfM- Only 1 tag level is displayed to User B in expense report",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101527"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T00:46:38Z"
     },
     "8593b52b38e7ecaf4a51": {
       "artifacts": {},
@@ -9181,6 +9321,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T21:47:40Z"
+    },
+    "a147944a9829a15bfe21": {
+      "artifacts": {},
+      "created_at": "2026-10-23T00:46:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T00:46:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T00:46:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101340,
+      "job_id": "a147944a9829a15bfe21",
+      "last_seen_at": "2026-10-23T00:46:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 60,
+        "title": "[$175] [Exploratory] Login-Pre-filled amount is shown when creating expense via shortcut.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101340"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T00:46:37Z"
     },
     "a172eccea4c1392fe0b8": {
       "artifacts": {},
@@ -14741,6 +14927,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-23T00:44:42Z",
+  "updated_at": "2026-10-23T00:46:38Z",
   "version": 2
 }
