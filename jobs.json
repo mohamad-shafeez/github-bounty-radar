@@ -182,6 +182,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "04c9ff4860e928ec2869": {
+      "artifacts": {},
+      "created_at": "2026-10-23T22:09:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104909,
+      "job_id": "04c9ff4860e928ec2869",
+      "last_seen_at": "2026-10-23T22:09:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Show the workspace default bank account first in the Pay menu",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104909"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T22:09:38Z"
+    },
     "04d58b5341d597092ae3": {
       "artifacts": {},
       "created_at": "2026-10-08T01:14:28Z",
@@ -6733,6 +6777,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:51Z"
     },
+    "7f62578bed28d64360e4": {
+      "artifacts": {},
+      "created_at": "2026-10-23T22:09:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104910,
+      "job_id": "7f62578bed28d64360e4",
+      "last_seen_at": "2026-10-23T22:09:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Account settings - Device management shows Windows 10 for a device running Windows 11.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104910"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T22:09:38Z"
+    },
     "7f91a11276a78b6e0302": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:37Z",
@@ -10953,6 +11042,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
+    },
+    "b9ce0343a8c3e3e33531": {
+      "artifacts": {},
+      "created_at": "2026-10-23T22:09:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-23T22:09:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 96327,
+      "job_id": "b9ce0343a8c3e3e33531",
+      "last_seen_at": "2026-10-23T22:09:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Monthly"
+        ],
+        "score": 72,
+        "title": "[$250] Refactor highlight mechanism",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/96327"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-23T22:09:38Z"
     },
     "ba978007465c34fb30c2": {
       "artifacts": {},
@@ -15223,6 +15357,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-23T22:04:51Z",
+  "updated_at": "2026-10-23T22:09:39Z",
   "version": 2
 }
