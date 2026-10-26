@@ -136,6 +136,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T21:47:40Z"
     },
+    "0262bed4c2a9747be111": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105021,
+      "job_id": "0262bed4c2a9747be111",
+      "last_seen_at": "2026-10-26T18:53:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Distance Rates-Auto-update government rate toggle isn't hidden in Control workspace with EUR",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105021"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:52Z"
+    },
     "044db7bb7b27e66c4dfb": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1225,6 +1270,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T21:58:59Z"
     },
+    "16df43adf92b8b7a8c7e": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105002,
+      "job_id": "16df43adf92b8b7a8c7e",
+      "last_seen_at": "2026-10-26T18:53:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Chat - Pasted HTML does not convert to Markdown in composer",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105002"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:51Z"
+    },
     "171a8cd8def3c9c216bf": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -2266,6 +2356,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
+    },
+    "2a2bf5a2ac2f94ab4ff6": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104579,
+      "job_id": "2a2bf5a2ac2f94ab4ff6",
+      "last_seen_at": "2026-10-26T18:53:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 53,
+        "title": "[$175] [CFI] Show the \"Discard changes?\" modal when exiting the Create expense flow with unsaved edits",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104579"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:52Z"
     },
     "2b1229c9414c56f1b31f": {
       "artifacts": {},
@@ -4317,6 +4452,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T16:44:55Z"
     },
+    "4ad765a8efc8e4f20eb5": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105008,
+      "job_id": "4ad765a8efc8e4f20eb5",
+      "last_seen_at": "2026-10-26T18:53:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Auto] - Scan - Failed split scan in Group displays raw UTC time without timezone label",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105008"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:51Z"
+    },
     "4bea7da62a36addac555": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -5270,6 +5450,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T22:25:57Z"
+    },
+    "5e38893fec2a405856ae": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105010,
+      "job_id": "5e38893fec2a405856ae",
+      "last_seen_at": "2026-10-26T18:53:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace- Unresponsive empty lines appear in place of tags when disabling first row is title",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105010"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:51Z"
     },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
@@ -7003,6 +7228,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
+    },
+    "7d6e1c7268a0900541a1": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105015,
+      "job_id": "7d6e1c7268a0900541a1",
+      "last_seen_at": "2026-10-26T18:53:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Onboarding - Explain how to merge when \"We couldn't add [work email]\" blocks the user",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105015"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:51Z"
     },
     "7de7444491264e4366b7": {
       "artifacts": {},
@@ -9909,6 +10178,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-11T18:10:58Z"
     },
+    "9fb24c96e0ec206ce66a": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101084,
+      "job_id": "9fb24c96e0ec206ce66a",
+      "last_seen_at": "2026-10-26T18:53:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] The #admins room activity log does not accurately display updates made to the approval workflow.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101084"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:52Z"
+    },
     "9fbc1324f53c2d9f3d52": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -10320,6 +10635,54 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "ac9e5ab99a1944c51d51": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101234,
+      "job_id": "ac9e5ab99a1944c51d51",
+      "last_seen_at": "2026-10-26T18:53:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 68,
+        "title": "[$250] Marking a chat as unread doesn't stick — client immediately re-reads it, and other clients never see the change",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101234"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:50Z"
     },
     "ada3ebde0bb5eed36905": {
       "artifacts": {},
@@ -11728,6 +12091,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "be0552ce4bdd108b2eb7": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105039,
+      "job_id": "be0552ce4bdd108b2eb7",
+      "last_seen_at": "2026-10-26T18:53:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Chat -  Thread opens normally instead of displaying a skeleton loader when rejoining offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105039"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:50Z"
+    },
     "be84c5983048988e372a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -12177,6 +12585,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:52Z"
+    },
+    "c39af09a46b3eb775fee": {
+      "artifacts": {},
+      "created_at": "2026-10-26T18:53:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T18:53:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105012,
+      "job_id": "c39af09a46b3eb775fee",
+      "last_seen_at": "2026-10-26T18:53:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Update okhttp",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105012"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T18:53:51Z"
     },
     "c3b2eea4b46551e30ca8": {
       "artifacts": {},
@@ -15910,6 +16363,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-26T18:53:17Z",
+  "updated_at": "2026-10-26T18:53:52Z",
   "version": 2
 }
