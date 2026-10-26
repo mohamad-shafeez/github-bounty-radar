@@ -861,6 +861,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "1173feb55e8f80046ce8": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104971,
+      "job_id": "1173feb55e8f80046ce8",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Footer - The icons and titles on the footer are too small on landscape",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104971"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
+    },
     "11dea90f914c53ffa6e3": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -1994,6 +2039,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T10:01:37Z"
+    },
+    "24b267b0d4e5777cb92a": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104964,
+      "job_id": "24b267b0d4e5777cb92a",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Phone-number validation error displayed when set 9833330123 as phone number",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104964"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
     },
     "2614edb4ec1c86507162": {
       "artifacts": {},
@@ -4544,6 +4634,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T22:59:05Z"
     },
+    "4f87e95d57fa7a0df19d": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104993,
+      "job_id": "4f87e95d57fa7a0df19d",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Search - Selected total shows incorrect (near-zero) sum when filtering on total:>0 and selecting all",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104993"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
+    },
     "4fa7fa1ddbd142bb52ce": {
       "artifacts": {},
       "created_at": "2026-10-21T10:01:37Z",
@@ -6639,6 +6775,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "7660338b323fd421afab": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104966,
+      "job_id": "7660338b323fd421afab",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Android - Emoji set for a status is not shown on Account setting button on bottom nav",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104966"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
     },
     "77669a5344bb24a12282": {
       "artifacts": {},
@@ -11675,6 +11857,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "c05523edf79f9900623c": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104968,
+      "job_id": "c05523edf79f9900623c",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS - Rules - Rules are not enabled when copying Merchant rule to the Collect workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104968"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
+    },
     "c08e267a96d3b6dec21a": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:10Z",
@@ -12055,24 +12282,26 @@
       ],
       "issue_number": 104060,
       "job_id": "c5f4ba5ee4851bf9ed06",
-      "last_seen_at": "2026-10-15T10:02:51Z",
+      "last_seen_at": "2026-10-26T12:52:39Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Different error appear after network reconnect",
+        "score": 56,
+        "title": "[$250] Different error appear after network reconnect",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104060"
       },
@@ -14148,24 +14377,26 @@
       ],
       "issue_number": 104231,
       "job_id": "e689b9c52daedfc826e8",
-      "last_seen_at": "2026-10-16T16:44:55Z",
+      "last_seen_at": "2026-10-26T12:52:39Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Rules option should not be displayed when duplicating workspace",
+        "score": 62,
+        "title": "[$250] Rules option should not be displayed when duplicating workspace",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104231"
       },
@@ -14764,6 +14995,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "f0cbce09f61fb44483a9": {
+      "artifacts": {},
+      "created_at": "2026-10-26T12:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T12:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104975,
+      "job_id": "f0cbce09f61fb44483a9",
+      "last_seen_at": "2026-10-26T12:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Auto] - Scan -App crashes while open first split receipt in full preview in new Group chat",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104975"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T12:52:39Z"
+    },
     "f25838329fa481b9abb5": {
       "artifacts": {},
       "created_at": "2026-10-05T05:55:34Z",
@@ -15148,24 +15424,26 @@
       ],
       "issue_number": 104461,
       "job_id": "f605ac259eeea7555a46",
-      "last_seen_at": "2026-10-20T14:57:52Z",
+      "last_seen_at": "2026-10-26T12:52:39Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Issue with adding contact method in offline mode",
+        "score": 68,
+        "title": "[$250] Issue with adding contact method in offline mode",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104461"
       },
@@ -15627,6 +15905,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-26T12:49:29Z",
+  "updated_at": "2026-10-26T12:52:39Z",
   "version": 2
 }
