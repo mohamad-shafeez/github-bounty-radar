@@ -8314,6 +8314,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "891f1bdbc3af5cad89e4": {
+      "artifacts": {},
+      "created_at": "2026-10-26T22:55:29Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105054,
+      "job_id": "891f1bdbc3af5cad89e4",
+      "last_seen_at": "2026-10-26T22:55:29Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Imported contacts cannot be found when searching by special characters or emojis",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105054"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T22:55:29Z"
+    },
     "896311d4787732d61f1f": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -10497,6 +10542,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "a45d67f13d38c3ecf35d": {
+      "artifacts": {},
+      "created_at": "2026-10-26T22:55:29Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105080,
+      "job_id": "a45d67f13d38c3ecf35d",
+      "last_seen_at": "2026-10-26T22:55:29Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Notifications - App badge shows ~200 unread notifications when there are no unreads",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105080"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T22:55:29Z"
+    },
     "a7759766e5068f1617b2": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -10683,6 +10773,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:50Z"
+    },
+    "ad2d29fc69027bd420ab": {
+      "artifacts": {},
+      "created_at": "2026-10-26T22:55:29Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-26T22:55:29Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98319,
+      "job_id": "ad2d29fc69027bd420ab",
+      "last_seen_at": "2026-10-26T22:55:29Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Monthly"
+        ],
+        "score": 54,
+        "title": "[$175] Onboarding: make the \"Back\" caret header consistent (sticky) and a reusable component",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98319"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T22:55:29Z"
     },
     "ada3ebde0bb5eed36905": {
       "artifacts": {},
@@ -16368,6 +16503,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-26T22:54:42Z",
+  "updated_at": "2026-10-26T22:55:30Z",
   "version": 2
 }
