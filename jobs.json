@@ -1905,6 +1905,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:09Z"
     },
+    "224ba1a68520d119bb1a": {
+      "artifacts": {},
+      "created_at": "2026-10-26T06:09:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104963,
+      "job_id": "224ba1a68520d119bb1a",
+      "last_seen_at": "2026-10-26T06:09:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Search functionality is not available in payment history or payment details page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104963"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T06:09:24Z"
+    },
     "23af140084badb92da79": {
       "artifacts": {},
       "created_at": "2026-10-21T10:01:37Z",
@@ -5367,6 +5412,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
+    },
+    "65293560f76178191e85": {
+      "artifacts": {},
+      "created_at": "2026-10-26T06:09:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104956,
+      "job_id": "65293560f76178191e85",
+      "last_seen_at": "2026-10-26T06:09:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] WS - Room tab shows blank for archived WS",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104956"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T06:09:24Z"
     },
     "6632a934726451d8c412": {
       "artifacts": {},
@@ -9317,6 +9407,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "9cd80e70cf27430fbe05": {
+      "artifacts": {},
+      "created_at": "2026-10-26T06:09:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104961,
+      "job_id": "9cd80e70cf27430fbe05",
+      "last_seen_at": "2026-10-26T06:09:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Over-limit approver fully approves the report instead of forwarding it",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104961"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T06:09:24Z"
+    },
     "9d1a7119fb672e3d5543": {
       "artifacts": {},
       "created_at": "2026-10-16T22:11:57Z",
@@ -11036,6 +11171,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:22Z"
+    },
+    "b80439d81b6c2753e55c": {
+      "artifacts": {},
+      "created_at": "2026-10-26T06:09:24Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-26T06:09:24Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104962,
+      "job_id": "b80439d81b6c2753e55c",
+      "last_seen_at": "2026-10-26T06:09:24Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Active users count are different on payment history and payment details page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104962"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-26T06:09:24Z"
     },
     "b83531249cd09c3ceb33": {
       "artifacts": {},
@@ -15442,6 +15622,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-26T06:06:18Z",
+  "updated_at": "2026-10-26T06:09:24Z",
   "version": 2
 }
