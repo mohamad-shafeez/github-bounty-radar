@@ -8998,6 +8998,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T10:21:34Z"
     },
+    "92bd3e7dd3ae748e0b62": {
+      "artifacts": {},
+      "created_at": "2026-10-27T06:51:14Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T06:51:14Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T06:51:14Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105104,
+      "job_id": "92bd3e7dd3ae748e0b62",
+      "last_seen_at": "2026-10-27T06:51:14Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Rate page closes without displaying \"over the limit\" error",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105104"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T06:51:14Z"
+    },
     "92f0998522f00135c5e9": {
       "artifacts": {},
       "created_at": "2026-10-14T15:25:40Z",
@@ -9541,6 +9586,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "983ed2d903b4eac32a24": {
+      "artifacts": {},
+      "created_at": "2026-10-27T06:51:13Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T06:51:13Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T06:51:13Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105103,
+      "job_id": "983ed2d903b4eac32a24",
+      "last_seen_at": "2026-10-27T06:51:13Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] LHN shows a green dot instead of an `Add` badge for an empty report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105103"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T06:51:13Z"
     },
     "98a07d042eb670db3a23": {
       "artifacts": {},
@@ -16513,6 +16603,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-27T06:49:58Z",
+  "updated_at": "2026-10-27T06:51:14Z",
   "version": 2
 }
