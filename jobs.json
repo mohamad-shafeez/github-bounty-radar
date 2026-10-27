@@ -454,6 +454,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "0678f52f7f047a3376d6": {
+      "artifacts": {},
+      "created_at": "2026-10-27T22:25:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T22:25:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T22:25:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105174,
+      "job_id": "0678f52f7f047a3376d6",
+      "last_seen_at": "2026-10-27T22:25:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] A Copilot’s approval stays stuck in the app’s request queue and never reaches the server. The Approve button still disappears.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105174"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T22:25:17Z"
+    },
     "06fe112fc98c2b579976": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -7455,6 +7500,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T22:59:05Z"
     },
+    "7b8b0f05c8af0810e983": {
+      "artifacts": {},
+      "created_at": "2026-10-27T22:25:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105168,
+      "job_id": "7b8b0f05c8af0810e983",
+      "last_seen_at": "2026-10-27T22:25:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Date picker: Highlight today's date in the calendar",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105168"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T22:25:18Z"
+    },
     "7c18cde281dd54943eef": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -14111,6 +14202,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "d10cb1be3f2bf8603bd6": {
+      "artifacts": {},
+      "created_at": "2026-10-27T22:25:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105158,
+      "job_id": "d10cb1be3f2bf8603bd6",
+      "last_seen_at": "2026-10-27T22:25:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] [CFI] Report fields - Show the full field name on hover when the name is cut off",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105158"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T22:25:18Z"
+    },
     "d14cb8d3c503a401e861": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -16026,6 +16161,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "ef1c0944e3f0409ce985": {
+      "artifacts": {},
+      "created_at": "2026-10-27T22:25:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T22:25:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105173,
+      "job_id": "ef1c0944e3f0409ce985",
+      "last_seen_at": "2026-10-27T22:25:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] App crashes when entering multi-selection mode on an edited report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105173"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T22:25:18Z"
+    },
     "ef4ae41e8d3e3f3a43d9": {
       "artifacts": {},
       "created_at": "2026-10-27T12:46:35Z",
@@ -17117,6 +17297,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-27T22:24:07Z",
+  "updated_at": "2026-10-27T22:25:18Z",
   "version": 2
 }
