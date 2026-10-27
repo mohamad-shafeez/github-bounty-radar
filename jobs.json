@@ -181,6 +181,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:52Z"
     },
+    "03b44f005dc362a32b78": {
+      "artifacts": {},
+      "created_at": "2026-10-27T12:46:35Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105111,
+      "job_id": "03b44f005dc362a32b78",
+      "last_seen_at": "2026-10-27T12:46:35Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - Chat - Composer doesn't regain focus after closing a modal once a message has been edited",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105111"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T12:46:35Z"
+    },
     "044db7bb7b27e66c4dfb": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -1948,6 +1993,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T00:24:14Z"
+    },
+    "1fdb7fab1112533ad0bd": {
+      "artifacts": {},
+      "created_at": "2026-10-27T12:46:35Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105115,
+      "job_id": "1fdb7fab1112533ad0bd",
+      "last_seen_at": "2026-10-27T12:46:35Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense-\"Paid\" displays until open report again when paying via BA for user not set bank",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105115"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T12:46:35Z"
     },
     "208e9e3622c24dfe084e": {
       "artifacts": {},
@@ -15608,6 +15698,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "ef4ae41e8d3e3f3a43d9": {
+      "artifacts": {},
+      "created_at": "2026-10-27T12:46:35Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T12:46:35Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105124,
+      "job_id": "ef4ae41e8d3e3f3a43d9",
+      "last_seen_at": "2026-10-27T12:46:35Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Deleted Workspace - Former workspace admin (non-billing-owner) can no longer see reports from a deleted workspace, contradicting help docs",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105124"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T12:46:35Z"
+    },
     "ef6a35795cb12eb64a1c": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -16608,6 +16743,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-27T12:45:24Z",
+  "updated_at": "2026-10-27T12:46:36Z",
   "version": 2
 }
