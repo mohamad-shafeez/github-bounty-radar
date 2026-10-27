@@ -454,6 +454,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T15:25:41Z"
     },
+    "06fe112fc98c2b579976": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105159,
+      "job_id": "06fe112fc98c2b579976",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace - Help icon briefly flashes while closing the Concierge right-hand panel",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105159"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
+    },
     "0824eb8d5e290467d5f1": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -1721,6 +1766,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:42Z"
+    },
+    "1d3a9124627c054f1db2": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105153,
+      "job_id": "1d3a9124627c054f1db2",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web/iOS-Spend-Refresh-needed error not reappear when network requests fail",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105153"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
     },
     "1dc5f3a816cad98ca4b5": {
       "artifacts": {},
@@ -3038,6 +3128,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T19:43:16Z"
+    },
+    "383f5c83f4b6c1a42176": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102946,
+      "job_id": "383f5c83f4b6c1a42176",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Distance - Duplicating expense with alternate route doesn't duplicate the route",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102946"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
     },
     "384ccbca297c55784c08": {
       "artifacts": {},
@@ -7021,24 +7156,26 @@
       ],
       "issue_number": 103214,
       "job_id": "753daeff6744ab532bf8",
-      "last_seen_at": "2026-10-06T20:11:58Z",
+      "last_seen_at": "2026-10-27T18:20:58Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] The new avatar is not reflected after uploading new photo to the profile",
+        "score": 62,
+        "title": "[$250] The new avatar is not reflected after uploading new photo to the profile",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103214"
       },
@@ -7090,6 +7227,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "760a90c81e3ae5db50d0": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105149,
+      "job_id": "760a90c81e3ae5db50d0",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Changed category system message in thread is received twice after turning on Online",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105149"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
     },
     "7660338b323fd421afab": {
       "artifacts": {},
@@ -7272,6 +7454,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T22:59:05Z"
+    },
+    "7c18cde281dd54943eef": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105074,
+      "job_id": "7c18cde281dd54943eef",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Report list shows report from other workspace when creating expense from different workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105074"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
     },
     "7cf8fabe920e59142637": {
       "artifacts": {},
@@ -11135,6 +11363,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
+    },
+    "b1675546cdddda3a340d": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105145,
+      "job_id": "b1675546cdddda3a340d",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Spend - \"Apply\" button is overlapped by keyboard in exposed filter.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105145"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
     },
     "b2fbcea47b1b65888f53": {
       "artifacts": {},
@@ -15339,6 +15612,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:57Z"
     },
+    "e7f749c1b381bd1c3777": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105152,
+      "job_id": "e7f749c1b381bd1c3777",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend - Not here page opens after clicking split row on Date tab when opened from Spend",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105152"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
+    },
     "e8951ec2514e1f416722": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -16432,6 +16750,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
     },
+    "f78892124d96241e1a0f": {
+      "artifacts": {},
+      "created_at": "2026-10-27T18:20:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-27T18:20:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105001,
+      "job_id": "f78892124d96241e1a0f",
+      "last_seen_at": "2026-10-27T18:20:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 40,
+        "title": "[$175] Tags - Not here page opens after editing custom tag name from uploaded CSV",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105001"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-27T18:20:58Z"
+    },
     "f80ed21e4b4f20090dc5": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -16748,6 +17112,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-27T18:20:14Z",
+  "updated_at": "2026-10-27T18:20:58Z",
   "version": 2
 }
