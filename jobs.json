@@ -13309,6 +13309,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "c0d0c055221a4c0971b0": {
+      "artifacts": {},
+      "created_at": "2026-10-28T14:02:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T14:02:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-28T14:02:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 77280,
+      "job_id": "c0d0c055221a4c0971b0",
+      "last_seen_at": "2026-10-28T14:02:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 3500.0,
+          "currency": "$",
+          "pattern": "\"$3500\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 72,
+        "title": "[$3500] Other A11y: Global: The app cannot be used in a landscape mode",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/77280"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T14:02:09Z"
+    },
     "c0fe4b2b2c2b641ccf8b": {
       "artifacts": {},
       "created_at": "2026-10-16T07:04:15Z",
@@ -15080,6 +15126,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "d969e70294eaa11a86bd": {
+      "artifacts": {},
+      "created_at": "2026-10-28T14:02:20Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T14:02:20Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T14:02:20Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105241,
+      "job_id": "d969e70294eaa11a86bd",
+      "last_seen_at": "2026-10-28T14:02:20Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Netsuite-Tapping < twice from \"Export company card expenses as\" leads to \"Card details\" page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105241"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T14:02:20Z"
+    },
     "da84293eb196b3221379": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:48Z",
@@ -16217,6 +16308,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "eb3f00c4df4087447189": {
+      "artifacts": {},
+      "created_at": "2026-10-28T14:02:20Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T14:02:20Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T14:02:20Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105231,
+      "job_id": "eb3f00c4df4087447189",
+      "last_seen_at": "2026-10-28T14:02:20Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Hybrid-Home- Home cards do not refresh after reopen app from other apps",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105231"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T14:02:20Z"
     },
     "ec34cba45d5a99f07083": {
       "artifacts": {},
@@ -17582,6 +17718,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-28T13:59:25Z",
+  "updated_at": "2026-10-28T14:02:20Z",
   "version": 2
 }
