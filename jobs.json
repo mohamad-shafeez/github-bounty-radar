@@ -678,6 +678,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:17Z"
     },
+    "0977eb420c16ff0be55d": {
+      "artifacts": {},
+      "created_at": "2026-10-28T07:14:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105225,
+      "job_id": "0977eb420c16ff0be55d",
+      "last_seen_at": "2026-10-28T07:14:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Trial ended-User is not navigated to Subscription page after clicking Add payment card",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105225"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T07:14:16Z"
+    },
     "0b03e436c717f6857204": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:06Z",
@@ -4309,6 +4354,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
     },
+    "45db13d43190f83fcae8": {
+      "artifacts": {},
+      "created_at": "2026-10-28T07:14:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105215,
+      "job_id": "45db13d43190f83fcae8",
+      "last_seen_at": "2026-10-28T07:14:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - Spend - No Withdrawal ID after paid the report with Bussiness bank account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105215"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T07:14:16Z"
+    },
     "4890ee258b33a895b815": {
       "artifacts": {},
       "created_at": "2026-10-23T19:12:26Z",
@@ -5268,6 +5358,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
+    },
+    "52f2e3ef149b888065a7": {
+      "artifacts": {},
+      "created_at": "2026-10-28T07:14:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105213,
+      "job_id": "52f2e3ef149b888065a7",
+      "last_seen_at": "2026-10-28T07:14:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] The Concierge task is not ticked immediately",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105213"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T07:14:16Z"
     },
     "536d638ed10f10409388": {
       "artifacts": {},
@@ -7227,6 +7362,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
+    },
+    "75547c132d833d71f1ab": {
+      "artifacts": {},
+      "created_at": "2026-10-28T07:14:16Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-28T07:14:16Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105219,
+      "job_id": "75547c132d833d71f1ab",
+      "last_seen_at": "2026-10-28T07:14:16Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] iOS-Profile- Tapping Add briefly displays the Profile screen before opening Personal Details",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105219"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-28T07:14:16Z"
     },
     "7574ae953388be63f1c4": {
       "artifacts": {},
@@ -17397,6 +17577,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-28T07:11:02Z",
+  "updated_at": "2026-10-28T07:14:16Z",
   "version": 2
 }
