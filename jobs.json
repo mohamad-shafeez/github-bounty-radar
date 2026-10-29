@@ -2445,6 +2445,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T12:52:39Z"
     },
+    "2561d22eb3c6629f929d": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105356,
+      "job_id": "2561d22eb3c6629f929d",
+      "last_seen_at": "2026-10-29T15:38:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expensify card - Apply cash back to my Expensify bill defaults to OFF",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105356"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:49Z"
+    },
     "2614edb4ec1c86507162": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:10Z",
@@ -5678,6 +5723,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "58c35cf4933365b71caa": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105384,
+      "job_id": "58c35cf4933365b71caa",
+      "last_seen_at": "2026-10-29T15:38:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Previous account manager incorrectly appears in new approval workflow dropdown",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105384"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:48Z"
+    },
     "59089fd2286270e3deb8": {
       "artifacts": {},
       "created_at": "2026-10-22T15:23:38Z",
@@ -7998,6 +8088,55 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:51Z"
+    },
+    "7ee2d0e2914df1436181": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100882,
+      "job_id": "7ee2d0e2914df1436181",
+      "last_seen_at": "2026-10-29T15:38:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug",
+          "retest-weekly"
+        ],
+        "score": 68,
+        "title": "[$250] Web- Wallet - The popup moves is not repositioned properly after the window is resized",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100882"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:48Z"
     },
     "7f62578bed28d64360e4": {
       "artifacts": {},
@@ -10604,12 +10743,12 @@
       ],
       "issue_number": 104742,
       "job_id": "9c1aa5a43986a7ce9f76",
-      "last_seen_at": "2026-10-22T15:23:37Z",
+      "last_seen_at": "2026-10-29T15:38:48Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 350.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$350\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
@@ -10617,10 +10756,10 @@
           "External",
           "Daily"
         ],
-        "score": 55,
-        "title": "[$175] [Performance] Reduce Search re-renders when opening reports",
+        "score": 56,
+        "title": "[Due for payment 2026-11-03] [$350] [Performance] Reduce Search re-renders when opening reports",
         "trigger": [
-          "new_issue"
+          "bounty_increased"
         ],
         "url": "https://github.com/Expensify/App/issues/104742"
       },
@@ -12842,6 +12981,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T06:09:24Z"
     },
+    "b8331cc66e6682a8548f": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105394,
+      "job_id": "b8331cc66e6682a8548f",
+      "last_seen_at": "2026-10-29T15:38:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Android – App crashes when opening a transaction from a report preview after restarting the app.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105394"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:48Z"
+    },
     "b83531249cd09c3ceb33": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -13836,6 +14020,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T15:23:37Z"
+    },
+    "c5691a089486edda4f06": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105375,
+      "job_id": "c5691a089486edda4f06",
+      "last_seen_at": "2026-10-29T15:38:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Search-\"type:expense vendor name\", vendor name not highlighted and search result not correct",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105375"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:48Z"
     },
     "c5a9c7a9f5892808edcf": {
       "artifacts": {},
@@ -17884,8 +18113,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T10:21:34Z"
+    },
+    "fe49cf122d5e6db8a0ab": {
+      "artifacts": {},
+      "created_at": "2026-10-29T15:38:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T15:38:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T15:38:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105362,
+      "job_id": "fe49cf122d5e6db8a0ab",
+      "last_seen_at": "2026-10-29T15:38:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web- Searching for 'has:submitted violation' does not return any results.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105362"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-29T15:37:12Z",
+  "updated_at": "2026-10-29T15:38:49Z",
   "version": 2
 }
