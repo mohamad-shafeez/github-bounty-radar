@@ -1361,6 +1361,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "1515fe187ea035dbe41c": {
+      "artifacts": {},
+      "created_at": "2026-10-29T20:34:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105413,
+      "job_id": "1515fe187ea035dbe41c",
+      "last_seen_at": "2026-10-29T20:34:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Ready to pay shows non-reimbursable-only reports until their transactions load",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105413"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T20:34:39Z"
+    },
     "15f82e884c93b2c7e375": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -3128,6 +3173,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:42Z"
     },
+    "33c69bf3f205c6c50cc8": {
+      "artifacts": {},
+      "created_at": "2026-10-29T20:34:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105412,
+      "job_id": "33c69bf3f205c6c50cc8",
+      "last_seen_at": "2026-10-29T20:34:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Auto] [EX-50] \"Your free trial has started!\" welcome message Not displayed in admin room",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105412"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T20:34:39Z"
+    },
     "3476479f1c1b8bfeede2": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -4857,6 +4947,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "4a71ea846f80e020e73e": {
+      "artifacts": {},
+      "created_at": "2026-10-29T20:34:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T20:34:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T20:34:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105396,
+      "job_id": "4a71ea846f80e020e73e",
+      "last_seen_at": "2026-10-29T20:34:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workspace merchant rules don't apply multi-level tags",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105396"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T20:34:38Z"
     },
     "4ac7c29407398ddc3763": {
       "artifacts": {},
@@ -7044,6 +7179,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
+    },
+    "6f8f92a26de707a43201": {
+      "artifacts": {},
+      "created_at": "2026-10-29T20:34:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105400,
+      "job_id": "6f8f92a26de707a43201",
+      "last_seen_at": "2026-10-29T20:34:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Composer-Left & right arrow keys doesn't work on report with only 1 expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105400"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T20:34:39Z"
     },
     "7004659b0f890a6db39d": {
       "artifacts": {},
@@ -11914,6 +12094,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
+    },
+    "b04edf99259e7c8bbda0": {
+      "artifacts": {},
+      "created_at": "2026-10-29T20:34:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-29T20:34:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105308,
+      "job_id": "b04edf99259e7c8bbda0",
+      "last_seen_at": "2026-10-29T20:34:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Improvement",
+          "Help Wanted"
+        ],
+        "score": 51,
+        "title": "[$250] NewDot hides the NetSuite subsidiary selector when the connection has a sync error",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105308"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-29T20:34:39Z"
     },
     "b1675546cdddda3a340d": {
       "artifacts": {},
@@ -18165,6 +18392,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-29T20:32:26Z",
+  "updated_at": "2026-10-29T20:34:39Z",
   "version": 2
 }
