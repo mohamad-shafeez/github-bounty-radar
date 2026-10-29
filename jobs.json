@@ -15442,24 +15442,26 @@
       ],
       "issue_number": 104341,
       "job_id": "dc186ff42840a9552d10",
-      "last_seen_at": "2026-10-19T21:35:39Z",
+      "last_seen_at": "2026-10-29T08:51:00Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 48,
-        "title": "[$175] Expense - Both approved & held expenses' total is shown after approving",
+        "score": 68,
+        "title": "[$250] Expense - Both approved & held expenses' total is shown after approving",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104341"
       },
@@ -17879,6 +17881,6 @@
       "updated_at": "2026-10-22T10:21:34Z"
     }
   },
-  "updated_at": "2026-10-29T08:48:52Z",
+  "updated_at": "2026-10-29T08:51:00Z",
   "version": 2
 }
