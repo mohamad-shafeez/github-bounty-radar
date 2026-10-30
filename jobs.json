@@ -5354,6 +5354,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "4d60af7955c2d43095e5": {
+      "artifacts": {},
+      "created_at": "2026-10-30T21:29:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T21:29:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T21:29:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105517,
+      "job_id": "4d60af7955c2d43095e5",
+      "last_seen_at": "2026-10-30T21:29:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 63,
+        "title": "[$175] [Metrics] Native tab bar re-renders every tab when an RHP opens, slowing Create expense on mobile",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105517"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T21:29:06Z"
+    },
     "4d9149deca098fc6b346": {
       "artifacts": {},
       "created_at": "2026-10-14T22:33:19Z",
@@ -18916,6 +18961,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-30T21:28:01Z",
+  "updated_at": "2026-10-30T21:29:06Z",
   "version": 2
 }
