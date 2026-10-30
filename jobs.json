@@ -1086,6 +1086,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "110ec69a7e69a4a6c09f": {
+      "artifacts": {},
+      "created_at": "2026-10-30T11:42:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105456,
+      "job_id": "110ec69a7e69a4a6c09f",
+      "last_seen_at": "2026-10-30T11:42:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Company cards - \"help article\" and \"contact bank\" links both lead to same link",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105456"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T11:42:17Z"
+    },
     "1173feb55e8f80046ce8": {
       "artifacts": {},
       "created_at": "2026-10-26T12:52:39Z",
@@ -10767,6 +10812,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
     },
+    "980f9bcefbb5562f3366": {
+      "artifacts": {},
+      "created_at": "2026-10-30T11:42:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T11:42:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T11:42:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105426,
+      "job_id": "980f9bcefbb5562f3366",
+      "last_seen_at": "2026-10-30T11:42:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Company cards - Not here page opens after refreshing Contact methods RHP and returning",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105426"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T11:42:18Z"
+    },
     "983ed2d903b4eac32a24": {
       "artifacts": {},
       "created_at": "2026-10-27T06:51:13Z",
@@ -15084,6 +15175,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
     },
+    "cc30cf65a165b6a5e70a": {
+      "artifacts": {},
+      "created_at": "2026-10-30T11:42:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105458,
+      "job_id": "cc30cf65a165b6a5e70a",
+      "last_seen_at": "2026-10-30T11:42:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] [Auto] unable to Disable \"Workflows\" after completing the \"Configure approval workflow\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105458"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T11:42:17Z"
+    },
     "cc76d84f8175625eedef": {
       "artifacts": {},
       "created_at": "2026-10-14T19:32:47Z",
@@ -16861,6 +16997,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T16:44:55Z"
     },
+    "e68c935832eaa98e6b89": {
+      "artifacts": {},
+      "created_at": "2026-10-30T11:42:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T11:42:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105469,
+      "job_id": "e68c935832eaa98e6b89",
+      "last_seen_at": "2026-10-30T11:42:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 52,
+        "title": "[$175] Home - Empty state text keeps old theme colors after theme change",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105469"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T11:42:17Z"
+    },
     "e6fcad9f088b083e3fd0": {
       "artifacts": {},
       "created_at": "2026-10-14T05:38:11Z",
@@ -18633,6 +18814,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-30T11:40:11Z",
+  "updated_at": "2026-10-30T11:42:18Z",
   "version": 2
 }
