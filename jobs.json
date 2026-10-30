@@ -3263,6 +3263,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T20:34:39Z"
     },
+    "34219c42d4d8821e0278": {
+      "artifacts": {},
+      "created_at": "2026-10-30T05:52:20Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105451,
+      "job_id": "34219c42d4d8821e0278",
+      "last_seen_at": "2026-10-30T05:52:20Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Tax amount is shown 0 even if the tax rate is not 0",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105451"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T05:52:20Z"
+    },
     "3476479f1c1b8bfeede2": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:08Z",
@@ -3398,6 +3443,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T19:43:16Z"
+    },
+    "36bd000b4a62c6602f11": {
+      "artifacts": {},
+      "created_at": "2026-10-30T05:52:20Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105444,
+      "job_id": "36bd000b4a62c6602f11",
+      "last_seen_at": "2026-10-30T05:52:20Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Onboarding - Migrated welcome modal doesn't appear",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105444"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T05:52:20Z"
     },
     "383f5c83f4b6c1a42176": {
       "artifacts": {},
@@ -7224,6 +7314,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
+    },
+    "6ea4831e52462a738e22": {
+      "artifacts": {},
+      "created_at": "2026-10-30T05:52:20Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T05:52:20Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105445,
+      "job_id": "6ea4831e52462a738e22",
+      "last_seen_at": "2026-10-30T05:52:20Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Copy in process... and All set! modal are not showing when copy settings offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105445"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T05:52:20Z"
     },
     "6f8f92a26de707a43201": {
       "artifacts": {},
@@ -18493,6 +18628,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-30T05:44:59Z",
+  "updated_at": "2026-10-30T05:52:20Z",
   "version": 2
 }
