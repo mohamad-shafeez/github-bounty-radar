@@ -2580,6 +2580,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
     },
+    "26318323118376fa17d3": {
+      "artifacts": {},
+      "created_at": "2026-10-30T00:15:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T00:15:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T00:15:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105424,
+      "job_id": "26318323118376fa17d3",
+      "last_seen_at": "2026-10-30T00:15:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Inbox - GBR dot stays on empty chat after moving expense to a second WS",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105424"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T00:15:05Z"
+    },
     "27b6e7390048053d245e": {
       "artifacts": {},
       "created_at": "2026-10-16T16:44:55Z",
@@ -10813,6 +10858,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T21:58:39Z"
     },
+    "9987d7456e1d0daaf531": {
+      "artifacts": {},
+      "created_at": "2026-10-30T00:15:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T00:15:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-10-30T00:15:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102091,
+      "job_id": "9987d7456e1d0daaf531",
+      "last_seen_at": "2026-10-30T00:15:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 54,
+        "title": "[$175] Concierge-Transition from landscape to portrait Concierge page misaligned.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102091"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T00:15:05Z"
+    },
     "9a5fc0c77183a915ea20": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:52Z",
@@ -18397,6 +18488,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-30T00:12:11Z",
+  "updated_at": "2026-10-30T00:15:06Z",
   "version": 2
 }
