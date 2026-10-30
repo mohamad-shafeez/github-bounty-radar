@@ -5965,12 +5965,12 @@
       ],
       "issue_number": 103875,
       "job_id": "567f6a68eb5874310b3c",
-      "last_seen_at": "2026-10-13T17:47:13Z",
+      "last_seen_at": "2026-10-30T17:12:18Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
@@ -5978,12 +5978,14 @@
           "External",
           "Daily",
           "Needs Reproduction",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 48,
-        "title": "[$175] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.",
+        "score": 68,
+        "title": "[$250] Pressing Delete while selecting text inside a composer duplicates the content instead of clearing it.",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103875"
       },
@@ -6674,6 +6676,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T06:09:24Z"
+    },
+    "658928394acbc9f45fbd": {
+      "artifacts": {},
+      "created_at": "2026-10-30T17:12:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T17:12:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T17:12:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105498,
+      "job_id": "658928394acbc9f45fbd",
+      "last_seen_at": "2026-10-30T17:12:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly"
+        ],
+        "score": 62,
+        "title": "[$175] SAML - Opening receipt or attachment images triggers unnecessary reauthentication",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105498"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T17:12:18Z"
     },
     "6632a934726451d8c412": {
       "artifacts": {},
@@ -16818,6 +16865,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:38Z"
     },
+    "e5b9d377629e09329226": {
+      "artifacts": {},
+      "created_at": "2026-10-30T17:12:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-10-30T17:12:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-10-30T17:12:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105507,
+      "job_id": "e5b9d377629e09329226",
+      "last_seen_at": "2026-10-30T17:12:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workflow-The approval workflow created from invite new member reappears after deleting",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105507"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-10-30T17:12:18Z"
+    },
     "e60e61d92703b8bfe19d": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -18819,6 +18911,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-10-30T17:10:21Z",
+  "updated_at": "2026-10-30T17:12:18Z",
   "version": 2
 }
