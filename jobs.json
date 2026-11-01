@@ -111,24 +111,26 @@
       ],
       "issue_number": 104161,
       "job_id": "0238787dc53f52ee1010",
-      "last_seen_at": "2026-10-15T21:47:40Z",
+      "last_seen_at": "2026-11-01T09:40:25Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Spend -  It's not here page when opening a split expense from chat filter",
+        "score": 68,
+        "title": "[$250] Spend -  It's not here page when opening a split expense from chat filter",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104161"
       },
@@ -19001,6 +19003,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-01T09:39:14Z",
+  "updated_at": "2026-11-01T09:40:25Z",
   "version": 2
 }
