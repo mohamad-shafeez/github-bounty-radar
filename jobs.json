@@ -6177,6 +6177,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T15:23:38Z"
     },
+    "5b55f3f8aae6de42233f": {
+      "artifacts": {},
+      "created_at": "2026-11-02T02:48:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-02T02:48:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-02T02:48:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105587,
+      "job_id": "5b55f3f8aae6de42233f",
+      "last_seen_at": "2026-11-02T02:48:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Account - Limit Copilot can't add bank account in Wallet",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105587"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-02T02:48:58Z"
+    },
     "5bb5692b717200ada583": {
       "artifacts": {},
       "created_at": "2026-10-12T16:04:09Z",
@@ -19108,6 +19153,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-01T23:52:32Z",
+  "updated_at": "2026-11-02T02:48:59Z",
   "version": 2
 }
