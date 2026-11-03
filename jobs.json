@@ -1178,6 +1178,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T12:52:39Z"
     },
+    "119fe980fb694c468cb6": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105698,
+      "job_id": "119fe980fb694c468cb6",
+      "last_seen_at": "2026-11-03T02:23:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Search hides Book travel when the + menu shows it",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105698"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:08Z"
+    },
     "11dea90f914c53ffa6e3": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -7408,6 +7452,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "6a5c056aca016f98dae7": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105693,
+      "job_id": "6a5c056aca016f98dae7",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Account - System back button on 2FA success RHP navigates to Account > Security",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105693"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
+    },
     "6ab3651be254a83e0aa0": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:37Z",
@@ -7635,6 +7724,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "6e93ec2075802faaee1f": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105532,
+      "job_id": "6e93ec2075802faaee1f",
+      "last_seen_at": "2026-11-03T02:23:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] w44-Secondary email-Both emails become workspace members when changing default one",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105532"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:08Z"
+    },
     "6ea4831e52462a738e22": {
       "artifacts": {},
       "created_at": "2026-10-30T05:52:20Z",
@@ -7724,6 +7859,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T20:34:39Z"
+    },
+    "6fca6c82fd8b3c5844eb": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104951,
+      "job_id": "6fca6c82fd8b3c5844eb",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Web-Workspace-The newly created workspace is obscured by another workspace.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104951"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
     },
     "7004659b0f890a6db39d": {
       "artifacts": {},
@@ -8450,6 +8631,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
+    },
+    "79b1e60e72fb0bcc640c": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105169,
+      "job_id": "79b1e60e72fb0bcc640c",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Unexpected error when open App and change track distance rate",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105169"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
     },
     "7a2d817f47eff5d9ccc6": {
       "artifacts": {},
@@ -9449,6 +9676,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:36Z"
+    },
+    "848a697b6bafb65d2b23": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105683,
+      "job_id": "848a697b6bafb65d2b23",
+      "last_seen_at": "2026-11-03T02:23:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Regression: iOS 26 keyboard jumps when composer is being focused",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105683"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:06Z"
     },
     "84d17647926c460c7564": {
       "artifacts": {},
@@ -11586,6 +11858,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:04Z"
     },
+    "9be5af6eff61cc01b44d": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105460,
+      "job_id": "9be5af6eff61cc01b44d",
+      "last_seen_at": "2026-11-03T02:23:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Invoice - Billable toggle auto-off after creating the invoice",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105460"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:08Z"
+    },
     "9c1aa5a43986a7ce9f76": {
       "artifacts": {},
       "created_at": "2026-10-22T15:23:37Z",
@@ -11858,6 +12176,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:56Z"
+    },
+    "9d66de46c54bfd791875": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105340,
+      "job_id": "9d66de46c54bfd791875",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Distance - Can't select the rate after change the report to another Workspace",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105340"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
     },
     "9d6d45b77a3e3888fbbd": {
       "artifacts": {},
@@ -12227,6 +12591,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
+    },
+    "a2a1545c69fdf06931e3": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105261,
+      "job_id": "a2a1545c69fdf06931e3",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Missing Create expense when approver 1 approved report in ws instant, enable Auto approve,pay",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105261"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
     },
     "a2b78c65d5869f1441ef": {
       "artifacts": {},
@@ -16122,6 +16532,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "d29bfa55f10633007da8": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105694,
+      "job_id": "d29bfa55f10633007da8",
+      "last_seen_at": "2026-11-03T02:23:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace Settings- Can't connect to Zoho Books",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105694"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:08Z"
+    },
     "d4ab719a8196f2a7e82a": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:07Z",
@@ -16534,6 +16989,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T05:38:11Z"
+    },
+    "d945ddcac81925cb42ec": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:08Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:08Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105525,
+      "job_id": "d945ddcac81925cb42ec",
+      "last_seen_at": "2026-11-03T02:23:08Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Exploratory] Personal card-Cannot switch transaction start date to \"From the beginning\"",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105525"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:08Z"
     },
     "d9573ff9d9a1e5f3c5b9": {
       "artifacts": {},
@@ -17126,6 +17627,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T23:54:41Z"
+    },
+    "e18971b1d69dc687e18a": {
+      "artifacts": {},
+      "created_at": "2026-11-03T02:23:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T02:23:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105042,
+      "job_id": "e18971b1d69dc687e18a",
+      "last_seen_at": "2026-11-03T02:23:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Invoice-Invoice received is not shown on searching type: invoice in spend section.",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105042"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T02:23:07Z"
     },
     "e3255d10044e01ad815b": {
       "artifacts": {},
@@ -19400,6 +19947,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-03T02:21:47Z",
+  "updated_at": "2026-11-03T02:23:08Z",
   "version": 2
 }
