@@ -2808,6 +2808,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:18Z"
     },
+    "2876eb91bcfc166d95ab": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 69562,
+      "job_id": "2876eb91bcfc166d95ab",
+      "last_seen_at": "2026-11-03T17:21:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Weekly",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 60,
+        "title": "[$250] Fix localization: dates not being localized correctly",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/69562"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:18Z"
+    },
     "29e8827b666c63bff0b6": {
       "artifacts": {},
       "created_at": "2026-10-14T22:33:19Z",
@@ -3579,6 +3626,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "352688d99040900800e2": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105782,
+      "job_id": "352688d99040900800e2",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Reports - Submitting a report from one tab, then quickly acting in a second tab, shows an error even though the report was submitted",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105782"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
+    },
     "35f5b1144727276a1d0a": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -4031,6 +4123,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:26Z"
+    },
+    "3aec8ee335d95cd204a8": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105753,
+      "job_id": "3aec8ee335d95cd204a8",
+      "last_seen_at": "2026-11-03T17:21:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS native composer suggestion popup drifts downward",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105753"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:18Z"
     },
     "3af0d319ec955affdc8f": {
       "artifacts": {},
@@ -6031,6 +6168,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T10:01:37Z"
+    },
+    "500c297e35586caead3b": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100235,
+      "job_id": "500c297e35586caead3b",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Distance - Address line 1 is not auto focused when opened from home address link",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100235"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
     },
     "50135ede0c4ea70f0080": {
       "artifacts": {},
@@ -10314,6 +10497,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:50Z"
     },
+    "8797bbe60a64b8205328": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105756,
+      "job_id": "8797bbe60a64b8205328",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Unable to create a new Expense from Reports > More > Create Expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105756"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
+    },
     "884136ffec6839bfbf0a": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -10858,6 +11086,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T05:55:34Z"
+    },
+    "8cbce711b117d0995c8a": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 104772,
+      "job_id": "8cbce711b117d0995c8a",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 48,
+        "title": "[$175] Make copied chat content consistent across paste destinations",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/104772"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
     },
     "8d303003d404318c3979": {
       "artifacts": {},
@@ -13091,6 +13364,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T22:55:29Z"
     },
+    "a46331d76b541585c7e0": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105778,
+      "job_id": "a46331d76b541585c7e0",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS - Log in - Online magic link does not open the linked report when signed out",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105778"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
+    },
     "a552e8b3784580ca47f2": {
       "artifacts": {},
       "created_at": "2026-11-01T20:37:48Z",
@@ -13572,24 +13890,26 @@
       ],
       "issue_number": 105145,
       "job_id": "b1675546cdddda3a340d",
-      "last_seen_at": "2026-10-27T18:20:58Z",
+      "last_seen_at": "2026-11-03T17:21:18Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Android - Spend - \"Apply\" button is overlapped by keyboard in exposed filter.",
+        "score": 56,
+        "title": "[$250] Android - Spend - \"Apply\" button is overlapped by keyboard in exposed filter.",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/105145"
       },
@@ -15883,23 +16203,26 @@
       ],
       "issue_number": 104504,
       "job_id": "c5d69724692d672cb6b9",
-      "last_seen_at": "2026-10-20T21:58:59Z",
+      "last_seen_at": "2026-11-03T17:21:18Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
-          "Daily"
+          "Daily",
+          "Help Wanted",
+          "Overdue"
         ],
-        "score": 59,
-        "title": "[$175] [Sentry: APP-JVF] Web: useSidebarOrderedReports setState loop, \"Maximum update depth exceeded\"",
+        "score": 72,
+        "title": "[$250] [Sentry: APP-JVF] Web: useSidebarOrderedReports setState loop, \"Maximum update depth exceeded\"",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104504"
       },
@@ -17727,6 +18050,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
+    },
+    "def9626fd60bbb588fb8": {
+      "artifacts": {},
+      "created_at": "2026-11-03T17:21:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T17:21:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105757,
+      "job_id": "def9626fd60bbb588fb8",
+      "last_seen_at": "2026-11-03T17:21:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Mock bank is displayed as a selectable option for a new user to connect in Personal cards",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105757"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T17:21:19Z"
     },
     "df729f0ae077e779a57d": {
       "artifacts": {},
@@ -20274,6 +20642,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-03T17:20:39Z",
+  "updated_at": "2026-11-03T17:21:19Z",
   "version": 2
 }
