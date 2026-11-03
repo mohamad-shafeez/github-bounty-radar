@@ -860,6 +860,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:09Z"
     },
+    "0d0167f70f7507792729": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105796,
+      "job_id": "0d0167f70f7507792729",
+      "last_seen_at": "2026-11-03T22:23:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS: App stops responding to taps after dismissing AI promo or welcome popup",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105796"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:23Z"
+    },
     "0d975196e55217148966": {
       "artifacts": {},
       "created_at": "2026-10-13T10:37:56Z",
@@ -2400,6 +2445,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
+    },
+    "20d26255cb73294a5a61": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105797,
+      "job_id": "20d26255cb73294a5a61",
+      "last_seen_at": "2026-11-03T22:23:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] iOS: Reduce delay when navigating back from receipt preview",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105797"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:23Z"
     },
     "2118cf772fbdcd08c8c1": {
       "artifacts": {},
@@ -8087,6 +8177,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "6e3e0ade3fe17d94cc51": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:22Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:22Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:22Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105827,
+      "job_id": "6e3e0ade3fe17d94cc51",
+      "last_seen_at": "2026-11-03T22:23:22Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 68,
+        "title": "[$175] Move the unread indicator onto useOnyx so report updates stop getting slower over a session",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105827"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:22Z"
+    },
     "6e93ec2075802faaee1f": {
       "artifacts": {},
       "created_at": "2026-11-03T02:23:08Z",
@@ -8517,24 +8652,26 @@
       ],
       "issue_number": 103777,
       "job_id": "71c125b1f0d77fb83525",
-      "last_seen_at": "2026-10-12T16:04:09Z",
+      "last_seen_at": "2026-11-03T22:23:22Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] [Sentry: APP-KC9] Navigation crash: 'filter' of undefined in getStateForRouteNamesChange",
+        "score": 68,
+        "title": "[$250] [Sentry: APP-KC9] Navigation crash: 'filter' of undefined in getStateForRouteNamesChange",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103777"
       },
@@ -16465,6 +16602,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:49Z"
     },
+    "c9110f3d236cc61c131a": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105795,
+      "job_id": "c9110f3d236cc61c131a",
+      "last_seen_at": "2026-11-03T22:23:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Reports - Approver unable to Approve report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105795"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:23Z"
+    },
     "c969f1bfc73ad5df737d": {
       "artifacts": {},
       "created_at": "2026-10-14T22:33:19Z",
@@ -16645,6 +16828,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:09Z"
+    },
+    "cbac907f5d97a5d726db": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105824,
+      "job_id": "cbac907f5d97a5d726db",
+      "last_seen_at": "2026-11-03T22:23:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Spend - No select option on chat/tasks page in narrow layout",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105824"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:23Z"
     },
     "cbe9c070949791ac9e34": {
       "artifacts": {},
@@ -19148,6 +19376,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T14:02:20Z"
     },
+    "ebd5de72444425594488": {
+      "artifacts": {},
+      "created_at": "2026-11-03T22:23:23Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-03T22:23:23Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105826,
+      "job_id": "ebd5de72444425594488",
+      "last_seen_at": "2026-11-03T22:23:23Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug",
+          "Hot Pick"
+        ],
+        "score": 61,
+        "title": "[$175] Reports - “Hmm…it’s not here” appears after refreshing a submitted, shared report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105826"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-03T22:23:23Z"
+    },
     "ec34cba45d5a99f07083": {
       "artifacts": {},
       "created_at": "2026-10-22T15:23:38Z",
@@ -20647,6 +20921,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-03T22:22:39Z",
+  "updated_at": "2026-11-03T22:23:23Z",
   "version": 2
 }
