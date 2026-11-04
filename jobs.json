@@ -4033,6 +4033,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:43Z"
     },
+    "388f56f5d8c9e108a5c0": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106015,
+      "job_id": "388f56f5d8c9e108a5c0",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Chat - \"Latest messages\" pill remains visible after sending a message",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106015"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
+    },
     "392552cb28b4463dd3d1": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:23Z",
@@ -5029,6 +5074,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T13:29:16Z"
+    },
+    "42b8ab2f8f06e5eab1c3": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105972,
+      "job_id": "42b8ab2f8f06e5eab1c3",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Add Getting started section to Home for employee onboarding",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105972"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
     },
     "432efa62e0ea8accddca": {
       "artifacts": {},
@@ -7352,6 +7441,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
+    },
+    "6195d35ca08b43406cc6": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106002,
+      "job_id": "6195d35ca08b43406cc6",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend - Field label overlaps with currency label",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106002"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
     },
     "6322be6b54fdc4f3905a": {
       "artifacts": {},
@@ -12039,6 +12173,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T19:12:25Z"
     },
+    "948084433f4c54b4d1de": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106030,
+      "job_id": "948084433f4c54b4d1de",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 67,
+        "title": "[$175] Android & iOS - Spend - Merge reports not displayed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106030"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
+    },
     "9554b7240fbb44ed390b": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -12629,6 +12808,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T00:15:05Z"
+    },
+    "998c391164c2c345039e": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105918,
+      "job_id": "998c391164c2c345039e",
+      "last_seen_at": "2026-11-04T22:48:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Payments - Previously connected bank account remains visible after disabling and re-enabling Payments until refresh",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105918"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:38Z"
     },
     "9a5fc0c77183a915ea20": {
       "artifacts": {},
@@ -15305,6 +15529,96 @@
       "state": "WAITING_FOR_AI_QUOTA",
       "updated_at": "2026-10-05T01:03:50Z"
     },
+    "b7384dd241a40dc92fbf": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105949,
+      "job_id": "b7384dd241a40dc92fbf",
+      "last_seen_at": "2026-11-04T22:48:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Melvin Triage"
+        ],
+        "score": 48,
+        "title": "[$175] Add “Last synced” column to workspace Company cards",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105949"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:38Z"
+    },
+    "b7545628ae41c6f615c6": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105954,
+      "job_id": "b7545628ae41c6f615c6",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS — App freezes on workspace selection in the share-sheet flow",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105954"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
+    },
     "b7ef4ebb888e02b742dc": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:22Z",
@@ -16479,6 +16793,53 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T15:23:37Z"
+    },
+    "c562de8520a6f43ca226": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 82534,
+      "job_id": "c562de8520a6f43ca226",
+      "last_seen_at": "2026-11-04T22:48:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Engineering",
+          "Weekly",
+          "Improvement"
+        ],
+        "score": 48,
+        "title": "[$175] [Partial Payment?][CFI] Add inline editing for tables on desktop",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/82534"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:38Z"
     },
     "c5691a089486edda4f06": {
       "artifacts": {},
@@ -19712,6 +20073,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T22:23:23Z"
     },
+    "ebf46f7bf617c4337e9c": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 70383,
+      "job_id": "ebf46f7bf617c4337e9c",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature",
+          "Awaiting Payment"
+        ],
+        "score": 62,
+        "title": "[Due for payment 2026-11-05] [$250] Clarify Approval Options When Held Expenses Exist",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/70383"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
+    },
     "ec34cba45d5a99f07083": {
       "artifacts": {},
       "created_at": "2026-10-22T15:23:38Z",
@@ -21029,6 +21436,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "f8e64d04e038df4ee394": {
+      "artifacts": {},
+      "created_at": "2026-11-04T22:48:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T22:48:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106014,
+      "job_id": "f8e64d04e038df4ee394",
+      "last_seen_at": "2026-11-04T22:48:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Share report option is not displayed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106014"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T22:48:37Z"
+    },
     "f9dcd33a3170b2a942fa": {
       "artifacts": {},
       "created_at": "2026-10-17T17:58:07Z",
@@ -21345,6 +21797,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-04T22:47:48Z",
+  "updated_at": "2026-11-04T22:48:38Z",
   "version": 2
 }
