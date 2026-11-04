@@ -15564,6 +15564,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "bd170f0dc966ab366237": {
+      "artifacts": {},
+      "created_at": "2026-11-04T02:28:31Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T02:28:31Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-04T02:28:31Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100864,
+      "job_id": "bd170f0dc966ab366237",
+      "last_seen_at": "2026-11-04T02:28:31Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Web - No notification in Concierge after failure copy",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100864"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T02:28:31Z"
+    },
     "bdad1d8ba1cbb28a420e": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -17739,6 +17784,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
+    },
+    "d89731cf85339cf1d3c5": {
+      "artifacts": {},
+      "created_at": "2026-11-04T02:28:30Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T02:28:30Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-04T02:28:30Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99000,
+      "job_id": "d89731cf85339cf1d3c5",
+      "last_seen_at": "2026-11-04T02:28:30Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Filtering Expenses by Tag Not Working",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99000"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T02:28:30Z"
     },
     "d92149c95436c6e5b9f0": {
       "artifacts": {},
@@ -20244,6 +20334,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "f43ab7b5bcd6f5c7021f": {
+      "artifacts": {},
+      "created_at": "2026-11-04T02:28:30Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T02:28:30Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-04T02:28:30Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 99642,
+      "job_id": "f43ab7b5bcd6f5c7021f",
+      "last_seen_at": "2026-11-04T02:28:30Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] IOU - System message is Not displayed when report is exported",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/99642"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T02:28:30Z"
+    },
     "f54bed3e15e45561cd7f": {
       "artifacts": {},
       "created_at": "2026-10-16T16:44:55Z",
@@ -20926,6 +21061,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-04T02:28:07Z",
+  "updated_at": "2026-11-04T02:28:31Z",
   "version": 2
 }
