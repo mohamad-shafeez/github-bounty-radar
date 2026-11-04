@@ -6625,6 +6625,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "55be0c6dfe96dca51c59": {
+      "artifacts": {},
+      "created_at": "2026-11-04T09:40:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T09:40:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T09:40:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105854,
+      "job_id": "55be0c6dfe96dca51c59",
+      "last_seen_at": "2026-11-04T09:40:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Company Card- Card feed is removed in 1st workspace after share with 2nd workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105854"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T09:40:19Z"
+    },
     "567f6a68eb5874310b3c": {
       "artifacts": {},
       "created_at": "2026-10-13T17:47:13Z",
@@ -21066,6 +21111,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-04T09:39:17Z",
+  "updated_at": "2026-11-04T09:40:19Z",
   "version": 2
 }
