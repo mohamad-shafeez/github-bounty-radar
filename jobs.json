@@ -5257,6 +5257,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T07:14:16Z"
     },
+    "477088568c78f0f05e3f": {
+      "artifacts": {},
+      "created_at": "2026-11-04T17:30:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105907,
+      "job_id": "477088568c78f0f05e3f",
+      "last_seen_at": "2026-11-04T17:30:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Card statements displays the same cards and transactions regardless of the selected CSV feed.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105907"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T17:30:26Z"
+    },
     "4890ee258b33a895b815": {
       "artifacts": {},
       "created_at": "2026-10-23T19:12:26Z",
@@ -8906,6 +8951,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "740b10022ec04051b397": {
+      "artifacts": {},
+      "created_at": "2026-11-04T17:30:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T17:30:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T17:30:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105899,
+      "job_id": "740b10022ec04051b397",
+      "last_seen_at": "2026-11-04T17:30:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Connections - Error is being displayed when trying to Export a Report to Rillet",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105899"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T17:30:27Z"
+    },
     "753daeff6744ab532bf8": {
       "artifacts": {},
       "created_at": "2026-10-06T20:11:58Z",
@@ -11448,6 +11538,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T15:12:36Z"
+    },
+    "91118ca6604b6a0dad7f": {
+      "artifacts": {},
+      "created_at": "2026-11-04T17:30:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105930,
+      "job_id": "91118ca6604b6a0dad7f",
+      "last_seen_at": "2026-11-04T17:30:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Enable wallet - Additional details page does not appear when enabling wallet",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105930"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T17:30:26Z"
     },
     "914e0b4c821e57a3a183": {
       "artifacts": {},
@@ -20065,6 +20200,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T09:44:10Z"
     },
+    "f05efd4c0465bbf5add2": {
+      "artifacts": {},
+      "created_at": "2026-11-04T17:30:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105908,
+      "job_id": "f05efd4c0465bbf5add2",
+      "last_seen_at": "2026-11-04T17:30:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Invoices - Internal Bill created from a submitted Invoice can't find the domain primary contact's \"Submits To\" and routes to the primary contact for approval first",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105908"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T17:30:26Z"
+    },
     "f0cbce09f61fb44483a9": {
       "artifacts": {},
       "created_at": "2026-10-26T12:52:39Z",
@@ -20750,6 +20930,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "f7cea5a2d57066354ee6": {
+      "artifacts": {},
+      "created_at": "2026-11-04T17:30:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-04T17:30:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105932,
+      "job_id": "f7cea5a2d57066354ee6",
+      "last_seen_at": "2026-11-04T17:30:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 59,
+        "title": "[$175] Regression: Individual card error incorrectly triggers feed-wide broken connection warning",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105932"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-04T17:30:26Z"
+    },
     "f80ed21e4b4f20090dc5": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -21111,6 +21335,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-04T09:40:19Z",
+  "updated_at": "2026-11-04T17:30:27Z",
   "version": 2
 }
