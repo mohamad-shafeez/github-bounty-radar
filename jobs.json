@@ -546,6 +546,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "0753693abe6a61b05258": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106042,
+      "job_id": "0753693abe6a61b05258",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] fix: Stop the Inbox tab from reopening the previous account's report after a copilot switch",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106042"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
+    },
     "0824eb8d5e290467d5f1": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -5255,6 +5300,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "4570b68da4bfd4472c30": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106033,
+      "job_id": "4570b68da4bfd4472c30",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS Safari - Chat - Bold and italic formatting is lost when pasting rich text",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106033"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
+    },
     "45d1395dbef0a6670491": {
       "artifacts": {},
       "created_at": "2026-10-15T18:42:47Z",
@@ -7257,6 +7347,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:51Z"
+    },
+    "5f4b207d74f2decaac16": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106032,
+      "job_id": "5f4b207d74f2decaac16",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Chat - Supported emoji shortcodes stay as plain text on the first paste after reload",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106032"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
     },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
@@ -9357,6 +9492,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T12:52:39Z"
+    },
+    "76c828ab591d932bb12e": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106034,
+      "job_id": "76c828ab591d932bb12e",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] iOS Safari - Chat - Pasting multi-line rich text adds extra blank lines",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106034"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
     },
     "77669a5344bb24a12282": {
       "artifacts": {},
@@ -14458,6 +14638,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "b2dc147d36b1fa97649f": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106053,
+      "job_id": "b2dc147d36b1fa97649f",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 61,
+        "title": "[$175] Add Reset Filter button to Empty State.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106053"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
+    },
     "b2fbcea47b1b65888f53": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -19122,6 +19348,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T19:43:17Z"
     },
+    "e0aa5b9e5e4e28e9e9fd": {
+      "artifacts": {},
+      "created_at": "2026-11-05T02:52:53Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T02:52:53Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106038,
+      "job_id": "e0aa5b9e5e4e28e9e9fd",
+      "last_seen_at": "2026-11-05T02:52:53Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Integrations - Error when exporting a paid report to Dynamics 365 Business Central",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106038"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T02:52:53Z"
+    },
     "e165720a509304862df7": {
       "artifacts": {},
       "created_at": "2026-10-15T23:54:41Z",
@@ -21802,6 +22073,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-05T02:51:33Z",
+  "updated_at": "2026-11-05T02:52:53Z",
   "version": 2
 }
