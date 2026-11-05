@@ -3761,6 +3761,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "347c3bff3db9cbc9c2b3": {
+      "artifacts": {},
+      "created_at": "2026-11-05T09:56:22Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T09:56:22Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T09:56:22Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106059,
+      "job_id": "347c3bff3db9cbc9c2b3",
+      "last_seen_at": "2026-11-05T09:56:22Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Rules - Description bar is not correctly centered after user focus back on",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106059"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T09:56:22Z"
+    },
     "352688d99040900800e2": {
       "artifacts": {},
       "created_at": "2026-11-03T17:21:19Z",
@@ -22078,6 +22123,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-05T09:56:01Z",
+  "updated_at": "2026-11-05T09:56:22Z",
   "version": 2
 }
