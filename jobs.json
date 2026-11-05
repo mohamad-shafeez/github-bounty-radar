@@ -3490,6 +3490,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:18Z"
     },
+    "31c7640d65101950de0c": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106107,
+      "job_id": "31c7640d65101950de0c",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend > Expenses - Workspace admin can see another user's (former employee's) unreported cash expenses but cannot take any action on them",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106107"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
+    },
     "3271f9283349302591fd": {
       "artifacts": {},
       "created_at": "2026-11-02T20:16:01Z",
@@ -7124,6 +7169,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T15:23:38Z"
     },
+    "59469ef4e00a3bdf0f29": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105850,
+      "job_id": "59469ef4e00a3bdf0f29",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 47,
+        "title": "[$175] [Exploratory] Missing the frequently used emoji despite user add emoji in the chat",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105850"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
+    },
     "5b55f3f8aae6de42233f": {
       "artifacts": {},
       "created_at": "2026-11-02T02:48:58Z",
@@ -7437,6 +7527,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T02:52:53Z"
+    },
+    "5f6e2815400e608939ff": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106035,
+      "job_id": "5f6e2815400e608939ff",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Chat - Cleared Composer draft reappears after refreshing within one second",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106035"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
     },
     "5f9ccc363a927aa50b2a": {
       "artifacts": {},
@@ -7964,24 +8099,26 @@
       ],
       "issue_number": 104743,
       "job_id": "67234cfdc9d18bd1a339",
-      "last_seen_at": "2026-10-22T15:23:37Z",
+      "last_seen_at": "2026-11-05T17:48:41Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 57,
-        "title": "[$175] [Sentry: APP-7AR] HybridApp Android: Fabric addViewAt \"failed to insert view\" still crashes after #101057",
+        "score": 60,
+        "title": "[$250] [Sentry: APP-7AR] HybridApp Android: Fabric addViewAt \"failed to insert view\" still crashes after #101057",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/104743"
       },
@@ -8580,6 +8717,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
+    },
+    "6e305c50e89a0833f0b4": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106094,
+      "job_id": "6e305c50e89a0833f0b4",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 59,
+        "title": "[$175] Connections - Add seven receipt integrations with setup help links",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106094"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
     },
     "6e3e0ade3fe17d94cc51": {
       "artifacts": {},
@@ -12308,6 +12489,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "93a766de1fd0deb3e067": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106106,
+      "job_id": "93a766de1fd0deb3e067",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Navigating via link causes app to freeze",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106106"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
+    },
     "9461cd6492165f9110f9": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:06Z",
@@ -14359,6 +14585,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "ab9c60fda43cc96c2f35": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106108,
+      "job_id": "ab9c60fda43cc96c2f35",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Home - \"Getting started\" tile shows \"Talk to your account executive\" for a user with no assigned Guide; should show \"Talk to Concierge\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106108"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
+    },
     "ac9e5ab99a1944c51d51": {
       "artifacts": {},
       "created_at": "2026-10-26T18:53:50Z",
@@ -16403,6 +16674,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T02:28:31Z"
+    },
+    "bd44854e899a1ddea1e8": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106119,
+      "job_id": "bd44854e899a1ddea1e8",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Insights - Uploaded avatars are missing from PNG exports",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106119"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
     },
     "bdad1d8ba1cbb28a420e": {
       "artifacts": {},
@@ -18671,6 +18988,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T02:28:30Z"
+    },
+    "d8b57879f9de2d8d0fbc": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106117,
+      "job_id": "d8b57879f9de2d8d0fbc",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Copilot - \"From\" filter on Spend > Drafts defaults to the copilot (Alice) instead of the account holder (Bob)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106117"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
     },
     "d92149c95436c6e5b9f0": {
       "artifacts": {},
@@ -21447,6 +21809,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T00:36:58Z"
     },
+    "f5ed33e263f404fac3cc": {
+      "artifacts": {},
+      "created_at": "2026-11-05T17:48:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T17:48:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106126,
+      "job_id": "f5ed33e263f404fac3cc",
+      "last_seen_at": "2026-11-05T17:48:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workspace - User added to the workspace via \"Approve or Pay Online\" CTA in a submitted PDF cannot leave the workspace from Members",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106126"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T17:48:41Z"
+    },
     "f605ac259eeea7555a46": {
       "artifacts": {},
       "created_at": "2026-10-20T14:57:52Z",
@@ -22128,6 +22535,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-05T17:46:38Z",
+  "updated_at": "2026-11-05T17:48:41Z",
   "version": 2
 }
