@@ -1087,6 +1087,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
     },
+    "101f64a26c5c43de8cda": {
+      "artifacts": {},
+      "created_at": "2026-11-05T22:55:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T22:55:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T22:55:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106147,
+      "job_id": "101f64a26c5c43de8cda",
+      "last_seen_at": "2026-11-05T22:55:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-NVN] Billing receipt crashes reading undefined billingType",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106147"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T22:55:58Z"
+    },
     "1075b30781df5298913b": {
       "artifacts": {},
       "created_at": "2026-10-23T00:46:38Z",
@@ -5525,6 +5570,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T07:14:16Z"
+    },
+    "472d095380e61000f6de": {
+      "artifacts": {},
+      "created_at": "2026-11-05T22:55:58Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-05T22:55:58Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-05T22:55:58Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106153,
+      "job_id": "472d095380e61000f6de",
+      "last_seen_at": "2026-11-05T22:55:58Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 64,
+        "title": "[$175] Receipt retention bug",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106153"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-05T22:55:58Z"
     },
     "477088568c78f0f05e3f": {
       "artifacts": {},
@@ -22540,6 +22630,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-05T22:54:26Z",
+  "updated_at": "2026-11-05T22:55:58Z",
   "version": 2
 }
