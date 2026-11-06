@@ -2037,6 +2037,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T10:20:59Z"
     },
+    "1bff489cb66e5748c1f3": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106242,
+      "job_id": "1bff489cb66e5748c1f3",
+      "last_seen_at": "2026-11-06T22:23:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] AU - Track distance - Expense creation fails with unexpected error",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106242"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:25Z"
+    },
     "1c982203c3424b591b94": {
       "artifacts": {},
       "created_at": "2026-10-22T10:21:34Z",
@@ -6209,6 +6254,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:51Z"
     },
+    "4b8064d727856b2a2879": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106235,
+      "job_id": "4b8064d727856b2a2879",
+      "last_seen_at": "2026-11-06T22:23:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] LHN - Pinned chats are displayed in the wrong order",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106235"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:26Z"
+    },
     "4bea7da62a36addac555": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -8808,6 +8898,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T23:23:23Z"
     },
+    "6cdbbf7bda189f055f4f": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106257,
+      "job_id": "6cdbbf7bda189f055f4f",
+      "last_seen_at": "2026-11-06T22:23:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Android - Insights - Spend Over Time menu is covered by + button in landscape",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106257"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:25Z"
+    },
     "6d14b1c6c76837f47176": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:07Z",
@@ -9032,6 +9167,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T05:52:20Z"
+    },
+    "6ee0589c57f7b396573c": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106264,
+      "job_id": "6ee0589c57f7b396573c",
+      "last_seen_at": "2026-11-06T22:23:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Expense- Unable to generate PDF to download a report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106264"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:25Z"
     },
     "6f8f92a26de707a43201": {
       "artifacts": {},
@@ -10401,6 +10581,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T22:09:38Z"
+    },
+    "7f6d5c8f5e35f913eb0c": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106234,
+      "job_id": "7f6d5c8f5e35f913eb0c",
+      "last_seen_at": "2026-11-06T22:23:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106234"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:26Z"
     },
     "7f91a11276a78b6e0302": {
       "artifacts": {},
@@ -17879,6 +18104,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T10:02:51Z"
     },
+    "c5fff5d6ec6f63db4d60": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106240,
+      "job_id": "c5fff5d6ec6f63db4d60",
+      "last_seen_at": "2026-11-06T22:23:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Scan- There was an error uploading your receipt displayed after scan a receipt",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106240"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:26Z"
+    },
     "c686278aa12ca37af013": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -19788,6 +20058,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
+    },
+    "dd48b11860c093a1a695": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106237,
+      "job_id": "dd48b11860c093a1a695",
+      "last_seen_at": "2026-11-06T22:23:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Expense creation - Show required-field validation error above the footer button",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106237"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:26Z"
     },
     "de177cb1fa0747440958": {
       "artifacts": {},
@@ -22470,6 +22784,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
     },
+    "f91ac28cec5bfc870305": {
+      "artifacts": {},
+      "created_at": "2026-11-06T22:23:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-06T22:23:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106263,
+      "job_id": "f91ac28cec5bfc870305",
+      "last_seen_at": "2026-11-06T22:23:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Rail trip date does not include a year in the trip room/ rail details",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106263"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-06T22:23:25Z"
+    },
     "f9dcd33a3170b2a942fa": {
       "artifacts": {},
       "created_at": "2026-10-17T17:58:07Z",
@@ -22786,6 +23145,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-06T22:18:18Z",
+  "updated_at": "2026-11-06T22:23:26Z",
   "version": 2
 }
