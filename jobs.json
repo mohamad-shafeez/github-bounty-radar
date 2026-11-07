@@ -7982,6 +7982,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T10:02:51Z"
     },
+    "606eab284c156aea832a": {
+      "artifacts": {},
+      "created_at": "2026-11-07T08:39:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 85925,
+      "job_id": "606eab284c156aea832a",
+      "last_seen_at": "2026-11-07T08:39:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Overdue",
+          "Not a priority",
+          "Bug"
+        ],
+        "score": 62,
+        "title": "[$250] Notification - No push notificatioin is displayed for approver when an expense is submitted",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/85925"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-07T08:39:40Z"
+    },
     "60b7c470593ba40f7011": {
       "artifacts": {},
       "created_at": "2026-10-06T23:48:05Z",
@@ -13302,6 +13349,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-10T22:01:29Z"
+    },
+    "97266b8bf2e26582cde1": {
+      "artifacts": {},
+      "created_at": "2026-11-07T08:39:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106284,
+      "job_id": "97266b8bf2e26582cde1",
+      "last_seen_at": "2026-11-07T08:39:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] All - Uber - Workspace is not connected to Uber at the end of connection flow",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106284"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-07T08:39:40Z"
     },
     "975bec02c6e92eb78302": {
       "artifacts": {},
@@ -21250,6 +21342,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T21:35:39Z"
     },
+    "eb2fd30e4e1f6219bdfc": {
+      "artifacts": {},
+      "created_at": "2026-11-07T08:39:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-07T08:39:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106276,
+      "job_id": "eb2fd30e4e1f6219bdfc",
+      "last_seen_at": "2026-11-07T08:39:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Expense - Create Expense button exits loading state before confirmation screen closes",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106276"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-07T08:39:40Z"
+    },
     "eb37e09fb11d33e07823": {
       "artifacts": {},
       "created_at": "2026-10-07T21:32:41Z",
@@ -23201,6 +23338,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-07T08:29:30Z",
+  "updated_at": "2026-11-07T08:39:40Z",
   "version": 2
 }
