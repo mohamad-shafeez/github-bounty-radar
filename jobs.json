@@ -7304,6 +7304,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "5881d214823e9e1c77be": {
+      "artifacts": {},
+      "created_at": "2026-11-07T02:03:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-07T02:03:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-07T02:03:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106219,
+      "job_id": "5881d214823e9e1c77be",
+      "last_seen_at": "2026-11-07T02:03:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Distance rates - Distance rate table is not horizontally scrollable and truncated",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106219"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-07T02:03:40Z"
+    },
     "58c35cf4933365b71caa": {
       "artifacts": {},
       "created_at": "2026-10-29T15:38:48Z",
@@ -23150,6 +23196,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-07T01:59:39Z",
+  "updated_at": "2026-11-07T02:03:40Z",
   "version": 2
 }
