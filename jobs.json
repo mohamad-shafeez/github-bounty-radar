@@ -16902,24 +16902,26 @@
       ],
       "issue_number": 105949,
       "job_id": "b7384dd241a40dc92fbf",
-      "last_seen_at": "2026-11-04T22:48:38Z",
+      "last_seen_at": "2026-11-08T19:42:23Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Melvin Triage"
         ],
-        "score": 48,
-        "title": "[$175] Add “Last synced” column to workspace Company cards",
+        "score": 62,
+        "title": "[$250] Add “Last synced” column to workspace Company cards",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/105949"
       },
@@ -23510,6 +23512,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-08T19:29:47Z",
+  "updated_at": "2026-11-08T19:42:23Z",
   "version": 2
 }
