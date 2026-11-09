@@ -815,6 +815,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:06Z"
     },
+    "0bb31cbb3e42058dc5fd": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106418,
+      "job_id": "0bb31cbb3e42058dc5fd",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 61,
+        "title": "[$175] Merchant list displays escape characters",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106418"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "0c35fa7fae25d7520637": {
       "artifacts": {},
       "created_at": "2026-11-08T08:14:52Z",
@@ -970,24 +1015,26 @@
       ],
       "issue_number": 105796,
       "job_id": "0d0167f70f7507792729",
-      "last_seen_at": "2026-11-03T22:23:23Z",
+      "last_seen_at": "2026-11-09T20:49:50Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] iOS: App stops responding to taps after dismissing AI promo or welcome popup",
+        "score": 62,
+        "title": "[$250] iOS: App stops responding to taps after dismissing AI promo or welcome popup",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/105796"
       },
@@ -3715,6 +3762,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T17:48:41Z"
     },
+    "3248e122e59f69466839": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106405,
+      "job_id": "3248e122e59f69466839",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] [Sentry: APP-P01] TypeError: Cannot read property 'domainAccountID' of undefined",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106405"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "3271f9283349302591fd": {
       "artifacts": {},
       "created_at": "2026-11-02T20:16:01Z",
@@ -5298,6 +5390,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "4103476e0e814db68384": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106396,
+      "job_id": "4103476e0e814db68384",
+      "last_seen_at": "2026-11-09T20:49:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Commercial feeds appear as identical Mastercard entries in New Expensify’s Add Cards flow, making it difficult to select the correct feed.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106396"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:51Z"
+    },
     "412ed54800011e989616": {
       "artifacts": {},
       "created_at": "2026-10-06T01:44:07Z",
@@ -6662,6 +6799,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:06Z"
     },
+    "4dfbbe5b46f68c606c5b": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106006,
+      "job_id": "4dfbbe5b46f68c606c5b",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Expensify Card - Hide Add to Wallet for copilots",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106006"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "4e68e01cd8ebc8b39483": {
       "artifacts": {},
       "created_at": "2026-10-13T17:47:13Z",
@@ -6752,6 +6933,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T22:59:05Z"
+    },
+    "4e8a7264347c6b62b63a": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106395,
+      "job_id": "4e8a7264347c6b62b63a",
+      "last_seen_at": "2026-11-09T20:49:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - Company Cards - page loading infinitely with 'simulate failing network request'",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106395"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:51Z"
     },
     "4ec150450b1f756d9744": {
       "artifacts": {},
@@ -11446,6 +11672,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T10:02:51Z"
     },
+    "8413e2e2e360781c956b": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106366,
+      "job_id": "8413e2e2e360781c956b",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 54,
+        "title": "[$175] [UseDot] Add a Join modal with Terms of Service and Privacy Policy to all sign-up paths",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106366"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "8415a793361b9ecce74d": {
       "artifacts": {},
       "created_at": "2026-11-01T23:52:32Z",
@@ -13442,6 +13713,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "95beaada2c327ea61356": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106412,
+      "job_id": "95beaada2c327ea61356",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Performance] Avatars re-render when transactions in unrelated reports change",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106412"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "95e99d0e209dcd8dd2a2": {
       "artifacts": {},
       "created_at": "2026-10-22T15:23:37Z",
@@ -15263,6 +15580,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-01T20:37:48Z"
     },
+    "a676881acc507e178d17": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:49Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:49Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:49Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106201,
+      "job_id": "a676881acc507e178d17",
+      "last_seen_at": "2026-11-09T20:49:49Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Engineering",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 68,
+        "title": "[$250] Members - Display name opens not here page",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106201"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:49Z"
+    },
     "a7759766e5068f1617b2": {
       "artifacts": {},
       "created_at": "2026-10-08T20:12:00Z",
@@ -15952,6 +16315,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
+    },
+    "b45a253884f63e7ac08e": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106419,
+      "job_id": "b45a253884f63e7ac08e",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 65,
+        "title": "[$175] Tax isn't disabled after delete offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106419"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
     },
     "b4904681c34c99c0d1ec": {
       "artifacts": {},
@@ -18352,6 +18760,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T15:23:37Z"
     },
+    "c441a830748913f548fe": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106380,
+      "job_id": "c441a830748913f548fe",
+      "last_seen_at": "2026-11-09T20:49:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Scheduled call isn't displayed after booking via Calendly",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106380"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:51Z"
+    },
     "c562de8520a6f43ca226": {
       "artifacts": {},
       "created_at": "2026-11-04T22:48:38Z",
@@ -19218,6 +19671,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T19:32:47Z"
     },
+    "cca8ebc302388fb4beb6": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 86571,
+      "job_id": "cca8ebc302388fb4beb6",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Internal",
+          "Task",
+          "Overdue"
+        ],
+        "score": 57,
+        "title": "[$175] Remove Hermes sampling profiler patches after RN 0.85 upgrade",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/86571"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "ccff208c9a208873460b": {
       "artifacts": {},
       "created_at": "2026-10-13T10:37:56Z",
@@ -19781,12 +20282,12 @@
       ],
       "issue_number": 106340,
       "job_id": "d65ba65fb11268e82c90",
-      "last_seen_at": "2026-11-09T10:18:06Z",
+      "last_seen_at": "2026-11-09T20:49:49Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
@@ -19795,10 +20296,10 @@
           "Daily",
           "Bug"
         ],
-        "score": 59,
-        "title": "[$175] [Sentry: APP-77W] iOS: investigate main thread app hangs",
+        "score": 72,
+        "title": "[$250] [Sentry: APP-77W] iOS: investigate main thread app hangs",
         "trigger": [
-          "new_issue"
+          "bounty_increased"
         ],
         "url": "https://github.com/Expensify/App/issues/106340"
       },
@@ -21829,24 +22330,26 @@
       ],
       "issue_number": 105231,
       "job_id": "eb3f00c4df4087447189",
-      "last_seen_at": "2026-10-28T14:02:20Z",
+      "last_seen_at": "2026-11-09T20:49:50Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 43,
-        "title": "[$175] Hybrid-Home- Home cards do not refresh after reopen app from other apps",
+        "score": 56,
+        "title": "[$250] Hybrid-Home- Home cards do not refresh after reopen app from other apps",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/105231"
       },
@@ -23758,6 +24261,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T10:21:34Z"
     },
+    "fe17377859543d2cc37f": {
+      "artifacts": {},
+      "created_at": "2026-11-09T20:49:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T20:49:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106416,
+      "job_id": "fe17377859543d2cc37f",
+      "last_seen_at": "2026-11-09T20:49:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Investigate expense creation rejections reported by APP-5WY",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106416"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T20:49:50Z"
+    },
     "fe49cf122d5e6db8a0ab": {
       "artifacts": {},
       "created_at": "2026-10-29T15:38:49Z",
@@ -23804,6 +24352,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-09T20:43:15Z",
+  "updated_at": "2026-11-09T20:49:51Z",
   "version": 2
 }
