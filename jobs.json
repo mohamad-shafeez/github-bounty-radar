@@ -2308,6 +2308,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
     },
+    "1e714d943da698874080": {
+      "artifacts": {},
+      "created_at": "2026-11-09T10:18:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106342,
+      "job_id": "1e714d943da698874080",
+      "last_seen_at": "2026-11-09T10:18:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Android - Plaid login page rotates to landscape instead of remaining in portrait",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106342"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T10:18:06Z"
+    },
     "1ec4814070851c89c3af": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:48Z",
@@ -8876,24 +8921,26 @@
       ],
       "issue_number": 105693,
       "job_id": "6a5c056aca016f98dae7",
-      "last_seen_at": "2026-11-03T02:23:07Z",
+      "last_seen_at": "2026-11-09T10:18:05Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] Account - System back button on 2FA success RHP navigates to Account > Security",
+        "score": 68,
+        "title": "[$250] Account - System back button on 2FA success RHP navigates to Account > Security",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/105693"
       },
@@ -19709,6 +19756,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:11Z"
     },
+    "d65ba65fb11268e82c90": {
+      "artifacts": {},
+      "created_at": "2026-11-09T10:18:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106340,
+      "job_id": "d65ba65fb11268e82c90",
+      "last_seen_at": "2026-11-09T10:18:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [Sentry: APP-77W] iOS: investigate main thread app hangs",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106340"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T10:18:06Z"
+    },
     "d6d616cd919cd180e2f3": {
       "artifacts": {},
       "created_at": "2026-10-10T08:26:32Z",
@@ -22257,6 +22349,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T13:08:36Z"
     },
+    "efcaeeb1cd5dc6658735": {
+      "artifacts": {},
+      "created_at": "2026-11-09T10:18:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106338,
+      "job_id": "efcaeeb1cd5dc6658735",
+      "last_seen_at": "2026-11-09T10:18:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-NAP] react-native-pdf throws \"undefined is not a function\" when a PDF download is canceled",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106338"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T10:18:06Z"
+    },
     "eff207986ec5e2f994d3": {
       "artifacts": {},
       "created_at": "2026-10-14T15:25:41Z",
@@ -23481,6 +23618,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "fc25bc590857d750760a": {
+      "artifacts": {},
+      "created_at": "2026-11-09T10:18:06Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T10:18:06Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106343,
+      "job_id": "fc25bc590857d750760a",
+      "last_seen_at": "2026-11-09T10:18:06Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Describe Rule obscured after dismissing keyboard using Android navigation bar",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106343"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T10:18:06Z"
+    },
     "fd3aa989fa4ba2358fe9": {
       "artifacts": {},
       "created_at": "2026-10-17T20:10:41Z",
@@ -23617,6 +23799,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-09T10:12:35Z",
+  "updated_at": "2026-11-09T10:18:06Z",
   "version": 2
 }
