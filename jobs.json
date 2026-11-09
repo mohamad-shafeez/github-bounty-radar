@@ -8122,6 +8122,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
     },
+    "611bd8e4d4d82ab801bf": {
+      "artifacts": {},
+      "created_at": "2026-11-09T02:38:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T02:38:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T02:38:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106330,
+      "job_id": "611bd8e4d4d82ab801bf",
+      "last_seen_at": "2026-11-09T02:38:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Keep report table headers and controls fixed on wide layouts",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106330"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T02:38:26Z"
+    },
     "6195d35ca08b43406cc6": {
       "artifacts": {},
       "created_at": "2026-11-04T22:48:37Z",
@@ -9307,6 +9352,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T05:52:20Z"
+    },
+    "6ea7f0ca37b4779bcee4": {
+      "artifacts": {},
+      "created_at": "2026-11-09T02:38:25Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-09T02:38:25Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-09T02:38:25Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106329,
+      "job_id": "6ea7f0ca37b4779bcee4",
+      "last_seen_at": "2026-11-09T02:38:25Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 65,
+        "title": "[$175] [Sentry: APP-NZ2] java.lang.IllegalStateException: Cannot trigger event client-userIsTyping because connection is in RECONNECTING state",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106329"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-09T02:38:25Z"
     },
     "6ee0589c57f7b396573c": {
       "artifacts": {},
@@ -23522,6 +23612,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-09T02:33:08Z",
+  "updated_at": "2026-11-09T02:38:26Z",
   "version": 2
 }
