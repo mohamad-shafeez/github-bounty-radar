@@ -680,6 +680,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
     },
+    "0861a7cf1c06649c1df7": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106323,
+      "job_id": "0861a7cf1c06649c1df7",
+      "last_seen_at": "2026-11-10T02:58:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 40,
+        "title": "[$175] [Auto] - Concierge - Pre-generated Concierge response does not appears while offline",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106323"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:42Z"
+    },
     "086fa71538df04ddf0b9": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:17Z",
@@ -7482,6 +7528,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "55a09e8c4d5525d0526c": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105373,
+      "job_id": "55a09e8c4d5525d0526c",
+      "last_seen_at": "2026-11-10T02:58:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Clarify copy on the card feed \"Allow cardholders to delete transactions\" setting",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105373"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:41Z"
+    },
     "55be0c6dfe96dca51c59": {
       "artifacts": {},
       "created_at": "2026-11-04T09:40:19Z",
@@ -11150,24 +11240,26 @@
       ],
       "issue_number": 106234,
       "job_id": "7f6d5c8f5e35f913eb0c",
-      "last_seen_at": "2026-11-06T22:23:26Z",
+      "last_seen_at": "2026-11-10T02:58:41Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Task"
         ],
-        "score": 55,
-        "title": "[$175] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review",
+        "score": 56,
+        "title": "[$250] [Sentry: APP-NX5] iOS HybridApp crashes when approving a report in Guided Review",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106234"
       },
@@ -11264,6 +11356,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "80abcbfd9a948b6861bb": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106409,
+      "job_id": "80abcbfd9a948b6861bb",
+      "last_seen_at": "2026-11-10T02:58:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 47,
+        "title": "[$175] [Sentry: APP-NZR] TypeError: Cannot read properties of undefined (reading 'toLowerCase')",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106409"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:42Z"
     },
     "80ec84a217fd0ac27186": {
       "artifacts": {},
@@ -12535,6 +12672,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T16:37:37Z"
     },
+    "89afa02cdefc0c1470b1": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106387,
+      "job_id": "89afa02cdefc0c1470b1",
+      "last_seen_at": "2026-11-10T02:58:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Expensify is not in app's list when share HEIC file from device file manager",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106387"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:42Z"
+    },
     "89ef4b1d7e1189c204f4": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:23Z",
@@ -12579,6 +12761,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
+    },
+    "8a95b8a2d60d5feb65db": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:42Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:42Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106398,
+      "job_id": "8a95b8a2d60d5feb65db",
+      "last_seen_at": "2026-11-10T02:58:42Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Expense - Day on Next step incorrect with the default frequency setting Submission twice a month",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106398"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:42Z"
     },
     "8aa9d3c3e63ccc59fb74": {
       "artifacts": {},
@@ -18402,6 +18629,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:10Z"
+    },
+    "c0af99da40c76dd93f7e": {
+      "artifacts": {},
+      "created_at": "2026-11-10T02:58:41Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T02:58:41Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-10T02:58:41Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98262,
+      "job_id": "c0af99da40c76dd93f7e",
+      "last_seen_at": "2026-11-10T02:58:41Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Overdue"
+        ],
+        "score": 56,
+        "title": "[$250] [Exploratory] Warning company still has Consolidated Travel Billing not shown when delete ws offline",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98262"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T02:58:41Z"
     },
     "c0d0c055221a4c0971b0": {
       "artifacts": {},
@@ -24357,6 +24630,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-10T02:56:18Z",
+  "updated_at": "2026-11-10T02:58:42Z",
   "version": 2
 }
