@@ -7757,6 +7757,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T01:14:28Z"
     },
+    "57cbe8f3758ec9c2cda8": {
+      "artifacts": {},
+      "created_at": "2026-11-10T18:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106543,
+      "job_id": "57cbe8f3758ec9c2cda8",
+      "last_seen_at": "2026-11-10T18:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [Sentry: APP-P0M] Null employee entry crashes Search custom-field selector",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106543"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T18:18:56Z"
+    },
     "5881d214823e9e1c77be": {
       "artifacts": {},
       "created_at": "2026-11-07T02:03:40Z",
@@ -10806,6 +10851,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T02:52:53Z"
+    },
+    "76d1bb4ef62f2cb0988a": {
+      "artifacts": {},
+      "created_at": "2026-11-10T18:18:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T18:18:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T18:18:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106501,
+      "job_id": "76d1bb4ef62f2cb0988a",
+      "last_seen_at": "2026-11-10T18:18:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Performance: Stop composer re-renders from unrelated report and personal details updates",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106501"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T18:18:57Z"
     },
     "77669a5344bb24a12282": {
       "artifacts": {},
@@ -16402,6 +16491,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T22:20:28Z"
     },
+    "ae73ca035f70ddc65af2": {
+      "artifacts": {},
+      "created_at": "2026-11-10T18:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106517,
+      "job_id": "ae73ca035f70ddc65af2",
+      "last_seen_at": "2026-11-10T18:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Concierge - The empathetic reply does not include a clickable link \"talk to a human\" link",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106517"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T18:18:56Z"
+    },
     "af3c6bb3904fce110fbc": {
       "artifacts": {},
       "created_at": "2026-10-08T14:45:57Z",
@@ -19047,6 +19181,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T05:04:11Z"
+    },
+    "c1ee81f3ae772b07d357": {
+      "artifacts": {},
+      "created_at": "2026-11-10T18:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-10T18:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106008,
+      "job_id": "c1ee81f3ae772b07d357",
+      "last_seen_at": "2026-11-10T18:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 61,
+        "title": "[$175] Expensify Card - Prompt users to complete private personal details before wallet enrollment",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106008"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T18:18:56Z"
     },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
@@ -24865,6 +25043,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-10T18:14:35Z",
+  "updated_at": "2026-11-10T18:18:57Z",
   "version": 2
 }
