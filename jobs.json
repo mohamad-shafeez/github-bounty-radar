@@ -1725,6 +1725,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "150c6b3e6443eb27f83f": {
+      "artifacts": {},
+      "created_at": "2026-11-10T10:50:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106454,
+      "job_id": "150c6b3e6443eb27f83f",
+      "last_seen_at": "2026-11-10T10:50:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Web - Onboarding - Concierge RHP doesn't open after landing on the Home page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106454"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T10:50:07Z"
+    },
     "1515fe187ea035dbe41c": {
       "artifacts": {},
       "created_at": "2026-10-29T20:34:39Z",
@@ -8573,6 +8618,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
     },
+    "627d6a263167277f1caa": {
+      "artifacts": {},
+      "created_at": "2026-11-10T10:50:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106459,
+      "job_id": "627d6a263167277f1caa",
+      "last_seen_at": "2026-11-10T10:50:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Statements-Page loads infinitely when navigating to /statements/<YYYYMM>",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106459"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T10:50:07Z"
+    },
     "6322be6b54fdc4f3905a": {
       "artifacts": {},
       "created_at": "2026-10-10T14:34:50Z",
@@ -8666,6 +8756,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
+    },
+    "64edcdf6c9a05cfba211": {
+      "artifacts": {},
+      "created_at": "2026-11-10T10:50:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106463,
+      "job_id": "64edcdf6c9a05cfba211",
+      "last_seen_at": "2026-11-10T10:50:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Day is not mentioned first in Dutch on Sub page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106463"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T10:50:07Z"
     },
     "65293560f76178191e85": {
       "artifacts": {},
@@ -12941,6 +13076,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-07T19:23:23Z"
+    },
+    "8ba4f0c0abf4438b4049": {
+      "artifacts": {},
+      "created_at": "2026-11-10T10:50:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106449,
+      "job_id": "8ba4f0c0abf4438b4049",
+      "last_seen_at": "2026-11-10T10:50:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Deeplink - Valid payment receipt deeplink does not display the receipt",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106449"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T10:50:07Z"
     },
     "8baa2a1dcb4c55209e43": {
       "artifacts": {},
@@ -18091,6 +18271,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T01:30:10Z"
+    },
+    "ba7d32f090dc7d337948": {
+      "artifacts": {},
+      "created_at": "2026-11-10T10:50:07Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T10:50:07Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106458,
+      "job_id": "ba7d32f090dc7d337948",
+      "last_seen_at": "2026-11-10T10:50:07Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] There right approver is not shown after turning back the approval mode",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106458"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T10:50:07Z"
     },
     "ba978007465c34fb30c2": {
       "artifacts": {},
@@ -24635,6 +24860,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-10T10:40:10Z",
+  "updated_at": "2026-11-10T10:50:07Z",
   "version": 2
 }
