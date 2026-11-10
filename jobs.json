@@ -861,6 +861,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:06Z"
     },
+    "0b71dbc8851b0eabd3cd": {
+      "artifacts": {},
+      "created_at": "2026-11-10T23:31:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105681,
+      "job_id": "0b71dbc8851b0eabd3cd",
+      "last_seen_at": "2026-11-10T23:31:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Web - Spend - Search field is highlighted when not focused after dragging row",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105681"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T23:31:17Z"
+    },
     "0bb31cbb3e42058dc5fd": {
       "artifacts": {},
       "created_at": "2026-11-09T20:49:50Z",
@@ -9444,6 +9490,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:07Z"
     },
+    "6a819538124b2443a41b": {
+      "artifacts": {},
+      "created_at": "2026-11-10T23:31:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106558,
+      "job_id": "6a819538124b2443a41b",
+      "last_seen_at": "2026-11-10T23:31:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Users cannot sign in to Expensify through Okta on the web and receive the error: “Something went wrong. Grab a snack and try again later.”",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106558"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T23:31:17Z"
+    },
     "6ab3651be254a83e0aa0": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:37Z",
@@ -14028,6 +14119,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T17:48:41Z"
     },
+    "9408efa1d718f96034a5": {
+      "artifacts": {},
+      "created_at": "2026-11-10T23:31:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106561,
+      "job_id": "9408efa1d718f96034a5",
+      "last_seen_at": "2026-11-10T23:31:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Insights - Root link does not open Spend dashboard",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106561"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T23:31:17Z"
+    },
     "9461cd6492165f9110f9": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:06Z",
@@ -16811,6 +16947,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-06T17:40:58Z"
+    },
+    "b3a05faa083f1bfb1f71": {
+      "artifacts": {},
+      "created_at": "2026-11-10T23:31:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-10T23:31:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106556,
+      "job_id": "b3a05faa083f1bfb1f71",
+      "last_seen_at": "2026-11-10T23:31:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] User adds a receipt via smartscan and selects a report; once saved, it then for some reason goes to a different report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106556"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-10T23:31:17Z"
     },
     "b41e308e6bfb9b2bccdf": {
       "artifacts": {},
@@ -25048,6 +25229,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-10T23:23:51Z",
+  "updated_at": "2026-11-10T23:31:17Z",
   "version": 2
 }
