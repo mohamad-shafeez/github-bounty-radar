@@ -2855,6 +2855,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T20:11:58Z"
     },
+    "20984638eba546c59c89": {
+      "artifacts": {},
+      "created_at": "2026-11-11T10:13:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106596,
+      "job_id": "20984638eba546c59c89",
+      "last_seen_at": "2026-11-11T10:13:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] The \"Create a rule\" banner doesn't appears on the second expense creation",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106596"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-11T10:13:34Z"
+    },
     "20d26255cb73294a5a61": {
       "artifacts": {},
       "created_at": "2026-11-03T22:23:23Z",
@@ -4304,6 +4349,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T17:21:19Z"
+    },
+    "35bcd57fbfb8b9d3fc82": {
+      "artifacts": {},
+      "created_at": "2026-11-11T10:13:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106612,
+      "job_id": "35bcd57fbfb8b9d3fc82",
+      "last_seen_at": "2026-11-11T10:13:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] IOU - Report appear normal state instead of pending after \"Pay with business bank account\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106612"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-11T10:13:34Z"
     },
     "35f5b1144727276a1d0a": {
       "artifacts": {},
@@ -8297,6 +8387,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:51Z"
+    },
+    "5e709d8b9e3011eff375": {
+      "artifacts": {},
+      "created_at": "2026-11-11T10:13:34Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-11T10:13:34Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106616,
+      "job_id": "5e709d8b9e3011eff375",
+      "last_seen_at": "2026-11-11T10:13:34Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 55,
+        "title": "[$175] Onboarding - Expand accounting software options with searchable compact selectors",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106616"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-11T10:13:34Z"
     },
     "5f4b207d74f2decaac16": {
       "artifacts": {},
@@ -25284,6 +25419,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-11T09:54:21Z",
+  "updated_at": "2026-11-11T10:13:34Z",
   "version": 2
 }
