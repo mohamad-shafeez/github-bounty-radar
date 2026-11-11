@@ -23056,6 +23056,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T21:47:40Z"
     },
+    "e93e2cc8c50c8fa9b42a": {
+      "artifacts": {},
+      "created_at": "2026-11-11T02:56:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-11T02:56:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-11T02:56:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106220,
+      "job_id": "e93e2cc8c50c8fa9b42a",
+      "last_seen_at": "2026-11-11T02:56:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Reports routed to incorrect approver outside the designated approval workflow",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106220"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-11T02:56:50Z"
+    },
     "e98ffa556496ec1ca444": {
       "artifacts": {},
       "created_at": "2026-10-19T21:35:39Z",
@@ -25234,6 +25279,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-11T02:51:55Z",
+  "updated_at": "2026-11-11T02:56:50Z",
   "version": 2
 }
