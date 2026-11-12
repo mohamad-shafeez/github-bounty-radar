@@ -546,6 +546,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "073d8813f411fae221aa": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 84536,
+      "job_id": "073d8813f411fae221aa",
+      "last_seen_at": "2026-11-12T20:36:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Rules-Itemized receipt required amount is empty and not duplicated",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/84536"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:27Z"
+    },
     "0753693abe6a61b05258": {
       "artifacts": {},
       "created_at": "2026-11-05T02:52:53Z",
@@ -815,6 +860,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T07:14:16Z"
+    },
+    "09e81f539fe544140eb0": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106721,
+      "job_id": "09e81f539fe544140eb0",
+      "last_seen_at": "2026-11-12T20:36:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Infinite loading when open /insights",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106721"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:28Z"
     },
     "0b03e436c717f6857204": {
       "artifacts": {},
@@ -4937,6 +5027,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "3a17a54890fbf8f45ee9": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106741,
+      "job_id": "3a17a54890fbf8f45ee9",
+      "last_seen_at": "2026-11-12T20:36:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Reimbursable field missing from bulk edit while individual editing works",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106741"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:26Z"
+    },
     "3a378894c70552fd5236": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:26Z",
@@ -9023,6 +9158,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
+    },
+    "61e6c757ed8e238b0f5f": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106718,
+      "job_id": "61e6c757ed8e238b0f5f",
+      "last_seen_at": "2026-11-12T20:36:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] The map start and stop points doesn't follow the app language",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106718"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:28Z"
     },
     "627d6a263167277f1caa": {
       "artifacts": {},
@@ -15522,6 +15702,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:04Z"
     },
+    "9b4ce3b3153c7804fa40": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106743,
+      "job_id": "9b4ce3b3153c7804fa40",
+      "last_seen_at": "2026-11-12T20:36:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Bank account verification fails because hyphens are not allowed in the legal name field.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106743"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:27Z"
+    },
     "9be5af6eff61cc01b44d": {
       "artifacts": {},
       "created_at": "2026-11-03T02:23:08Z",
@@ -15702,6 +15927,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T06:09:24Z"
+    },
+    "9d0055443a7aa0076578": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 91293,
+      "job_id": "9d0055443a7aa0076578",
+      "last_seen_at": "2026-11-12T20:36:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Monthly",
+          "Overdue",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[HOLD https://github.com/Expensify/Mobile-Expensify/pull/13970] [$250] [Sentry: APP-7FJ] HybridApp iOS Fatal App Hang at main",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/91293"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:27Z"
     },
     "9d1a7119fb672e3d5543": {
       "artifacts": {},
@@ -16664,6 +16935,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "a98e2e99b665c69cce93": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106764,
+      "job_id": "a98e2e99b665c69cce93",
+      "last_seen_at": "2026-11-12T20:36:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Prevent unnecessary SAML sign-outs during mobile session hydration",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106764"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:27Z"
     },
     "aa133b357edbe8d82299": {
       "artifacts": {},
@@ -24401,6 +24717,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T17:30:26Z"
     },
+    "f0b4734d6166952b0798": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98787,
+      "job_id": "f0b4734d6166952b0798",
+      "last_seen_at": "2026-11-12T20:36:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 62,
+        "title": "[$250] Expense - Split preview loads infinitely and opens not here page after reset app",
+        "trigger": [
+          "bounty_added",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98787"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:26Z"
+    },
     "f0cbce09f61fb44483a9": {
       "artifacts": {},
       "created_at": "2026-10-26T12:52:39Z",
@@ -24445,6 +24809,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T12:52:39Z"
+    },
+    "f2184043fef3ee787515": {
+      "artifacts": {},
+      "created_at": "2026-11-12T20:36:26Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-12T20:36:26Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106738,
+      "job_id": "f2184043fef3ee787515",
+      "last_seen_at": "2026-11-12T20:36:26Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS - SMS US - Concierge creates expenses only from the first and last receipts sent via SMS",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106738"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-12T20:36:26Z"
     },
     "f25838329fa481b9abb5": {
       "artifacts": {},
@@ -25716,6 +26125,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-12T20:24:24Z",
+  "updated_at": "2026-11-12T20:36:28Z",
   "version": 2
 }
