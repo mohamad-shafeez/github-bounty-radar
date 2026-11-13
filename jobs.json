@@ -4394,6 +4394,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T20:34:39Z"
     },
+    "33c8cf1aed69ca65cc7a": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106667,
+      "job_id": "33c8cf1aed69ca65cc7a",
+      "last_seen_at": "2026-11-13T16:38:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 40,
+        "title": "[$175] [Performance] Table selection does work proportional to every row on each click",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106667"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:51Z"
+    },
     "34219c42d4d8821e0278": {
       "artifacts": {},
       "created_at": "2026-10-30T05:52:20Z",
@@ -6521,6 +6566,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T07:14:16Z"
+    },
+    "46232318ad3297d67a70": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106850,
+      "job_id": "46232318ad3297d67a70",
+      "last_seen_at": "2026-11-13T16:38:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Search - Legacy unreported expenses silently fail to open and can't be deleted when the owner/chat can't be resolved from the activity record",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106850"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:51Z"
     },
     "472d095380e61000f6de": {
       "artifacts": {},
@@ -12801,6 +12891,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "836d8ca59c5abe9ff97e": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106869,
+      "job_id": "836d8ca59c5abe9ff97e",
+      "last_seen_at": "2026-11-13T16:38:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Workflows- Page loads endlessly when open workflows/approvals/new in Dew Workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106869"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:50Z"
+    },
     "83b63e2d287d8f5c8481": {
       "artifacts": {},
       "created_at": "2026-10-16T22:11:57Z",
@@ -17667,6 +17802,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T14:45:57Z"
     },
+    "af9d10ef733d04aa71e4": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:51Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:51Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106852,
+      "job_id": "af9d10ef733d04aa71e4",
+      "last_seen_at": "2026-11-13T16:38:51Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] PDF download modal stays open after signing out from another tab/device",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106852"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:51Z"
+    },
     "b04edf99259e7c8bbda0": {
       "artifacts": {},
       "created_at": "2026-10-29T20:34:39Z",
@@ -18077,6 +18257,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T16:04:11Z"
+    },
+    "b54bb640aee69ca3396c": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106866,
+      "job_id": "b54bb640aee69ca3396c",
+      "last_seen_at": "2026-11-13T16:38:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workflow - No verify account (magic code) page opens when add bank account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106866"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:50Z"
     },
     "b571ab4371033f266471": {
       "artifacts": {},
@@ -19596,6 +19821,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-28T01:30:10Z"
+    },
+    "ba683eafec9e9dd9f045": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106856,
+      "job_id": "ba683eafec9e9dd9f045",
+      "last_seen_at": "2026-11-13T16:38:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 55,
+        "title": "[$175] Group workspace navigation settings and align More features",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106856"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:50Z"
     },
     "ba7d32f090dc7d337948": {
       "artifacts": {},
@@ -26052,6 +26321,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-06T22:23:25Z"
     },
+    "f9a8c1c5d169815a1af9": {
+      "artifacts": {},
+      "created_at": "2026-11-13T16:38:50Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-13T16:38:50Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106857,
+      "job_id": "f9a8c1c5d169815a1af9",
+      "last_seen_at": "2026-11-13T16:38:50Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Bank Account - User does not land back on the country selector after closing the Plaid UI",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106857"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T16:38:50Z"
+    },
     "f9dcd33a3170b2a942fa": {
       "artifacts": {},
       "created_at": "2026-10-17T17:58:07Z",
@@ -26458,6 +26772,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-13T16:06:31Z",
+  "updated_at": "2026-11-13T16:38:51Z",
   "version": 2
 }
