@@ -22528,6 +22528,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T11:42:17Z"
     },
+    "cc588f0b4a0336f130d2": {
+      "artifacts": {},
+      "created_at": "2026-11-14T15:44:54Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-14T15:44:54Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-14T15:44:54Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106926,
+      "job_id": "cc588f0b4a0336f130d2",
+      "last_seen_at": "2026-11-14T15:44:54Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Onboarding-Onboarding is displayed for invited to the workspace account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106926"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-14T15:44:54Z"
+    },
     "cc76d84f8175625eedef": {
       "artifacts": {},
       "created_at": "2026-10-14T19:32:47Z",
@@ -27571,6 +27616,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-14T15:10:53Z",
+  "updated_at": "2026-11-14T15:44:55Z",
   "version": 2
 }
