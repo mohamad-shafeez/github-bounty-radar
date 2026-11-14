@@ -3577,6 +3577,54 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T00:15:05Z"
     },
+    "266a64fe8cd57c72c84c": {
+      "artifacts": {},
+      "created_at": "2026-11-14T09:07:22Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-14T09:07:22Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_increased",
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-14T09:07:22Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 102630,
+      "job_id": "266a64fe8cd57c72c84c",
+      "last_seen_at": "2026-11-14T09:07:22Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 62,
+        "title": "[$250] Web - Profile - State URL parameter does not override the existing State value",
+        "trigger": [
+          "bounty_increased",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/102630"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-14T09:07:22Z"
+    },
     "27b6e7390048053d245e": {
       "artifacts": {},
       "created_at": "2026-10-16T16:44:55Z",
@@ -27518,6 +27566,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-14T08:19:01Z",
+  "updated_at": "2026-11-14T09:07:22Z",
   "version": 2
 }
