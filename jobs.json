@@ -1906,6 +1906,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "14df1d363c2b824e6229": {
+      "artifacts": {},
+      "created_at": "2026-11-14T02:22:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106907,
+      "job_id": "14df1d363c2b824e6229",
+      "last_seen_at": "2026-11-14T02:22:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workspace Settings - Error when clicking \"ask for admin access\" of an existing domain",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106907"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-14T02:22:52Z"
+    },
     "150c6b3e6443eb27f83f": {
       "artifacts": {},
       "created_at": "2026-11-10T10:50:07Z",
@@ -5073,6 +5118,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T18:55:43Z"
+    },
+    "3872d23b1827831766cf": {
+      "artifacts": {},
+      "created_at": "2026-11-14T02:22:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106905,
+      "job_id": "3872d23b1827831766cf",
+      "last_seen_at": "2026-11-14T02:22:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 59,
+        "title": "[$175] Expensify Card - Show cardholder email below card name on admin card details",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106905"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-14T02:22:52Z"
     },
     "388f56f5d8c9e108a5c0": {
       "artifacts": {},
@@ -17669,6 +17759,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "a7edb5323de09bce7194": {
+      "artifacts": {},
+      "created_at": "2026-11-14T02:22:52Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-14T02:22:52Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 98705,
+      "job_id": "a7edb5323de09bce7194",
+      "last_seen_at": "2026-11-14T02:22:52Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Expense - The DELEGATESUBMIT system message appears only after reopening the expense details",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/98705"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-14T02:22:52Z"
+    },
     "a96846aeae3092903498": {
       "artifacts": {},
       "created_at": "2026-11-13T22:10:25Z",
@@ -27377,6 +27513,6 @@
       "updated_at": "2026-10-29T15:38:49Z"
     }
   },
-  "updated_at": "2026-11-14T01:55:12Z",
+  "updated_at": "2026-11-14T02:22:53Z",
   "version": 2
 }
