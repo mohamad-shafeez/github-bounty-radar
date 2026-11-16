@@ -45,6 +45,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T10:21:00Z"
     },
+    "00991e63ac2a086709be": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106952,
+      "job_id": "00991e63ac2a086709be",
+      "last_seen_at": "2026-11-16T08:32:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Report- Pay button is displayed to $0.0 report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106952"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:19Z"
+    },
     "00bbb1e3ed9bbb204ca3": {
       "artifacts": {},
       "created_at": "2026-10-13T10:37:56Z",
@@ -3260,6 +3305,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T06:09:24Z"
     },
+    "238940c669dbab14e927": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106960,
+      "job_id": "238940c669dbab14e927",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Converted and edited images are not kept, so the app stores and uploads the original file",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106960"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
+    },
     "23af140084badb92da79": {
       "artifacts": {},
       "created_at": "2026-10-21T10:01:37Z",
@@ -4310,6 +4400,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "30074e670130d6f44287": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106959,
+      "job_id": "30074e670130d6f44287",
+      "last_seen_at": "2026-11-16T08:32:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] A new expense request can drop from the queue, so a later move of that expense fails with a 456 error",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106959"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:19Z"
+    },
     "3061294aa62aa1565ffa": {
       "artifacts": {},
       "created_at": "2026-10-12T22:53:18Z",
@@ -5122,6 +5257,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T05:52:20Z"
     },
+    "37f68832865cc32e0176": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106975,
+      "job_id": "37f68832865cc32e0176",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Expenses - Potential duplicate badge appears but duplicates cannot be reviewed after reverting a paid expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106975"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
+    },
     "383f5c83f4b6c1a42176": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -5303,6 +5483,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
+    },
+    "39242867cb899a1b3ae5": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106966,
+      "job_id": "39242867cb899a1b3ae5",
+      "last_seen_at": "2026-11-16T08:32:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Let the user recover from every failed receipt or expense request",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106966"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:19Z"
     },
     "392552cb28b4463dd3d1": {
       "artifacts": {},
@@ -9298,6 +9523,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-11T10:13:34Z"
     },
+    "5ed40ec7e8ecd67923c2": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106965,
+      "job_id": "5ed40ec7e8ecd67923c2",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] \"Report not found\" screens and other receipt errors never reach Sentry",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106965"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
+    },
     "5f4b207d74f2decaac16": {
       "artifacts": {},
       "created_at": "2026-11-05T02:52:53Z",
@@ -10258,6 +10528,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:50Z"
+    },
+    "685507d24f74b505f224": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106964,
+      "job_id": "685507d24f74b505f224",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Receipt logs stop when the request is queued, so later steps cannot be traced",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106964"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
     },
     "687b682b44a5381b0d00": {
       "artifacts": {},
@@ -15031,6 +15346,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T15:12:36Z"
     },
+    "8f5b451f44d0650a2e4b": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106958,
+      "job_id": "8f5b451f44d0650a2e4b",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] After the session expires, the app resends the failed request in a loop with no limit or pause",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106958"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
+    },
     "91118ca6604b6a0dad7f": {
       "artifacts": {},
       "created_at": "2026-11-04T17:30:26Z",
@@ -15260,6 +15620,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T10:21:34Z"
+    },
+    "922a553bdc97d95e64d3": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106957,
+      "job_id": "922a553bdc97d95e64d3",
+      "last_seen_at": "2026-11-16T08:32:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] A failed expense edit restores an old copy and erases a newer receipt or description",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106957"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:19Z"
     },
     "92bd3e7dd3ae748e0b62": {
       "artifacts": {},
@@ -17899,6 +18304,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-14T02:22:52Z"
+    },
+    "a8ebed578d35d0a140d0": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106962,
+      "job_id": "a8ebed578d35d0a140d0",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] A failed move to another report is undone silently and leaves an empty $0 report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106962"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
     },
     "a96846aeae3092903498": {
       "artifacts": {},
@@ -20753,6 +21203,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-12T12:55:58Z"
     },
+    "bbb0332fb95ac60a28fe": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106967,
+      "job_id": "bbb0332fb95ac60a28fe",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Error and loading states should log what happened and match what the user did",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106967"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
+    },
     "bbf28a87a6f8fa7b64ea": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -20936,6 +21431,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T17:48:41Z"
+    },
+    "bd8a73142168b001f3ad": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106963,
+      "job_id": "bd8a73142168b001f3ad",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Investigate why 2–3% of new expenses are sent twice",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106963"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
     },
     "bdad1d8ba1cbb28a420e": {
       "artifacts": {},
@@ -23433,6 +23973,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T10:21:34Z"
+    },
+    "d6fbd7a2f774b8167fb9": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106961,
+      "job_id": "d6fbd7a2f774b8167fb9",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Merging duplicate expenses fails without a message",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106961"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
     },
     "d70e9d9e15c4fe2c2557": {
       "artifacts": {},
@@ -27701,8 +28286,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T15:38:49Z"
+    },
+    "feed44deb23242cbd7d3": {
+      "artifacts": {},
+      "created_at": "2026-11-16T08:32:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T08:32:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106955,
+      "job_id": "feed44deb23242cbd7d3",
+      "last_seen_at": "2026-11-16T08:32:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 57,
+        "title": "[$175] [Sentry: APP-NTH] iOS sound playback throws \"Session activation failed\" in playSound",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106955"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T08:32:18Z"
     }
   },
-  "updated_at": "2026-11-16T08:13:25Z",
+  "updated_at": "2026-11-16T08:32:19Z",
   "version": 2
 }
