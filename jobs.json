@@ -3901,6 +3901,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T17:21:18Z"
     },
+    "2887266e89e878452820": {
+      "artifacts": {},
+      "created_at": "2026-11-16T18:50:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T18:50:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T18:50:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107015,
+      "job_id": "2887266e89e878452820",
+      "last_seen_at": "2026-11-16T18:50:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 48,
+        "title": "[$175] Hide Add approver and Reassign approver when DEW is enabled",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107015"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T18:50:19Z"
+    },
     "29e8827b666c63bff0b6": {
       "artifacts": {},
       "created_at": "2026-10-14T22:33:19Z",
@@ -18990,6 +19034,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T20:34:39Z"
     },
+    "b1266ddcf66dae194129": {
+      "artifacts": {},
+      "created_at": "2026-11-16T18:50:19Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-16T18:50:19Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-16T18:50:19Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106991,
+      "job_id": "b1266ddcf66dae194129",
+      "last_seen_at": "2026-11-16T18:50:19Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] The approver selected while inviting a member resets to the default approver.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106991"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-16T18:50:19Z"
+    },
     "b1675546cdddda3a340d": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -23180,24 +23269,26 @@
       ],
       "issue_number": 106926,
       "job_id": "cc588f0b4a0336f130d2",
-      "last_seen_at": "2026-11-14T15:44:54Z",
+      "last_seen_at": "2026-11-16T18:50:18Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Onboarding-Onboarding is displayed for invited to the workspace account",
+        "score": 68,
+        "title": "[$250] Onboarding-Onboarding is displayed for invited to the workspace account",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106926"
       },
@@ -28337,6 +28428,6 @@
       "updated_at": "2026-11-16T08:32:18Z"
     }
   },
-  "updated_at": "2026-11-16T18:32:19Z",
+  "updated_at": "2026-11-16T18:50:19Z",
   "version": 2
 }
