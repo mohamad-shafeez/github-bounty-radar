@@ -3989,6 +3989,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:18Z"
     },
+    "27ea95a1c03f801fe4f7": {
+      "artifacts": {},
+      "created_at": "2026-11-18T09:08:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106066,
+      "job_id": "27ea95a1c03f801fe4f7",
+      "last_seen_at": "2026-11-18T09:08:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 54,
+        "title": "[$175] Show “Discard changes” confirmation whenever leaving a form with unsaved changes",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106066"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T09:08:48Z"
+    },
     "2876eb91bcfc166d95ab": {
       "artifacts": {},
       "created_at": "2026-11-03T17:21:18Z",
@@ -18208,6 +18252,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-11T18:10:58Z"
     },
+    "9ecacdff3c49d8ec6b07": {
+      "artifacts": {},
+      "created_at": "2026-11-18T09:08:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107212,
+      "job_id": "9ecacdff3c49d8ec6b07",
+      "last_seen_at": "2026-11-18T09:08:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] Web -The flag attachment hidden when receiver react with emoji",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107212"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T09:08:48Z"
+    },
     "9fb24c96e0ec206ce66a": {
       "artifacts": {},
       "created_at": "2026-10-26T18:53:52Z",
@@ -26135,6 +26224,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-30T17:12:18Z"
     },
+    "e5bc64c802bfbcb414b3": {
+      "artifacts": {},
+      "created_at": "2026-11-18T09:08:48Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-18T09:08:48Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 105204,
+      "job_id": "e5bc64c802bfbcb414b3",
+      "last_seen_at": "2026-11-18T09:08:48Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Daily",
+          "Needs Reproduction",
+          "Help Wanted",
+          "Task"
+        ],
+        "score": 56,
+        "title": "[$250] Chat - Opening a room at its oldest unread message never loads newer messages, so the newest messages stay hidden while the LHN shows them",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/105204"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T09:08:48Z"
+    },
     "e60e61d92703b8bfe19d": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -29358,6 +29493,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-18T09:03:50Z",
+  "updated_at": "2026-11-18T09:08:48Z",
   "version": 2
 }
