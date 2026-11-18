@@ -45,6 +45,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-23T10:21:00Z"
     },
+    "0094456d02c4984bf02b": {
+      "artifacts": {},
+      "created_at": "2026-11-18T17:59:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107291,
+      "job_id": "0094456d02c4984bf02b",
+      "last_seen_at": "2026-11-18T17:59:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] HybridApp — Sentry spans are missing the signed-in user's account ID and email",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107291"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T17:59:10Z"
+    },
     "00991e63ac2a086709be": {
       "artifacts": {},
       "created_at": "2026-11-16T08:32:19Z",
@@ -1949,6 +1995,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:08Z"
     },
+    "1461326e563c6979e790": {
+      "artifacts": {},
+      "created_at": "2026-11-18T17:59:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107262,
+      "job_id": "1461326e563c6979e790",
+      "last_seen_at": "2026-11-18T17:59:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS - Money Requests - Green arrow and receipt thumbnails cropped at the bottom",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107262"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T17:59:10Z"
+    },
     "14cddc3addfad4180e64": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -1969,25 +2060,25 @@
       ],
       "issue_number": 103531,
       "job_id": "14cddc3addfad4180e64",
-      "last_seen_at": "2026-10-09T06:21:37Z",
+      "last_seen_at": "2026-11-18T17:59:11Z",
       "latest": {
         "bounty": {
-          "amount": 250.0,
+          "amount": 125.0,
           "currency": "$",
-          "pattern": "\"$250\" inside square brackets in title",
+          "pattern": "\"$125\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
+          "Reviewing",
           "External",
           "Daily",
           "Help Wanted",
           "Bug"
         ],
-        "score": 68,
-        "title": "[$250] iOS - Attachments - Password input of protected PDF closes after rotating to landscape",
+        "score": 48,
+        "title": "[$125] iOS - Attachments - Password input of protected PDF closes after rotating to landscape",
         "trigger": [
-          "bounty_increased",
           "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103531"
@@ -5230,24 +5321,27 @@
       ],
       "issue_number": 106059,
       "job_id": "347c3bff3db9cbc9c2b3",
-      "last_seen_at": "2026-11-05T09:56:22Z",
+      "last_seen_at": "2026-11-18T17:59:09Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
+          "Overdue",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Rules - Description bar is not correctly centered after user focus back on",
+        "score": 68,
+        "title": "[$250] Rules - Description bar is not correctly centered after user focus back on",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106059"
       },
@@ -8201,6 +8295,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-06T22:23:26Z"
     },
+    "4bb8373dca6a416a8869": {
+      "artifacts": {},
+      "created_at": "2026-11-18T17:59:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107274,
+      "job_id": "4bb8373dca6a416a8869",
+      "last_seen_at": "2026-11-18T17:59:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Display options icon (eyeball) is missing from some mobile tables like Per diem",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107274"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T17:59:10Z"
+    },
     "4bea7da62a36addac555": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -8336,6 +8474,50 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-17T19:21:44Z"
+    },
+    "4d4458fc85339e87cee0": {
+      "artifacts": {},
+      "created_at": "2026-11-18T17:59:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T17:59:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107238,
+      "job_id": "4d4458fc85339e87cee0",
+      "last_seen_at": "2026-11-18T17:59:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 52,
+        "title": "[$175] Defer the “Stay ahead of the deadline” modal until the user’s second session",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107238"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T17:59:10Z"
     },
     "4d60af7955c2d43095e5": {
       "artifacts": {},
@@ -16069,6 +16251,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-16T12:17:31Z"
     },
+    "91bfa5aba664155bbb68": {
+      "artifacts": {},
+      "created_at": "2026-11-18T17:59:11Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T17:59:11Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T17:59:11Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107196,
+      "job_id": "91bfa5aba664155bbb68",
+      "last_seen_at": "2026-11-18T17:59:11Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement",
+          "Design"
+        ],
+        "score": 43,
+        "title": "[$175] Per diem - Clarify error presentation when bulk rate deletion fails",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107196"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T17:59:11Z"
+    },
     "9228d0ff436ad55cdc01": {
       "artifacts": {},
       "created_at": "2026-10-22T10:21:34Z",
@@ -16450,24 +16678,26 @@
       ],
       "issue_number": 106106,
       "job_id": "93a766de1fd0deb3e067",
-      "last_seen_at": "2026-11-05T17:48:41Z",
+      "last_seen_at": "2026-11-18T17:59:10Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Navigating via link causes app to freeze",
+        "score": 56,
+        "title": "[$250] Navigating via link causes app to freeze",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106106"
       },
@@ -19823,12 +20053,12 @@
       ],
       "issue_number": 106189,
       "job_id": "b3678eb70a030275f3ec",
-      "last_seen_at": "2026-11-06T17:40:58Z",
+      "last_seen_at": "2026-11-18T17:59:10Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
@@ -19836,12 +20066,14 @@
           "External",
           "Engineering",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 43,
-        "title": "[$175] Members - Browser back buttton does not return to workspace page after viewing chat history",
+        "score": 56,
+        "title": "[$250] Members - Browser back buttton does not return to workspace page after viewing chat history",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106189"
       },
@@ -29498,6 +29730,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-18T17:56:49Z",
+  "updated_at": "2026-11-18T17:59:11Z",
   "version": 2
 }
