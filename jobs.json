@@ -592,6 +592,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T22:25:17Z"
     },
+    "06d993fb113f392bcd83": {
+      "artifacts": {},
+      "created_at": "2026-11-18T23:59:14Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107301,
+      "job_id": "06d993fb113f392bcd83",
+      "last_seen_at": "2026-11-18T23:59:14Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Show the Account educational tooltip only to existing users on mobile",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107301"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T23:59:14Z"
+    },
     "06fe112fc98c2b579976": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -2491,6 +2535,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-13T01:27:00Z"
+    },
+    "17d1c13b79e92d438b6b": {
+      "artifacts": {},
+      "created_at": "2026-11-18T23:59:14Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 101707,
+      "job_id": "17d1c13b79e92d438b6b",
+      "last_seen_at": "2026-11-18T23:59:14Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Filter - Before updating filter results nothing to show is displayed briefly.",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/101707"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T23:59:14Z"
     },
     "18cd779e658c33b8bc52": {
       "artifacts": {},
@@ -24648,6 +24738,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:08Z"
     },
+    "d48b8a1842ef67bb9b6d": {
+      "artifacts": {},
+      "created_at": "2026-11-18T23:59:14Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-18T23:59:14Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 106940,
+      "job_id": "d48b8a1842ef67bb9b6d",
+      "last_seen_at": "2026-11-18T23:59:14Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 55,
+        "title": "[$175] Tooltip incorrectly overlaps the fixed filter toolbar",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106940"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T23:59:14Z"
+    },
     "d4ab719a8196f2a7e82a": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:07Z",
@@ -29735,6 +29870,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-18T23:48:56Z",
+  "updated_at": "2026-11-18T23:59:14Z",
   "version": 2
 }
