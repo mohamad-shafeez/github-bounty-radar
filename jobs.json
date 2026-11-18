@@ -951,6 +951,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-12T20:36:28Z"
     },
+    "0a2879cbab26d82edecc": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107180,
+      "job_id": "0a2879cbab26d82edecc",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Share/submit sheet auto-closing and unable to share from iMessage",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107180"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
+    },
     "0b03e436c717f6857204": {
       "artifacts": {},
       "created_at": "2026-10-22T19:18:06Z",
@@ -2446,6 +2491,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "1af4bdb898f1e281c1d6": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107179,
+      "job_id": "1af4bdb898f1e281c1d6",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Dev - iOS - Expense - Error parsing URL when open view hold expense",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107179"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
+    },
     "1b850b0ee927aeccf229": {
       "artifacts": {},
       "created_at": "2026-10-09T00:22:00Z",
@@ -3214,6 +3304,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T22:23:23Z"
+    },
+    "2108df70b44944528460": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107156,
+      "job_id": "2108df70b44944528460",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Changes to 'Expenses from' are auto-saved when going back.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107156"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
     },
     "2118cf772fbdcd08c8c1": {
       "artifacts": {},
@@ -5435,6 +5570,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-17T02:08:28Z"
+    },
+    "37e597f4d507e94ef222": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107170,
+      "job_id": "37e597f4d507e94ef222",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Sentry: APP-P9V] WindowManager$BadTokenException in PrivacyCover.show (Android HybridApp)",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107170"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
     },
     "37f68832865cc32e0176": {
       "artifacts": {},
@@ -16161,6 +16341,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:25Z"
     },
+    "9366e1bea860d52749ed": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107177,
+      "job_id": "9366e1bea860d52749ed",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Another search show in recent search after go back to Home tab",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107177"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
+    },
     "93a766de1fd0deb3e067": {
       "artifacts": {},
       "created_at": "2026-11-05T17:48:41Z",
@@ -24726,6 +24951,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:08Z"
     },
+    "d94995929c82e5aaf588": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107169,
+      "job_id": "d94995929c82e5aaf588",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] [Sentry: APP-P9K] TypeError: Cannot read property 'at' of undefined in hasEnabledListValue",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107169"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
+    },
     "d9573ff9d9a1e5f3c5b9": {
       "artifacts": {},
       "created_at": "2026-10-16T02:05:51Z",
@@ -25452,6 +25722,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T02:52:53Z"
     },
+    "e0fb1f26b679434fc799": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107168,
+      "job_id": "e0fb1f26b679434fc799",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Accessibility - Keyboard focus on Home page skips the navigation bar tabs (e.g., Account); tabs only receive focus after pressing a link on the Home page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107168"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
+    },
     "e165720a509304862df7": {
       "artifacts": {},
       "created_at": "2026-10-15T23:54:41Z",
@@ -25633,6 +25948,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "e4b23433255ef87cae48": {
+      "artifacts": {},
+      "created_at": "2026-11-18T01:42:02Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-18T01:42:02Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107175,
+      "job_id": "e4b23433255ef87cae48",
+      "last_seen_at": "2026-11-18T01:42:02Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Search - Workspace admin (reimburser/approver) cannot find or open a report in their workspace that another member can find",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107175"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-18T01:42:02Z"
     },
     "e4b7b26d5e83de230def": {
       "artifacts": {},
@@ -28993,6 +29353,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-18T01:37:41Z",
+  "updated_at": "2026-11-18T01:42:02Z",
   "version": 2
 }
