@@ -2692,24 +2692,26 @@
       ],
       "issue_number": 107179,
       "job_id": "1af4bdb898f1e281c1d6",
-      "last_seen_at": "2026-11-18T01:42:02Z",
+      "last_seen_at": "2026-11-19T06:26:03Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] Dev - iOS - Expense - Error parsing URL when open view hold expense",
+        "score": 56,
+        "title": "[$250] Dev - iOS - Expense - Error parsing URL when open view hold expense",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/107179"
       },
@@ -12203,6 +12205,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-06T22:23:25Z"
     },
+    "6eea89aa31181fbd349e": {
+      "artifacts": {},
+      "created_at": "2026-11-19T06:26:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107352,
+      "job_id": "6eea89aa31181fbd349e",
+      "last_seen_at": "2026-11-19T06:26:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Bulk Hold modal does not display the final report count",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107352"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T06:26:04Z"
+    },
     "6f8f92a26de707a43201": {
       "artifacts": {},
       "created_at": "2026-10-29T20:34:39Z",
@@ -14840,6 +14887,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "85c5cda0133d886eabea": {
+      "artifacts": {},
+      "created_at": "2026-11-19T06:26:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107353,
+      "job_id": "85c5cda0133d886eabea",
+      "last_seen_at": "2026-11-19T06:26:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Participant - Choose participant page is opened when pressing Shift + enter",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107353"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T06:26:04Z"
     },
     "85d5d925ac9fbb22570b": {
       "artifacts": {},
@@ -19137,7 +19229,7 @@
       ],
       "issue_number": 106201,
       "job_id": "a676881acc507e178d17",
-      "last_seen_at": "2026-11-09T20:49:49Z",
+      "last_seen_at": "2026-11-19T06:26:03Z",
       "latest": {
         "bounty": {
           "amount": 250.0,
@@ -19147,12 +19239,12 @@
           "status": "confirmed"
         },
         "labels": [
+          "External",
           "Engineering",
           "Daily",
-          "Help Wanted",
           "Bug"
         ],
-        "score": 68,
+        "score": 56,
         "title": "[$250] Members - Display name opens not here page",
         "trigger": [
           "opportunity_label_added"
@@ -27882,6 +27974,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T12:46:35Z"
     },
+    "ef530071ade1542a835a": {
+      "artifacts": {},
+      "created_at": "2026-11-19T06:26:03Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T06:26:03Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T06:26:03Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107362,
+      "job_id": "ef530071ade1542a835a",
+      "last_seen_at": "2026-11-19T06:26:03Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Rules - The \"Not here\" page opens when an auditor clicks Expense Default Rules",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107362"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T06:26:03Z"
+    },
     "ef6a35795cb12eb64a1c": {
       "artifacts": {},
       "created_at": "2026-10-05T13:08:36Z",
@@ -29783,6 +29920,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T15:38:49Z"
     },
+    "fed7e56001d98ffda634": {
+      "artifacts": {},
+      "created_at": "2026-11-19T06:26:04Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T06:26:04Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107338,
+      "job_id": "fed7e56001d98ffda634",
+      "last_seen_at": "2026-11-19T06:26:04Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Agents - \"It´s not here\" page displayed after saving and reopening custom instructions.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107338"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T06:26:04Z"
+    },
     "feed44deb23242cbd7d3": {
       "artifacts": {},
       "created_at": "2026-11-16T08:32:18Z",
@@ -29875,6 +30057,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-19T04:34:50Z",
+  "updated_at": "2026-11-19T06:26:04Z",
   "version": 2
 }
