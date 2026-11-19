@@ -274,6 +274,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:52Z"
     },
+    "037db5b8775033bb265f": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107425,
+      "job_id": "037db5b8775033bb265f",
+      "last_seen_at": "2026-11-19T22:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] WS Settings - A second tap is needed to change to Always option when keyboard in focus",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107425"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:39Z"
+    },
     "03b44f005dc362a32b78": {
       "artifacts": {},
       "created_at": "2026-10-27T12:46:35Z",
@@ -2717,6 +2762,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "1a2375700125cf244541": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107444,
+      "job_id": "1a2375700125cf244541",
+      "last_seen_at": "2026-11-19T22:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Spend - Sort order resets to Descending after applying Ascending",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107444"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:38Z"
+    },
     "1af4bdb898f1e281c1d6": {
       "artifacts": {},
       "created_at": "2026-11-18T01:42:02Z",
@@ -4260,6 +4350,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-18T09:08:48Z"
+    },
+    "2860670dac44babb9ef6": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107438,
+      "job_id": "2860670dac44babb9ef6",
+      "last_seen_at": "2026-11-19T22:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Transactions from 1 card will not upload while the other cards on the CSV will upload.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107438"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:38Z"
     },
     "2876eb91bcfc166d95ab": {
       "artifacts": {},
@@ -9429,6 +9564,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T09:44:11Z"
     },
+    "538c6883ef568cc19d49": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107437,
+      "job_id": "538c6883ef568cc19d49",
+      "last_seen_at": "2026-11-19T22:52:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Performance: Mention suggestions freeze typing for accounts with many contacts",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107437"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:37Z"
+    },
     "54bf2e96a78eb31de70c": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -10020,6 +10200,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-02T02:48:58Z"
+    },
+    "5ba2f7931c6fb870a006": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107327,
+      "job_id": "5ba2f7931c6fb870a006",
+      "last_seen_at": "2026-11-19T22:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Company-card CSV upload reverses UK dates and reports all transactions imported even when most expenses fail to appear.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107327"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:39Z"
     },
     "5bb5692b717200ada583": {
       "artifacts": {},
@@ -17478,6 +17703,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
     },
+    "9791410db79e8c214c6d": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107454,
+      "job_id": "9791410db79e8c214c6d",
+      "last_seen_at": "2026-11-19T22:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] eReceipts visible in Classic but missing in New Expensify for unreported card expenses",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107454"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:38Z"
+    },
     "97e68e40e3173b63d018": {
       "artifacts": {},
       "created_at": "2026-10-07T16:37:36Z",
@@ -22577,6 +22847,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T02:28:31Z"
     },
+    "bd2205ff682874b6d042": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107452,
+      "job_id": "bd2205ff682874b6d042",
+      "last_seen_at": "2026-11-19T22:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Changing an approval workflow can reassign a pending report to its submitter, even when self-approval is disabled.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107452"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:38Z"
+    },
     "bd44854e899a1ddea1e8": {
       "artifacts": {},
       "created_at": "2026-11-05T17:48:41Z",
@@ -23983,6 +24298,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:49Z"
+    },
+    "c8be1764fb8e8ff95c3e": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:39Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:39Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107334,
+      "job_id": "c8be1764fb8e8ff95c3e",
+      "last_seen_at": "2026-11-19T22:52:39Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Needs Reproduction",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Change approver - Reports changed to \"Approve and bypass\" / reassigned to Approver A still get forwarded back to Approver B on some reports",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107334"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:39Z"
     },
     "c9110f3d236cc61c131a": {
       "artifacts": {},
@@ -27303,6 +27664,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "e8127ee06aaaa61ad868": {
+      "artifacts": {},
+      "created_at": "2026-11-19T22:52:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-19T22:52:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-19T22:52:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107478,
+      "job_id": "e8127ee06aaaa61ad868",
+      "last_seen_at": "2026-11-19T22:52:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] [Performance] Opening Connections causes lag on large accounts",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107478"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-19T22:52:37Z"
+    },
     "e8951ec2514e1f416722": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -30114,6 +30520,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-19T21:51:35Z",
+  "updated_at": "2026-11-19T22:52:39Z",
   "version": 2
 }
