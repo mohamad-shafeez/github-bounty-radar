@@ -1946,6 +1946,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:08Z"
     },
+    "11a1abdc0ab044c85475": {
+      "artifacts": {},
+      "created_at": "2026-11-20T12:13:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T12:13:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T12:13:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107503,
+      "job_id": "11a1abdc0ab044c85475",
+      "last_seen_at": "2026-11-20T12:13:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Expense - Two system messages are shown on unreported expense after bulk editing attendees.",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107503"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T12:13:37Z"
+    },
     "11dea90f914c53ffa6e3": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -22404,6 +22449,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T10:08:04Z"
     },
+    "b8ab7d7fd4883571cea9": {
+      "artifacts": {},
+      "created_at": "2026-11-20T12:13:36Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T12:13:36Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T12:13:36Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107548,
+      "job_id": "b8ab7d7fd4883571cea9",
+      "last_seen_at": "2026-11-20T12:13:36Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Auto-Card- Enter numbers into legal names returns no error",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107548"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T12:13:36Z"
+    },
     "b9ce0343a8c3e3e33531": {
       "artifacts": {},
       "created_at": "2026-10-23T22:09:38Z",
@@ -24946,6 +25036,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:56Z"
+    },
+    "cda6e969ab3619f869bc": {
+      "artifacts": {},
+      "created_at": "2026-11-20T12:13:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T12:13:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T12:13:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107520,
+      "job_id": "cda6e969ab3619f869bc",
+      "last_seen_at": "2026-11-20T12:13:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Insight - \"Explain\" button is not displayed in each insight card using gmail account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107520"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T12:13:37Z"
     },
     "ce074edc5921994b229b": {
       "artifacts": {},
@@ -30620,6 +30755,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-20T10:29:36Z",
+  "updated_at": "2026-11-20T12:13:37Z",
   "version": 2
 }
