@@ -7974,6 +7974,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-13T16:38:51Z"
     },
+    "464295d0d66cc754dd30": {
+      "artifacts": {},
+      "created_at": "2026-11-20T20:19:45Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107607,
+      "job_id": "464295d0d66cc754dd30",
+      "last_seen_at": "2026-11-20T20:19:45Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Navigation is broken in Spanish + iPhone Duo",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107607"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T20:19:45Z"
+    },
     "472d095380e61000f6de": {
       "artifacts": {},
       "created_at": "2026-11-05T22:55:58Z",
@@ -10064,6 +10109,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-10T18:18:56Z"
+    },
+    "57e20c810a23f92b0ab2": {
+      "artifacts": {},
+      "created_at": "2026-11-20T20:19:45Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107606,
+      "job_id": "57e20c810a23f92b0ab2",
+      "last_seen_at": "2026-11-20T20:19:45Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Gusto - Not here page is displayed when change approval mode or Final approver",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107606"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T20:19:45Z"
     },
     "5881d214823e9e1c77be": {
       "artifacts": {},
@@ -12704,6 +12794,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:07Z"
+    },
+    "6fdcf485df711a1b5cc3": {
+      "artifacts": {},
+      "created_at": "2026-11-20T20:19:45Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107597,
+      "job_id": "6fdcf485df711a1b5cc3",
+      "last_seen_at": "2026-11-20T20:19:45Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Improvement"
+        ],
+        "score": 55,
+        "title": "[$175] [Merge Reports] Suggest Merge Reports when someone moves every expense off a report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107597"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T20:19:45Z"
     },
     "7004659b0f890a6db39d": {
       "artifacts": {},
@@ -22136,6 +22271,50 @@
       "state": "WAITING_FOR_AI_QUOTA",
       "updated_at": "2026-10-05T01:03:50Z"
     },
+    "b6930af6778ec1ffbd35": {
+      "artifacts": {},
+      "created_at": "2026-11-20T20:19:45Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107511,
+      "job_id": "b6930af6778ec1ffbd35",
+      "last_seen_at": "2026-11-20T20:19:45Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Weekly"
+        ],
+        "score": 48,
+        "title": "[$175] Tag picker search re-sorts the entire tag list on every keystroke",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107511"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T20:19:45Z"
+    },
     "b7384dd241a40dc92fbf": {
       "artifacts": {},
       "created_at": "2026-11-04T22:48:38Z",
@@ -22227,6 +22406,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
+    },
+    "b763761f78fe3ce0ec1d": {
+      "artifacts": {},
+      "created_at": "2026-11-20T20:19:45Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-20T20:19:45Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107620,
+      "job_id": "b763761f78fe3ce0ec1d",
+      "last_seen_at": "2026-11-20T20:19:45Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] App stays offline after a brief network drop because NO_RADIO never clears",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107620"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-20T20:19:45Z"
     },
     "b7ef4ebb888e02b742dc": {
       "artifacts": {},
@@ -30760,6 +30984,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-20T18:43:57Z",
+  "updated_at": "2026-11-20T20:19:45Z",
   "version": 2
 }
