@@ -23691,6 +23691,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
     },
+    "bf37375289031255d7e8": {
+      "artifacts": {},
+      "created_at": "2026-11-21T21:43:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-21T21:43:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-21T21:43:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107676,
+      "job_id": "bf37375289031255d7e8",
+      "last_seen_at": "2026-11-21T21:43:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] WS Settings - Error message when creating an agent with a People Admin",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107676"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-21T21:43:56Z"
+    },
     "c01a74b4950d07c2d011": {
       "artifacts": {},
       "created_at": "2026-10-06T20:11:58Z",
@@ -24097,6 +24142,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:24Z"
+    },
+    "c2c5e4666758cf5a6091": {
+      "artifacts": {},
+      "created_at": "2026-11-21T21:43:57Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-21T21:43:57Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-21T21:43:57Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107674,
+      "job_id": "c2c5e4666758cf5a6091",
+      "last_seen_at": "2026-11-21T21:43:57Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Incorrect changelog message when adding a category tax rule",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107674"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-21T21:43:57Z"
     },
     "c3060bd5e76bbfc55dc9": {
       "artifacts": {},
@@ -27645,6 +27735,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-07T21:32:41Z"
+    },
+    "e417dedd1fd71909af2e": {
+      "artifacts": {},
+      "created_at": "2026-11-21T21:43:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-21T21:43:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-21T21:43:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107675,
+      "job_id": "e417dedd1fd71909af2e",
+      "last_seen_at": "2026-11-21T21:43:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] Missing 'More' button after create an Invoice and tap 'View' button",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107675"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-21T21:43:56Z"
     },
     "e4b23433255ef87cae48": {
       "artifacts": {},
@@ -31231,6 +31366,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-21T20:57:57Z",
+  "updated_at": "2026-11-21T21:43:57Z",
   "version": 2
 }
