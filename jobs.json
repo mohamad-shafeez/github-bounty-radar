@@ -2897,6 +2897,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-18T23:59:14Z"
     },
+    "17d50e5899d452d43da2": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107791,
+      "job_id": "17d50e5899d452d43da2",
+      "last_seen_at": "2026-11-24T06:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Engineering",
+          "Daily",
+          "Task"
+        ],
+        "score": 53,
+        "title": "[$175] Add an animated success screen after Expensify Card activation",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107791"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T06:18:56Z"
+    },
     "18cd779e658c33b8bc52": {
       "artifacts": {},
       "created_at": "2026-10-19T17:18:51Z",
@@ -14021,6 +14067,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T12:52:39Z"
     },
+    "76b23719b9640f23e0df": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:55Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:55Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:55Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107807,
+      "job_id": "76b23719b9640f23e0df",
+      "last_seen_at": "2026-11-24T06:18:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Android-Spend-Tap device back not navigate to Expenses from Reports tab",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107807"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T06:18:55Z"
+    },
     "76c828ab591d932bb12e": {
       "artifacts": {},
       "created_at": "2026-11-05T02:52:53Z",
@@ -19700,6 +19791,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-21T22:20:28Z"
+    },
+    "9e5564e2724bd3e04667": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107808,
+      "job_id": "9e5564e2724bd3e04667",
+      "last_seen_at": "2026-11-24T06:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Reports- Tap back button on RHP navigate to thread instead of Spend - Expenses",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107808"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T06:18:56Z"
     },
     "9e9f9f2de4b726a26a89": {
       "artifacts": {},
@@ -26457,6 +26593,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
     },
+    "d1f0440bd83a3e981296": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107795,
+      "job_id": "d1f0440bd83a3e981296",
+      "last_seen_at": "2026-11-24T06:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Spend - Member's empty report does not show up on Spend > Reports",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107795"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T06:18:56Z"
+    },
     "d29bfa55f10633007da8": {
       "artifacts": {},
       "created_at": "2026-11-03T02:23:08Z",
@@ -29595,6 +29776,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
     },
+    "ed68ff68f289a827b55f": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107806,
+      "job_id": "ed68ff68f289a827b55f",
+      "last_seen_at": "2026-11-24T06:18:56Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Concierge: numbered format displayed when user ask \"What can you do? Use the list format\"",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107806"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T06:18:56Z"
+    },
     "ee7a252092ce35d09d1f": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -31293,7 +31519,54 @@
       ],
       "issue_number": 106793,
       "job_id": "f8568b92537339e47876",
-      "last_seen_at": "2026-11-13T01:27:01Z",
+      "last_seen_at": "2026-11-24T06:18:55Z",
+      "latest": {
+        "bounty": {
+          "amount": 250.0,
+          "currency": "$",
+          "pattern": "\"$250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Help Wanted",
+          "Bug"
+        ],
+        "score": 56,
+        "title": "[$250] Travel card -\"Let's make sure it's you\" page is displayed after tapping back arrow",
+        "trigger": [
+          "bounty_increased",
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/106793"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-13T01:27:01Z"
+    },
+    "f878ee55512d3ce61844": {
+      "artifacts": {},
+      "created_at": "2026-11-24T06:18:56Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T06:18:56Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107762,
+      "job_id": "f878ee55512d3ce61844",
+      "last_seen_at": "2026-11-24T06:18:56Z",
       "latest": {
         "bounty": {
           "amount": 175.0,
@@ -31307,16 +31580,16 @@
           "Daily",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Travel card -\"Let's make sure it's you\" page is displayed after tapping back arrow",
+        "score": 50,
+        "title": "[$175] Category and tag pickers repeatedly send unauthorized requests for regular workspace members",
         "trigger": [
           "new_issue"
         ],
-        "url": "https://github.com/Expensify/App/issues/106793"
+        "url": "https://github.com/Expensify/App/issues/107762"
       },
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
-      "updated_at": "2026-11-13T01:27:01Z"
+      "updated_at": "2026-11-24T06:18:56Z"
     },
     "f8e64d04e038df4ee394": {
       "artifacts": {},
@@ -32086,6 +32359,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-24T05:33:21Z",
+  "updated_at": "2026-11-24T06:18:56Z",
   "version": 2
 }
