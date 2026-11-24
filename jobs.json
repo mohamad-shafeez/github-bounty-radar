@@ -2446,6 +2446,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-14T02:22:52Z"
     },
+    "1505fd08d6bcd3f66f3a": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "bounty_added"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 100973,
+      "job_id": "1505fd08d6bcd3f66f3a",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Weekly",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Wrong distance at confirm page when create from FAB for ws set different unit with default ws",
+        "trigger": [
+          "bounty_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/100973"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
+    },
     "150c6b3e6443eb27f83f": {
       "artifacts": {},
       "created_at": "2026-11-10T10:50:07Z",
@@ -8582,24 +8628,26 @@
       ],
       "issue_number": 106630,
       "job_id": "49b12133adb3adb95e07",
-      "last_seen_at": "2026-11-11T17:53:35Z",
+      "last_seen_at": "2026-11-24T17:55:40Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] Members - Removed user with secondary login is shown as \"already a member\" in search list",
+        "score": 68,
+        "title": "[$250] Members - Removed user with secondary login is shown as \"already a member\" in search list",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/106630"
       },
@@ -9153,6 +9201,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T23:48:05Z"
+    },
+    "4c57cffb7e4b7ec2226d": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107853,
+      "job_id": "4c57cffb7e4b7ec2226d",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [NetSuite] Add a search input to the default vendor, account, item and subsidiary selectors",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107853"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
     },
     "4cb325dffae4a99ba8bc": {
       "artifacts": {},
@@ -11102,6 +11195,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-16T08:32:18Z"
     },
+    "5f2cd9ebee67389a3716": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107835,
+      "job_id": "5f2cd9ebee67389a3716",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] Add an HR tile to the More Features onboarding step",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107835"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
+    },
     "5f4b207d74f2decaac16": {
       "artifacts": {},
       "created_at": "2026-11-05T02:52:53Z",
@@ -12290,6 +12427,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-19T17:18:51Z"
+    },
+    "6a2fa9f528e3a05fdfa4": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107820,
+      "job_id": "6a2fa9f528e3a05fdfa4",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Wallet-Currency Dropdown when adding Wise BA doesn't work in offline mode",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107820"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
     },
     "6a35f069714bc04a302a": {
       "artifacts": {},
@@ -24687,6 +24869,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-10T18:18:56Z"
     },
+    "c235158b2d7053a15f43": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107865,
+      "job_id": "c235158b2d7053a15f43",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 2250.0,
+          "currency": "$",
+          "pattern": "\"$2250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task",
+          "Awaiting Payment"
+        ],
+        "score": 79,
+        "title": "[Due for payment 2026-11-24] [$2250] Payment for Zoho Books integration",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107865"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
+    },
     "c27f862fec67a8cf01ba": {
       "artifacts": {},
       "created_at": "2026-10-05T21:15:24Z",
@@ -26778,6 +27006,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "d4ea5f8e74a747f86be5": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107862,
+      "job_id": "d4ea5f8e74a747f86be5",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 55,
+        "title": "[$175] Search - Decide how selected people filters behave when switching workspaces",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107862"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
+    },
     "d5d889c79898a1ecafd7": {
       "artifacts": {},
       "created_at": "2026-10-14T05:38:11Z",
@@ -27097,6 +27370,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T15:06:18Z"
+    },
+    "d727fcd47579518d8bfe": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107823,
+      "job_id": "d727fcd47579518d8bfe",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Expense - When expense is moved to a new report offline it's not greyed out in the report",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107823"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
     },
     "d8097d9be781f78c23bb": {
       "artifacts": {},
@@ -30960,6 +31278,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-17T10:38:00Z"
     },
+    "f440bbaec57de74dc696": {
+      "artifacts": {},
+      "created_at": "2026-11-24T17:55:40Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-24T17:55:40Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107841,
+      "job_id": "f440bbaec57de74dc696",
+      "last_seen_at": "2026-11-24T17:55:40Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] In Insights, the custom date range year picker lists about 100 future years before any past year",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107841"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-24T17:55:40Z"
+    },
     "f480e62335269d65193b": {
       "artifacts": {},
       "created_at": "2026-11-13T22:10:24Z",
@@ -32364,6 +32727,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-24T16:15:57Z",
+  "updated_at": "2026-11-24T17:55:41Z",
   "version": 2
 }
