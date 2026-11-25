@@ -1357,6 +1357,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-09T20:49:50Z"
     },
+    "0c115a4bc86667559c01": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107961,
+      "job_id": "0c115a4bc86667559c01",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Merge ATS] Time Sensitive \"Fix connection\" card shows \"Merge ATS\" instead of the provider name",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107961"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
+    },
     "0c35fa7fae25d7520637": {
       "artifacts": {},
       "created_at": "2026-11-08T08:14:52Z",
@@ -9449,23 +9494,25 @@
       ],
       "issue_number": 107238,
       "job_id": "4d4458fc85339e87cee0",
-      "last_seen_at": "2026-11-18T17:59:10Z",
+      "last_seen_at": "2026-11-25T20:06:09Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
-          "Daily"
+          "Daily",
+          "Help Wanted"
         ],
-        "score": 52,
-        "title": "[$175] Defer the “Stay ahead of the deadline” modal until the user’s second session",
+        "score": 60,
+        "title": "[$250] Defer the “Stay ahead of the deadline” modal until the user’s second session",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/107238"
       },
@@ -11376,6 +11423,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-05T02:52:53Z"
     },
+    "5f556131b5c418c786bd": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107818,
+      "job_id": "5f556131b5c418c786bd",
+      "last_seen_at": "2026-11-25T20:06:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 40,
+        "title": "[$175] mWeb-Login- Switch accounts modal contains 2 blue lines on the top",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107818"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:10Z"
+    },
     "5f6e2815400e608939ff": {
       "artifacts": {},
       "created_at": "2026-11-05T17:48:41Z",
@@ -13020,6 +13112,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
+    },
+    "6dfbb58e160d6f1b446e": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108013,
+      "job_id": "6dfbb58e160d6f1b446e",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Rules - Create agent and Save buttons are hidden behind the keyboard",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108013"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
     },
     "6e305c50e89a0833f0b4": {
       "artifacts": {},
@@ -15385,6 +15522,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-08T20:12:00Z"
+    },
+    "7fd1c8188c7060260d58": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107949,
+      "job_id": "7fd1c8188c7060260d58",
+      "last_seen_at": "2026-11-25T20:06:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Bank account - No email with Expensifail account after adding non-US deposit bank account",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107949"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:10Z"
     },
     "80abcbfd9a948b6861bb": {
       "artifacts": {},
@@ -19155,6 +19337,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
+    },
+    "98de6cb362ebef94ec1e": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107967,
+      "job_id": "98de6cb362ebef94ec1e",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS Share Sheet - After adding an expense via the share sheet, user lands in the Inbox instead of the Spend page",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107967"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
     },
     "99208fd7f03922809f64": {
       "artifacts": {},
@@ -24532,6 +24759,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T18:53:50Z"
     },
+    "be59167624f1fd503dc6": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107966,
+      "job_id": "be59167624f1fd503dc6",
+      "last_seen_at": "2026-11-25T20:06:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Workflows-First, Final approver is owner after owner remove the first approver member",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107966"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:10Z"
+    },
     "be84c5983048988e372a": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -26257,6 +26529,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-04T18:40:21Z"
     },
+    "cc1e6d84ad648ad4462c": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108025,
+      "job_id": "cc1e6d84ad648ad4462c",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 61,
+        "title": "[$175] mweb - Password-protected PDF screen is cut-off in landscape mode",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108025"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
+    },
     "cc30cf65a165b6a5e70a": {
       "artifacts": {},
       "created_at": "2026-10-30T11:42:17Z",
@@ -26533,6 +26850,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T10:37:56Z"
+    },
+    "cd9d1df297087917d22d": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:10Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:10Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107960,
+      "job_id": "cd9d1df297087917d22d",
+      "last_seen_at": "2026-11-25T20:06:10Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Spend > Expenses: Type column unexpectedly moves before Receipt after editing columns",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107960"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:10Z"
     },
     "cda6e969ab3619f869bc": {
       "artifacts": {},
@@ -27574,6 +27936,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-24T17:55:40Z"
+    },
+    "d7ff407f88d435c75bb2": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107969,
+      "job_id": "d7ff407f88d435c75bb2",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iOS - Reports - Move report to another Workspace message does not appear",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107969"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
     },
     "d8097d9be781f78c23bb": {
       "artifacts": {},
@@ -31619,6 +32026,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-25T10:32:25Z"
     },
+    "f545069e4d2380e4eac9": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108004,
+      "job_id": "f545069e4d2380e4eac9",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workflows - Second semi-monthly submission change logs are not fully translated",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108004"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
+    },
     "f54bed3e15e45561cd7f": {
       "artifacts": {},
       "created_at": "2026-10-16T16:44:55Z",
@@ -32436,6 +32888,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-17T17:58:07Z"
     },
+    "fa23b6045d53015cc7f7": {
+      "artifacts": {},
+      "created_at": "2026-11-25T20:06:09Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T20:06:09Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107963,
+      "job_id": "fa23b6045d53015cc7f7",
+      "last_seen_at": "2026-11-25T20:06:09Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Home - \"Getting started\" shows \"Customize accounting categories\" instead of \"Connect to QuickBooks/IES\" after onboarding with an accounting software selection",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107963"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T20:06:09Z"
+    },
     "fa4ce85856007310ffaa": {
       "artifacts": {},
       "created_at": "2026-10-09T13:29:16Z",
@@ -32978,6 +33475,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-25T19:19:59Z",
+  "updated_at": "2026-11-25T20:06:10Z",
   "version": 2
 }
