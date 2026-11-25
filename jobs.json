@@ -7609,6 +7609,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-13T17:47:13Z"
     },
+    "40d50c0ddb328ef5bd92": {
+      "artifacts": {},
+      "created_at": "2026-11-25T01:47:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107906,
+      "job_id": "40d50c0ddb328ef5bd92",
+      "last_seen_at": "2026-11-25T01:47:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iPhone Duo - Expenses - Header is hidden after navigating to other tab",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107906"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T01:47:46Z"
+    },
     "40e0b5363c42ceb9de0b": {
       "artifacts": {},
       "created_at": "2026-11-11T17:53:35Z",
@@ -7836,6 +7881,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-06T01:44:07Z"
+    },
+    "413dd09e475a37837f51": {
+      "artifacts": {},
+      "created_at": "2026-11-25T01:47:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107904,
+      "job_id": "413dd09e475a37837f51",
+      "last_seen_at": "2026-11-25T01:47:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iPhone Duo - Workspaces - Workspaces page is hidden behind left panel when unfolded",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107904"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T01:47:46Z"
     },
     "41a02ac6e585e69dc95e": {
       "artifacts": {},
@@ -16835,6 +16925,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-05T21:15:23Z"
     },
+    "8a5766b6f7020898c3db": {
+      "artifacts": {},
+      "created_at": "2026-11-25T01:47:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107895,
+      "job_id": "8a5766b6f7020898c3db",
+      "last_seen_at": "2026-11-25T01:47:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Internal",
+          "Bug",
+          "Hot Pick"
+        ],
+        "score": 55,
+        "title": "[$175] Returning user is shown completed onboarding after forced web upgrade",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107895"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T01:47:46Z"
+    },
     "8a95b8a2d60d5feb65db": {
       "artifacts": {},
       "created_at": "2026-11-10T02:58:42Z",
@@ -20406,24 +20543,27 @@
       ],
       "issue_number": 103838,
       "job_id": "a3685f48eb067efa55a2",
-      "last_seen_at": "2026-10-13T10:37:56Z",
+      "last_seen_at": "2026-11-25T01:47:46Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
+          "Reviewing",
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] The tab bar does not visible above the spinner",
+        "score": 68,
+        "title": "[$250] The tab bar does not visible above the spinner",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/103838"
       },
@@ -30149,6 +30289,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-24T06:18:56Z"
     },
+    "ee618e45a26a16ba7ed3": {
+      "artifacts": {},
+      "created_at": "2026-11-25T01:47:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-25T01:47:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107902,
+      "job_id": "ee618e45a26a16ba7ed3",
+      "last_seen_at": "2026-11-25T01:47:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] iPhone Duo - Reports - Add expense button is partially hidden behind left panel when unfolded",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107902"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-25T01:47:46Z"
+    },
     "ee7a252092ce35d09d1f": {
       "artifacts": {},
       "created_at": "2026-10-15T21:47:40Z",
@@ -32732,6 +32917,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-25T00:47:48Z",
+  "updated_at": "2026-11-25T01:47:46Z",
   "version": 2
 }
