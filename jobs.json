@@ -13113,6 +13113,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-22T19:18:07Z"
     },
+    "6dc9cc4b7c00b44b00f4": {
+      "artifacts": {},
+      "created_at": "2026-11-26T02:45:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T02:45:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T02:45:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108042,
+      "job_id": "6dc9cc4b7c00b44b00f4",
+      "last_seen_at": "2026-11-26T02:45:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 59,
+        "title": "[$175] [HR Import] Hide the Time Sensitive \"Fix connection\" card while that connection is syncing",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108042"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T02:45:27Z"
+    },
     "6dfbb58e160d6f1b446e": {
       "artifacts": {},
       "created_at": "2026-11-25T20:06:09Z",
@@ -27307,6 +27352,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T22:25:18Z"
     },
+    "d118e761fca0dbbe546e": {
+      "artifacts": {},
+      "created_at": "2026-11-26T02:45:28Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T02:45:28Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T02:45:28Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108030,
+      "job_id": "d118e761fca0dbbe546e",
+      "last_seen_at": "2026-11-26T02:45:28Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Insights - KZT currency symbol is shown as empty box on chart axis",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108030"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T02:45:28Z"
+    },
     "d14cb8d3c503a401e861": {
       "artifacts": {},
       "created_at": "2026-10-06T15:06:18Z",
@@ -31986,6 +32076,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-13T22:10:24Z"
     },
+    "f49220f37a2d4e6312b8": {
+      "artifacts": {},
+      "created_at": "2026-11-26T02:45:27Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T02:45:27Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T02:45:27Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108028,
+      "job_id": "f49220f37a2d4e6312b8",
+      "last_seen_at": "2026-11-26T02:45:27Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] Spend - Category field not displayed on expense thread when delete workspace",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108028"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T02:45:27Z"
+    },
     "f4e20137a3e4ff8924ec": {
       "artifacts": {},
       "created_at": "2026-11-25T10:32:25Z",
@@ -33480,6 +33615,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-26T02:17:26Z",
+  "updated_at": "2026-11-26T02:45:28Z",
   "version": 2
 }
