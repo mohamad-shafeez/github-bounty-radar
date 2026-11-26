@@ -5440,6 +5440,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-17T19:21:44Z"
     },
+    "2ec2f478ceb5b8fc45b4": {
+      "artifacts": {},
+      "created_at": "2026-11-26T11:31:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108049,
+      "job_id": "2ec2f478ceb5b8fc45b4",
+      "last_seen_at": "2026-11-26T11:31:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Settings - On Plaid first page link \"Continue without phone number\" at the bottom is cut off",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108049"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T11:31:05Z"
+    },
     "2ef73f516fbb6c425b2a": {
       "artifacts": {},
       "created_at": "2026-11-17T19:21:44Z",
@@ -16881,6 +16926,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-09T00:22:00Z"
     },
+    "888f34c027a9566dab69": {
+      "artifacts": {},
+      "created_at": "2026-11-26T11:31:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108045,
+      "job_id": "888f34c027a9566dab69",
+      "last_seen_at": "2026-11-26T11:31:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 43,
+        "title": "[$175] Rules-Markdown is not saved in description after save expense-default rule",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108045"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T11:31:05Z"
+    },
     "89188ea6f91babb713a3": {
       "artifacts": {},
       "created_at": "2026-11-03T09:44:10Z",
@@ -25808,6 +25898,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-29T15:38:48Z"
     },
+    "c59de4eccf152af3ae84": {
+      "artifacts": {},
+      "created_at": "2026-11-26T11:31:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108050,
+      "job_id": "c59de4eccf152af3ae84",
+      "last_seen_at": "2026-11-26T11:31:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Android - Inbox - Error banner displays after finish all tasks",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108050"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T11:31:05Z"
+    },
     "c5a9c7a9f5892808edcf": {
       "artifacts": {},
       "created_at": "2026-10-28T01:30:10Z",
@@ -29307,6 +29442,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-03T02:23:07Z"
+    },
+    "e2d5157d5ca381c8f083": {
+      "artifacts": {},
+      "created_at": "2026-11-26T11:31:05Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T11:31:05Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108054,
+      "job_id": "e2d5157d5ca381c8f083",
+      "last_seen_at": "2026-11-26T11:31:05Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 53,
+        "title": "[$175] Duplicate error \"new expenses cannot be added to this report\" is displayed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108054"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T11:31:05Z"
     },
     "e3255d10044e01ad815b": {
       "artifacts": {},
@@ -33620,6 +33800,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-26T10:59:41Z",
+  "updated_at": "2026-11-26T11:31:05Z",
   "version": 2
 }
