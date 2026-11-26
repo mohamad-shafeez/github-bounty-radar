@@ -6525,6 +6525,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-16T08:32:18Z"
     },
+    "38028ade77745d43eed5": {
+      "artifacts": {},
+      "created_at": "2026-11-26T20:28:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T20:28:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T20:28:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108123,
+      "job_id": "38028ade77745d43eed5",
+      "last_seen_at": "2026-11-26T20:28:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature",
+          "Melvin Triage"
+        ],
+        "score": 59,
+        "title": "[$175] [HR Import] Add \"Manage connection\" to the three-dot menu on healthy Merge connections",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108123"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T20:28:17Z"
+    },
     "383f5c83f4b6c1a42176": {
       "artifacts": {},
       "created_at": "2026-10-27T18:20:58Z",
@@ -9293,6 +9339,53 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-18T17:59:10Z"
     },
+    "4bea00ba49966457137f": {
+      "artifacts": {},
+      "created_at": "2026-11-26T20:28:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107994,
+      "job_id": "4bea00ba49966457137f",
+      "last_seen_at": "2026-11-26T20:28:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "Reviewing",
+          "External",
+          "Engineering",
+          "Daily",
+          "Bug"
+        ],
+        "score": 40,
+        "title": "[$175] Spend - First group checkbox is not responsive when expense has two violations",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107994"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T20:28:18Z"
+    },
     "4bea7da62a36addac555": {
       "artifacts": {},
       "created_at": "2026-10-09T22:59:05Z",
@@ -10748,6 +10841,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-10T18:18:56Z"
+    },
+    "57d6287fdad10394c98c": {
+      "artifacts": {},
+      "created_at": "2026-11-26T20:28:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107578,
+      "job_id": "57d6287fdad10394c98c",
+      "last_seen_at": "2026-11-26T20:28:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature",
+          "Melvin Triage"
+        ],
+        "score": 48,
+        "title": "[$175] Import QuickBooks Online bank rules as merchant rules",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107578"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T20:28:18Z"
     },
     "57e20c810a23f92b0ab2": {
       "artifacts": {},
@@ -14838,6 +14977,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-07T19:23:24Z"
     },
+    "77d684faf883439a20c3": {
+      "artifacts": {},
+      "created_at": "2026-11-26T20:28:18Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T20:28:18Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108117,
+      "job_id": "77d684faf883439a20c3",
+      "last_seen_at": "2026-11-26T20:28:18Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Inline editing an expense description strips line breaks and Markdown",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108117"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T20:28:18Z"
+    },
     "79af690765b071a6ac6a": {
       "artifacts": {},
       "created_at": "2026-11-23T22:32:04Z",
@@ -18539,24 +18723,26 @@
       ],
       "issue_number": 107177,
       "job_id": "9366e1bea860d52749ed",
-      "last_seen_at": "2026-11-18T01:42:02Z",
+      "last_seen_at": "2026-11-26T20:28:18Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 55,
-        "title": "[$175] Another search show in recent search after go back to Home tab",
+        "score": 56,
+        "title": "[$250] Another search show in recent search after go back to Home tab",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/107177"
       },
@@ -18835,6 +19021,52 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-04T22:48:37Z"
+    },
+    "94a33233793924cef8f6": {
+      "artifacts": {},
+      "created_at": "2026-11-26T20:28:17Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-26T20:28:17Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-26T20:28:17Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108093,
+      "job_id": "94a33233793924cef8f6",
+      "last_seen_at": "2026-11-26T20:28:17Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "NewFeature",
+          "Melvin Triage"
+        ],
+        "score": 57,
+        "title": "[$175] Connections - Add section headings and show the connected company and user in the integration panel",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108093"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-26T20:28:17Z"
     },
     "9554b7240fbb44ed390b": {
       "artifacts": {},
@@ -33805,6 +34037,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-26T20:01:27Z",
+  "updated_at": "2026-11-26T20:28:19Z",
   "version": 2
 }
