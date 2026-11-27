@@ -816,6 +816,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-27T18:20:58Z"
     },
+    "07036a3b057124ea8877": {
+      "artifacts": {},
+      "created_at": "2026-11-27T20:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108189,
+      "job_id": "07036a3b057124ea8877",
+      "last_seen_at": "2026-11-27T20:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 48,
+        "title": "[$175] Expense - Expense does not update automatically after receipt scan, manual refresh is required",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108189"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T20:52:38Z"
+    },
     "073d8813f411fae221aa": {
       "artifacts": {},
       "created_at": "2026-11-12T20:36:27Z",
@@ -1720,6 +1765,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-12T22:53:17Z"
+    },
+    "0e22a2c24f34ed12c9f7": {
+      "artifacts": {},
+      "created_at": "2026-11-27T20:52:37Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T20:52:37Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T20:52:37Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108236,
+      "job_id": "0e22a2c24f34ed12c9f7",
+      "last_seen_at": "2026-11-27T20:52:37Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Stop expanded Search groups from re-rendering on unrelated writes",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108236"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T20:52:37Z"
     },
     "101f64a26c5c43de8cda": {
       "artifacts": {},
@@ -12247,6 +12337,50 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-20T14:57:52Z"
     },
+    "64ca3775b1b7fe3cab21": {
+      "artifacts": {},
+      "created_at": "2026-11-27T20:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108228,
+      "job_id": "64ca3775b1b7fe3cab21",
+      "last_seen_at": "2026-11-27T20:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily"
+        ],
+        "score": 53,
+        "title": "[$175] [Sentry: APP-PNP] Unhandled IndexSizeError during report text selection",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108228"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T20:52:38Z"
+    },
     "64edcdf6c9a05cfba211": {
       "artifacts": {},
       "created_at": "2026-11-10T10:50:07Z",
@@ -12336,6 +12470,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-26T06:09:24Z"
+    },
+    "656edf6641fd3e991da6": {
+      "artifacts": {},
+      "created_at": "2026-11-27T20:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108219,
+      "job_id": "656edf6641fd3e991da6",
+      "last_seen_at": "2026-11-27T20:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Hot Pick"
+        ],
+        "score": 53,
+        "title": "[$175] [CFI] Add workspace join-request pre-approval toggle to Overview > Share",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108219"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T20:52:38Z"
     },
     "658928394acbc9f45fbd": {
       "artifacts": {},
@@ -20774,24 +20953,26 @@
       ],
       "issue_number": 107808,
       "job_id": "9e5564e2724bd3e04667",
-      "last_seen_at": "2026-11-24T06:18:56Z",
+      "last_seen_at": "2026-11-27T20:52:37Z",
       "latest": {
         "bounty": {
-          "amount": 175.0,
+          "amount": 250.0,
           "currency": "$",
-          "pattern": "\"$175\" inside square brackets in title",
+          "pattern": "\"$250\" inside square brackets in title",
           "source": "title",
           "status": "confirmed"
         },
         "labels": [
           "External",
           "Daily",
+          "Help Wanted",
           "Bug"
         ],
-        "score": 53,
-        "title": "[$175] Reports- Tap back button on RHP navigate to thread instead of Spend - Expenses",
+        "score": 62,
+        "title": "[$250] Reports- Tap back button on RHP navigate to thread instead of Spend - Expenses",
         "trigger": [
-          "new_issue"
+          "bounty_increased",
+          "opportunity_label_added"
         ],
         "url": "https://github.com/Expensify/App/issues/107808"
       },
@@ -33916,6 +34097,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-17T20:10:41Z"
     },
+    "fd5ac7f65e247b6793cb": {
+      "artifacts": {},
+      "created_at": "2026-11-27T20:52:38Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-27T20:52:38Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107024,
+      "job_id": "fd5ac7f65e247b6793cb",
+      "last_seen_at": "2026-11-27T20:52:38Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] [Exploratory] Categories - Rules is enabled after deleting category",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107024"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T20:52:38Z"
+    },
     "fe04aefb9be2203a2058": {
       "artifacts": {},
       "created_at": "2026-10-22T10:21:34Z",
@@ -34188,6 +34414,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-27T20:07:29Z",
+  "updated_at": "2026-11-27T20:52:38Z",
   "version": 2
 }
