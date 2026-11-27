@@ -9748,6 +9748,51 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-14T22:33:19Z"
     },
+    "4dc1aa8b2caa6e77a97b": {
+      "artifacts": {},
+      "created_at": "2026-11-27T11:59:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T11:59:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T11:59:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108177,
+      "job_id": "4dc1aa8b2caa6e77a97b",
+      "last_seen_at": "2026-11-27T11:59:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Bug"
+        ],
+        "score": 55,
+        "title": "[$175] Workspace - Red dot is missing from Workspaces tab when approver is removed",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108177"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T11:59:46Z"
+    },
     "4dcd755ed8be834ba7cc": {
       "artifacts": {},
       "created_at": "2026-10-16T16:44:56Z",
@@ -27874,6 +27919,52 @@
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-11-24T06:18:56Z"
     },
+    "d22a99d9b483cd310b23": {
+      "artifacts": {},
+      "created_at": "2026-11-27T11:59:47Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T11:59:47Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "opportunity_label_added"
+          ]
+        },
+        {
+          "at": "2026-11-27T11:59:47Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 107888,
+      "job_id": "d22a99d9b483cd310b23",
+      "last_seen_at": "2026-11-27T11:59:47Z",
+      "latest": {
+        "bounty": {
+          "amount": 175.0,
+          "currency": "$",
+          "pattern": "\"$175\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Awaiting Payment",
+          "Bug"
+        ],
+        "score": 50,
+        "title": "[$175] [Due for payment 2026-12-04] perf: Stop Search freezing on accounts with many workspace rules",
+        "trigger": [
+          "opportunity_label_added"
+        ],
+        "url": "https://github.com/Expensify/App/issues/107888"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T11:59:47Z"
+    },
     "d29bfa55f10633007da8": {
       "artifacts": {},
       "created_at": "2026-11-03T02:23:08Z",
@@ -29146,6 +29237,51 @@
       "repo": "Expensify/App",
       "state": "PENDING_APPROVAL",
       "updated_at": "2026-10-15T18:42:47Z"
+    },
+    "dcdb3f4ae34ea0ed4dd0": {
+      "artifacts": {},
+      "created_at": "2026-11-27T11:59:46Z",
+      "decision": null,
+      "error": null,
+      "history": [
+        {
+          "at": "2026-11-27T11:59:46Z",
+          "event": "DISCOVERED",
+          "trigger": [
+            "new_issue"
+          ]
+        },
+        {
+          "at": "2026-11-27T11:59:46Z",
+          "event": "PENDING_APPROVAL"
+        }
+      ],
+      "issue_number": 108160,
+      "job_id": "dcdb3f4ae34ea0ed4dd0",
+      "last_seen_at": "2026-11-27T11:59:46Z",
+      "latest": {
+        "bounty": {
+          "amount": 2250.0,
+          "currency": "$",
+          "pattern": "\"$2250\" inside square brackets in title",
+          "source": "title",
+          "status": "confirmed"
+        },
+        "labels": [
+          "External",
+          "Daily",
+          "Task"
+        ],
+        "score": 76,
+        "title": "[$2250] Payment for Digits integration",
+        "trigger": [
+          "new_issue"
+        ],
+        "url": "https://github.com/Expensify/App/issues/108160"
+      },
+      "repo": "Expensify/App",
+      "state": "PENDING_APPROVAL",
+      "updated_at": "2026-11-27T11:59:46Z"
     },
     "dcf7d5e776abf10d31af": {
       "artifacts": {},
@@ -34047,6 +34183,6 @@
       "updated_at": "2026-11-17T19:21:44Z"
     }
   },
-  "updated_at": "2026-11-27T11:26:24Z",
+  "updated_at": "2026-11-27T11:59:47Z",
   "version": 2
 }
